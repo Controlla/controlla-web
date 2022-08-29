@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "^3.0.0-rc.4"
+  },
+  "dependencies": {
+    "@controlla/nuxt-typeform": "^1.0.5",
+    "@typeform/embed": "^1.37.0"
+  }
+}
