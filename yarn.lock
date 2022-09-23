@@ -333,10 +333,10 @@
   dependencies:
     mime "^3.0.0"
 
-"@controlla/nuxt-typeform@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@controlla/nuxt-typeform/-/nuxt-typeform-1.0.5.tgz#5db6049b1fb759e27aa6b1efd933fa9fcb73f15e"
-  integrity sha512-W6ioYp4r5dCsQKxyGN/kY/M8Jgj8K6zbloEaWHsa56q/sAD2FSqYr7iaG0zPeXfS2MuStHj2R96rgHvgU2VETA==
+"@controlla/nuxt-typeform@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@controlla/nuxt-typeform/-/nuxt-typeform-1.0.9.tgz#c3e55b1367a58a30b113f90b20230220f3b6bc84"
+  integrity sha512-mlLsGvNX9XwiRVVSZcIhtSjTpm4vg5EGrmhOOuXu3HI7oOUO2YOIiR1sBV/FLLveeTviVxdfLJZHO6WnUjfpjw==
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.7"
     "@typeform/embed" "^1.37.0"

@@ -10,7 +10,7 @@
     "nuxt": "^3.0.0-rc.11"
   },
   "dependencies": {
-    "@controlla/nuxt-typeform": "^1.0.5",
+    "@controlla/nuxt-typeform": "^1.0.9",
     "@typeform/embed": "^1.38.0"
   }
 }
