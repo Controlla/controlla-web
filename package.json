@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@controlla/nuxt-typeform": "^1.0.5",
-    "@typeform/embed": "^1.37.0"
+    "@typeform/embed": "^1.38.0"
   }
 }
