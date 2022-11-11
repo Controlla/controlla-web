@@ -586,10 +586,10 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@typeform/embed@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.0.1.tgz#073f238ac3b05369a5d72f55e7bfc85db66887af"
-  integrity sha512-FeYgDtUAhFrCD7L7iAO65jzLUoPVXRbNjsXe7YQLgLinGpLeVXuwuOuzYagrVl3IQ3Ykmi4sA2LZr29LaMTA7w==
+"@typeform/embed@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.1.0.tgz#9c33f3b2592ca30cf212aedd8219b1fa5a2ee578"
+  integrity sha512-+Wr3VEjEVYRVeYKFtw8ufwnOxTZdLSXvQZpmXqoyER2876KYBvB3rJX9yFdk0XQTEIomkBZ3/p6ODz35h60BQA==
 
 "@types/estree@*", "@types/estree@^1.0.0":
   version "1.0.0"
