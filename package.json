@@ -7,7 +7,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.13"
+    "nuxt": "3.0.0"
   },
   "dependencies": {
     "@typeform/embed": "2.3.0"
