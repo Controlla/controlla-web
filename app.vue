@@ -1,7 +1,7 @@
 <template>
   <div class="container bg">
     <div class="header">
-    <img src="assets/logocontrolla.svg"/>
+    <img src="~/assets/logocontrolla.svg"/>
     </div>
     <div class="message">
       <div class="soon">We'll be back soon!</div>
@@ -9,9 +9,9 @@
       <div class="boton"><button @click="contact" class="button">Contact us</button></div>
     </div>
     <footer class="contact">
-      <div class="socials"><img src="assets/facebook.svg"/></div> 
-      <div class="socials"><img src="assets/instagram.svg"/></div>
-      <div class="socials"><img src="assets/linkedin.svg"/></div>
+      <div class="socials"><img src="~/assets/facebook.svg"/></div> 
+      <div class="socials"><img src="~/assets/instagram.svg"/></div>
+      <div class="socials"><img src="~/assets/linkedin.svg"/></div>
     </footer>
   </div>
 </template>
@@ -28,7 +28,7 @@
 
 <style>
 .bg{
-  background-image:url("assets/figura1.svg"), url("assets/figura2.svg");
+  background-image:url("~/assets/figura1.svg"), url("~/assets/figura2.svg");
   background-position: left top, right bottom; 
   background-repeat: no-repeat;
 }
