@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg">
+  <div class="container-fix bg">
     <div class="header">
     <img src="~/assets/logocontrolla.svg"/>
     </div>
@@ -27,12 +27,16 @@
 </script>
 
 <style>
+.dark-mode body {
+  background-color: #27272a;
+  color: #ebf4f1;
+}
 .bg{
   background-image:url("~/assets/figura1.svg"), url("~/assets/figura2.svg");
   background-position: left top, right bottom; 
   background-repeat: no-repeat;
 }
-.container{
+.container-fix{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   position: relative;
@@ -92,5 +96,8 @@ footer{
   display: inline;
   width: 33.33%;
   padding: 20px;
+}
+img {
+  display: initial;
 }
 </style>
