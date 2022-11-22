@@ -5,12 +5,39 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
+    "lint:style": "stylelint \"**/*.{css,scss,sass,html,vue}\" --ignore-path .gitignore",
+    "lint:prettier": "prettier --check .",
+    "lint": "yarn lint:js && yarn lint:style && yarn lint:prettier",
+    "lintfix": "prettier --write --list-different . && yarn lint:js --fix && yarn lint:style --fix",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --cache",
+    "*.{css,scss,sass,html,vue}": "stylelint",
+    "*.**": "prettier --write --ignore-unknown"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "@nuxtjs/color-mode": "^3.1.8",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
     "@nuxtjs/tailwindcss": "^6.1.3",
-    "nuxt": "3.0.0"
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "nuxt": "3.0.0",
+    "postcss-html": "^1.5.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.15.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^29.0.0"
   },
   "dependencies": {
     "@typeform/embed": "^2.3.0"
