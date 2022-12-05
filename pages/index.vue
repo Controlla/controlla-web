@@ -1,7 +1,7 @@
 <template>
   <div class="container-fix bg">
     <div class="header">
-      <img src="~/assets/logocontrolla.svg" />
+      <nuxt-img src="/logocontrolla.svg" />
     </div>
     <div class="message">
       <div class="soon">We'll be back soon!</div>
@@ -11,9 +11,9 @@
       </div>
     </div>
     <footer class="contact">
-      <div class="socials"><img src="~/assets/facebook.svg" /></div>
-      <div class="socials"><img src="~/assets/instagram.svg" /></div>
-      <div class="socials"><img src="~/assets/linkedin.svg" /></div>
+      <div class="socials"><nuxt-img src="/facebook.svg" /></div>
+      <div class="socials"><img src="/instagram.svg" /></div>
+      <div class="socials"><img src="/linkedin.svg" /></div>
     </footer>
   </div>
 </template>
