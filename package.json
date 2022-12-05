@@ -13,6 +13,6 @@
     "nuxt": "3.0.0"
   },
   "dependencies": {
-    "@typeform/embed": "^2.3.0"
+    "@typeform/embed": "^2.4.0"
   }
 }
