@@ -1,62 +1,88 @@
 <template>
-  <div
-    class="grid grid-cols-12 grid-rows-2 pt-10 text-sm sm: text-base md:text-xl lg:text-2xl"
-  >
-    <div
-      class="col-start-2 max-[390px]:col-start-1 w-20 min-[500px]:w-28 sm:w-36 md:w-44 lg:w-max"
-    >
-      <nuxt-img src="/logocontrolla.svg" />
-    </div>
-    <div class="max-[390px]:col-start-4 col-start-5 px-2 col-span-3">
-      <div class="text-base min-[600px]:text-2xl md:text-3xl pb-16 sm:pb-5">
-        <p>
-          {{ $t("work") }}<strong> {{ $t("together") }}</strong>
-        </p>
+  <section class="max-w-screen-xl m-auto">
+    <div class="grid grid-cols-12 grid-rows-auto pt-10 text-xl">
+      <div
+        class="col-start-1 col-span-12 lg:col-start-2 lg:col-span-1 place-self-center lg:place-self-start pb-10 lg:pt-0 w-max"
+      >
+        <nuxt-img class="flex-1" src="/logocontrolla.svg" />
       </div>
       <div
-        class="justify-center row-start-2 grid gap-x-0 w-32 md:w-44 h-14 sm:h-12 md:h-20 pt-4"
+        class="col-start-1 col-span-12 lg:col-span-3 row-start-2 lg:row-start-1 lg:col-start-5 lg:px-2"
       >
-        <button class="bg-gray-900 text-white rounded-full font-bold px-4">
-          {{ $t("contact") }}
-        </button>
+        <div class="text-3xl lg:pb-5 text-center lg:text-left">
+          <p>
+            {{ $t("work") }}<strong> {{ $t("together") }}</strong>
+          </p>
+        </div>
+        <div class="justify-center grid gap-x-0 lg:w-44 h-20 pt-8 lg:pt-4">
+          <button
+            class="bg-gray-900 hover:bg-gray-800 hover:cursor-pointer text-lg text-white rounded-full font-bold py-5 px-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+          >
+            {{ $t("contact") }}
+          </button>
+        </div>
       </div>
-    </div>
-    <div class="col-start-8 col-span-2 md:col-span-3 cursor-pointer">
-      <div class="row-start-1 hover:underline">{{ $t("services") }}</div>
-      <div class="row-start-2 hover:underline">{{ $t("success") }}</div>
-      <div class="row-start-3 hover:underline">{{ $t("portfolio") }}</div>
-    </div>
-    <div class="col-start-10 px-5 sm:col-start-11 col-span-2 cursor-pointer">
-      <div class="row-start-1 hover:underline">{{ $t("us") }}</div>
-      <div class="row-start-2 hover:underline">{{ $t("terms") }}</div>
-      <div class="row-start-3 hover:underline">{{ $t("privacy") }}</div>
-    </div>
-    <div class="col-start-5 sm:col-start-6 col-span-3 row-start-3">
       <div
-        class="grid grid-cols-6 inline w-max gap-x-1 md:gap-x-4.5 lg:gap-x-5 2xl:gap-x-10 sm:px-1"
+        class="col-start-5 lg:col-start-8 row-start-4 pt-10 lg:pt-0 lg:row-start-1 col-span-4 lg:col-span-2 text-center lg:text-left"
       >
-        <div class="col-start-1">
-          <a href="https://www.facebook.com/controlla.cuu?mibextid=LQQJ4d"
-            ><nuxt-img src="/facebook.svg"
-          /></a>
+        <div class="row-start-1 pt-5 hover:animate-pulse lg:pt-0 lg:w-1">
+          <a href="">{{ $t("services") }}</a>
         </div>
-        <div class="col-start-3">
-          <a
-            href="https://instagram.com/controlla_technologies?igshid=NTdlMDg3MTY="
-            ><nuxt-img src="/instagram.svg"
-          /></a>
+        <div class="row-start-2 lg:w-3/4 hover:animate-pulse">
+          <a href="">{{ $t("success") }}</a>
         </div>
-        <div class="col-start-5">
-          <a href="https://www.linkedin.com/company/controlla/"
-            ><nuxt-img src="/linkedin.svg"
-          /></a>
+        <div class="row-start-3 lg:w-1 hover:animate-pulse">
+          <a href="">{{ $t("portfolio") }}</a>
         </div>
       </div>
+      <div
+        class="col-start-4 lg:col-start-10 row-start-5 lg:row-start-1 col-span-6 lg:col-span-2 text-center lg:text-left"
+      >
+        <div class="row-start-1 hover:animate-pulse lg:w-1">
+          <a href="">{{ $t("us") }}</a>
+        </div>
+        <div class="row-start-2 hover:animate-pulse lg:w-1">
+          <a href="">{{ $t("terms") }}</a>
+        </div>
+        <div class="row-start-3 hover:animate-pulse">
+          <a href="">{{ $t("privacy") }}</a>
+        </div>
+      </div>
+      <div
+        class="col-start-7 place-self-center lg:col-start-6 lg:justify-self-start row-start-6 pt-48 lg:pt-12 hover:-translate-y-1 hover:scale-100 duration-300"
+      >
+        <div
+          class="grid grid-cols-6 lg:grid-cols-10 inline w-max gap-x-1 lg:gap-x-0 min-[450px]:pr-2 sm:pr-8 md:pr-12"
+        >
+          <div
+            class="col-start-1 lg:col-start-2 hover:-translate-y-1 hover:scale-110 duration-300"
+          >
+            <a href="https://www.facebook.com/controlla.cuu?mibextid=LQQJ4d"
+              ><nuxt-img src="/facebook.svg"
+            /></a>
+          </div>
+          <div
+            class="col-start-3 lg:col-start-5 hover:-translate-y-1 hover:scale-110 duration-300"
+          >
+            <a
+              href="https://instagram.com/controlla_technologies?igshid=NTdlMDg3MTY="
+              ><nuxt-img src="/instagram.svg"
+            /></a>
+          </div>
+          <div
+            class="col-start-5 lg:col-start-8 hover:-translate-y-1 hover:scale-110 duration-300"
+          >
+            <a href="https://www.linkedin.com/company/controlla/"
+              ><nuxt-img src="/linkedin.svg"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-start-1 lg:col-start-4 col-span-12 lg:col-span-6 row-start-7 pt-10 pb-1 text-xs lg:text-sm text-center pb-5"
+      >
+        {{ $t("copyright") }}
+      </div>
     </div>
-    <div
-      class="col-start-4 col-span-6 row-start-3 sm:row-start-4 pt-10 pb-1 px-2 text-base sm:text-lg lg:text-xl text-center"
-    >
-      {{ $t("copyright") }}
-    </div>
-  </div>
+  </section>
 </template>
