@@ -19,7 +19,7 @@
         <button>{{ $t("team") }}</button>
       </div>
       <div
-        class="hidden lg:block col-start-10 grid gap-x-0 w-24 lg:w-40 lg:py-3 lg:px-5 bg-gray-900 hover:bg-gray-800 hover:cursor-pointer text-white rounded-full font-bold justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+        class="hidden lg:block text-center col-start-10 grid gap-x-0 w-24 lg:w-40 lg:py-3 lg:px-5 bg-gray-900 hover:bg-gray-800 hover:cursor-pointer text-white rounded-full font-bold justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
       >
         <button>{{ $t("contact") }}</button>
       </div>

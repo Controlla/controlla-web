@@ -20,4 +20,9 @@ export default defineNuxtConfig({
     langDir: "lang/",
     defaultLocale: "es",
   },
+  runtimeConfig: {
+    public: {
+      iubenda_cookie_key: "",
+    },
+  },
 });

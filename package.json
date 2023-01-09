@@ -11,7 +11,8 @@
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:js && yarn lint:style && yarn lint:prettier",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix && yarn lint:style --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "vitest"
   },
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --cache",
@@ -22,6 +23,7 @@
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@nuxt/image-edge": "^1.0.0-27809804.194d2d6",
+    "@nuxt/test-utils": "^3.0.0",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
@@ -38,7 +40,8 @@
     "stylelint": "^14.15.0",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-recommended-vue": "^1.4.0",
-    "stylelint-config-standard": "^29.0.0"
+    "stylelint-config-standard": "^29.0.0",
+    "vitest": "^0.26.3"
   },
   "dependencies": {
     "@nuxtjs/i18n": "^8.0.0-beta.4",
