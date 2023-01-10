@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      iubenda_cookie_key: "",
+      iubenda_cookie_key: process.env.IUBENDA_COOKIE_KEY,
     },
   },
 });
