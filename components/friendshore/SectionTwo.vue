@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white w-screen min-h-screen px-[20vw] py-24">
+  <section class="bg-white w-screen px-[20vw] py-24">
     <h3 class="text-3xl text-center overflow-y-hidden">
       {{ $t("why") }} <strong class="text-sky-500"> {{ $t("work") }}</strong> {{ $t("with_us") }}
     </h3>

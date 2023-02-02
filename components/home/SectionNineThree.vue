@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white w-screen min-h-screen px-[5%] md:px-[10%] md:flex overflow-y-hidden">
+  <section class="bg-white px-[5%] md:px-[10%] md:flex overflow-y-hidden">
     <img src="cano_steel.png" alt="" class="hidden md:inline w-[20vw] h-[25vw]" />
     <div>
       <h1 class="text-3xl font-semibold overflow-y-hidden mx-4">Cano Steel</h1>

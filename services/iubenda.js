@@ -7,9 +7,13 @@ export default class Iubenda {
 
   async cookiePolicy() {
     const url = `${this.baseUrl}/privacy-policy/${this.cookieKey}`;
-    const response = await fetch(url);
-    return response.ok === true
-      ? response.content
-      : "<h1>Policy Not Found</h1>";
+    try {
+      const response = await fetch(url);
+      return response.ok === true
+        ? response.content
+        : "<h1>Policy Not Found</h1>";
+    } catch (error) {
+        return "<h1>Policy Not Found</h1>";
+    }
   }
 }

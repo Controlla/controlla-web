@@ -18,7 +18,7 @@
       <button class="bg-black text-white rounded-full px-5 h-[2rem] mt-[.5rem] mx-6 font-semibold text-xs block">{{ $t("contact_us") }}</button>
   </div>
   <HomeSectionOne v-if="activeTabName == 'HomeSectionOne'"/>
-  <UsSectionOne v-if="activeTabName == 'UsSectionOne'"/>
+  <UsSectionOne class="overflow-x-hidden" v-if="activeTabName == 'UsSectionOne'"/>
   <FriendshoreSectionOne v-if="activeTabName == 'FriendshoreSectionOne'"/>
 </template>
 
@@ -41,6 +41,7 @@ export default {
   methods: {
     handleTabClick (tabName) {
       this.activeTabName = tabName
+      this.isMenuVisible = false
     },
     setMenu() {
       this.isMenuVisible = this.isMenuVisible ? false : true

@@ -1,7 +1,6 @@
 <template>
   <section
-    class="bg-white w-[150vw] md:w-[120vw] min-h-screen md:h-[20vw] md:min-h-[20vw] absolute right-[-25%] md:right-[-10%] overflow-x-hidden overflow-y-hidden"
-    style="border-radius: 100% 100% 0 0"
+    class="bg-white w-[100vw] md:w-[100vw] min-h-screen md:h-[20vw] md:min-h-[20vw] absolute left-0 md:right-[-10%] overflow-x-hidden overflow-y-hidden  md:rounded-tl-[100%] md:rounded-tr-[100%]"
   >
     <div
       class="rounded-full bg-violet-300 w-[25rem] h-[25rem] absolute left-[6%] top-[15%] blur-[11rem]"
@@ -13,7 +12,7 @@
       class="rounded-full bg-violet-300 w-[25rem] h-[25rem] absolute left-[75%] top-[15%] blur-[11rem]"
     ></div>
     <div
-      class="block w-screen md:h-[60%] ml-[15%] md:ml-[10%] relative mt-[5%] md:flex justify-center px-[10%]"
+      class="block w-screen md:h-[60%] relative sm:mt-[4%] md:flex md:justify-center mt-[20%]"
     >
       <div class="py-12 px-[10%] md:px-[0] md:py-6 flex justify-center">
         <img
@@ -48,7 +47,7 @@
         </h3>
       </div>
     </div>
-    <div class="w-screen ml-[15%] md:ml-[9%] h-[25%] relative">
+    <div class="w-screen md:ml-[15%] md:ml-[0] h-[25%] relative">
       <div class="flex justify-center mb-6">
         <img src="facebook.svg" alt="logo facebook" class="mx-6" />
         <img src="instagram.svg" alt="logo instagram" class="mx-6" />
