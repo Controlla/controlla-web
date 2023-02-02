@@ -1,99 +1,61 @@
 <template>
-  <section class="max-w-screen-xl m-auto">
-    <div class="grid grid-cols-12 grid-rows-auto pt-10 text-xl text-center">
-      <div
-        class="col-start-1 col-span-12 lg:col-start-2 lg:col-span-1 place-self-center lg:place-self-start pb-10 lg:pt-0 w-max"
-      >
-        <nuxt-img src="/logocontrolla.svg" />
+  <section
+    class="bg-white w-[150vw] md:w-[120vw] min-h-screen md:h-[20vw] md:min-h-[20vw] absolute right-[-25%] md:right-[-10%] overflow-x-hidden overflow-y-hidden"
+    style="border-radius: 100% 100% 0 0"
+  >
+    <div
+      class="rounded-full bg-violet-300 w-[25rem] h-[25rem] absolute left-[6%] top-[15%] blur-[11rem]"
+    ></div>
+    <div
+      class="rounded-full bg-blue-300 w-[25rem] h-[25rem] absolute left-[40%] top-[-10%] blur-[11rem]"
+    ></div>
+    <div
+      class="rounded-full bg-violet-300 w-[25rem] h-[25rem] absolute left-[75%] top-[15%] blur-[11rem]"
+    ></div>
+    <div
+      class="block w-screen md:h-[60%] ml-[15%] md:ml-[10%] relative mt-[5%] md:flex justify-center px-[10%]"
+    >
+      <div class="py-12 px-[10%] md:px-[0] md:py-6 flex justify-center">
+        <img
+          src="logocontrolla.svg"
+          alt="logo controlla"
+          class="w-[80%] md:w-[100%] max-w-[20rem]"
+        />        
       </div>
-      <div
-        class="col-start-1 col-span-12 lg:col-span-3 row-start-2 lg:row-start-1 lg:col-start-5 lg:px-2"
-      >
-        <div class="text-3xl lg:pb-5 lg:text-left">
-          <p>
-            {{ $t("work") }}<strong> {{ $t("together") }}</strong>
-          </p>
-        </div>
-        <div class="justify-center lg:w-44 h-max pt-8 lg:pt-4">
+      <div class="mx-[5%]">
+        <h3 class="text-2xl my-6 text-center md:text-left">Lets work <strong>together!</strong></h3>
+        <div class="flex justify-center md:justify-start">
           <button
-            class="bg-gray-900 hover:bg-gray-800 hover:cursor-pointer text-lg text-white rounded-full font-bold py-5 px-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-            @click="contact"
+            class="bg-black text-white rounded-full p-3 px-7 font-semibold text-lg"
           >
-            {{ $t("contact") }}
-          </button>
+            Contact us
+          </button>          
         </div>
       </div>
-      <div
-        class="col-start-5 lg:col-start-8 row-start-4 pt-10 lg:pt-0 lg:row-start-1 col-span-4 lg:col-span-2 lg:text-left"
-      >
-        <div class="row-start-1 pt-5 hover:animate-pulse lg:w-1">
-          <a href="">{{ $t("services") }}</a>
-        </div>
-        <div class="row-start-2 lg:w-3/4 hover:animate-pulse">
-          <a href="">{{ $t("success") }}</a>
-        </div>
-        <div class="row-start-3 lg:w-1 hover:animate-pulse">
-          <a href="">{{ $t("portfolio") }}</a>
-        </div>
+      <div class="my-6 mx-[5%]">
+        <h3 class="text-xl leading-8 text-center md:text-left">
+          Services <br />
+          Success stories <br />
+          Portfolio
+        </h3>
       </div>
-      <div
-        class="col-start-4 lg:col-start-10 row-start-5 lg:row-start-1 col-span-6 lg:col-span-2 lg:text-left"
-      >
-        <div class="row-start-1 hover:animate-pulse lg:w-1">
-          <a href="">{{ $t("us") }}</a>
-        </div>
-        <div class="row-start-2 hover:animate-pulse lg:w-1">
-          <a href="">{{ $t("terms") }}</a>
-        </div>
-        <div class="row-start-3 hover:animate-pulse">
-          <a href="">{{ $t("privacy") }}</a>
-        </div>
+      <div class="my-6 mx-[5%]">
+        <h3 class="text-xl leading-8 text-center md:text-left">
+          Us <br />
+          Terms <br />
+          Privacy policy
+        </h3>
       </div>
-      <div
-        class="col-start-7 place-self-center lg:col-start-6 lg:justify-self-start row-start-6 pt-48 lg:pt-12 hover:-translate-y-1 hover:scale-100 duration-300"
-      >
-        <div
-          class="grid grid-cols-6 lg:grid-cols-10 inline w-max gap-x-1 lg:gap-x-0 min-[450px]:pr-2 sm:pr-8 md:pr-12"
-        >
-          <div
-            class="col-start-1 lg:col-start-2 hover:-translate-y-1 hover:scale-110 duration-300"
-          >
-            <a href="https://www.facebook.com/controlla.cuu?mibextid=LQQJ4d"
-              ><nuxt-img src="/facebook.svg"
-            /></a>
-          </div>
-          <div
-            class="col-start-3 lg:col-start-5 hover:-translate-y-1 hover:scale-110 duration-300"
-          >
-            <a
-              href="https://instagram.com/controlla_technologies?igshid=NTdlMDg3MTY="
-              ><nuxt-img src="/instagram.svg"
-            /></a>
-          </div>
-          <div
-            class="col-start-5 lg:col-start-8 hover:-translate-y-1 hover:scale-110 duration-300"
-          >
-            <a href="https://www.linkedin.com/company/controlla/"
-              ><nuxt-img src="/linkedin.svg"
-            /></a>
-          </div>
-        </div>
+    </div>
+    <div class="w-screen ml-[15%] md:ml-[9%] h-[25%] relative">
+      <div class="flex justify-center mb-6">
+        <img src="facebook.svg" alt="logo facebook" class="mx-6" />
+        <img src="instagram.svg" alt="logo instagram" class="mx-6" />
+        <img src="linkedin.svg" alt="logo linkedin" class="mx-6" />
       </div>
-      <div
-        class="col-start-1 lg:col-start-4 col-span-12 lg:col-span-6 row-start-7 pt-8 pb-1 text-xs lg:text-sm pb-5"
-      >
-        {{ $t("copyright") }}
-      </div>
+      <h3 class="text-center text-xs">
+        © 2022 Controlla. All rights reserved.
+      </h3>
     </div>
   </section>
 </template>
-
-<script setup>
-import { createPopup } from "@typeform/embed";
-import "@typeform/embed/build/css/popup.css";
-const { toggle } = createPopup("BYWHV4");
-
-function contact() {
-  toggle();
-}
-</script>
