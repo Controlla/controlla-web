@@ -45,8 +45,9 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "^8.0.0-beta.4",
-    "@typeform/embed": "^2.4.1",
     "vue-owl-carousel": "^2.0.3",
-    "vue3-carousel": "^0.2.9"
+    "vue3-carousel": "^0.2.9",
+    "nuxt": "3.0.0",
+    "@typeform/embed": "^2.7.0"
   }
 }
