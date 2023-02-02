@@ -47,7 +47,7 @@
         </h3>
       </div>
     </div>
-    <div class="w-screen md:ml-[15%] md:ml-[0] h-[25%] relative">
+    <div class="w-screen h-[25%] relative">
       <div class="flex justify-center mb-6">
         <img src="facebook.svg" alt="logo facebook" class="mx-6" />
         <img src="instagram.svg" alt="logo instagram" class="mx-6" />
