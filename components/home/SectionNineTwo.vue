@@ -9,19 +9,19 @@
       </h3>
       <div class="md:flex my-6 min-h-40">
         <div
-          class="w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
+          class="md:-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
         >
           <h4 class="text-2xl font-bold overflow-y-hidden">15,200+</h4>
           <h4>Downloads</h4>
         </div>
         <div
-          class="w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
+          class="md:w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
         >
           <h4 class="text-2xl font-bold overflow-y-hidden">35+</h4>
           <h4>Countries</h4>
         </div>
         <div
-          class="w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
+          class="md:w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
         >
           <h4 class="text-2xl font-bold overflow-y-hidden">$50,578</h4>
           <h4>In subscriptions</h4>

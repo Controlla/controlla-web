@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-cyan-50 w-screen min-h-screen relative md:flex justify-center pt-[12%] overflow-y-hidden">
+  <section class="bg-cyan-50 w-screen min-h-screen relative md:flex justify-center pt-[12%] overflow-hidden">
     <div
       class="rounded-full bg-violet-200 w-[25rem] h-[25rem] absolute left-[6%] top-[15%] blur-[11rem] z-0"
     ></div>

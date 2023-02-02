@@ -8,20 +8,20 @@
       </h3>
       <div class="md:flex my-6 min-h-40">
         <div
-          class="w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
+          class="md:w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
         >
           <h4 class="text-2xl font-bold overflow-y-hidden">20+</h4>
           <h4>{{ $t("final_users") }}</h4>
         </div>
         <div
-          class="w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
+          class="md:w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
         >
           <h4 class="text-2xl font-bold overflow-y-hidden">12 months</h4>
           <h3 class="font-bold">/1920 hrs</h3>
           <h4>{{ $t("duration") }}</h4>
         </div>
         <div
-          class="w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
+          class="md:w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
         >
           <h4 class="text-2xl font-bold overflow-y-hidden">Web</h4>
           <h4>{{ $t("technologies") }}</h4>

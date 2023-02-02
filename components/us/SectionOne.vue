@@ -1,5 +1,5 @@
 <template>
-<section class="w-screen md:flex justify-center min-h-screen bg-white relative py-24 px-6 md:px-0 overflow-hidden">
+<section class="w-screen md:flex justify-center bg-white relative py-24 px-6 md:px-0 overflow-hidden">
     <div class="rounded-full bg-violet-300 w-[25rem] h-[25rem] absolute left-[12%] top-[15%] blur-[11rem] z-0"></div>
     <div class="rounded-full bg-blue-300 w-[25rem] h-[25rem] absolute left-[40%] top-[25%] blur-[11rem] z-0"></div>
     <div class="rounded-full bg-violet-300 w-[25rem] h-[25rem] absolute left-[70%] top-[15%] blur-[11rem] z-0"></div>
