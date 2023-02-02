@@ -1,16 +1,15 @@
 <template>
 <section class="w-screen min-h-screen overflow-x-hidden overflow-y-hidden bg-gradient-to-b from-white via-blue-200 to-blue-200 py-32">
   <div class="w-screen">
-    <h1 class="block text-center 2xl:text-5xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl text-2xl 2xl:h-[4rem] xl:h-[3rem] lg:h-[3rem] md:h-[3rem] sm:h-[3rem] my-1">Transform your company</h1>
-    <h1 class="block text-center 2xl:text-5xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl  text-2xl 2xl:h-[4rem] xl:h-[3rem] lg:h-[3rem] md:h-[3rem] sm:h-[3rem] text-sky-500 font-semibold my-1"> with world class software</h1>
+    <h1 class="block text-center 2xl:text-5xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl text-2xl 2xl:h-[4rem] xl:h-[3rem] lg:h-[3rem] md:h-[3rem] sm:h-[3rem] my-1">{{ $t("transform_your_company") }}</h1>
+    <h1 class="block text-center 2xl:text-5xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl  text-2xl 2xl:h-[4rem] xl:h-[3rem] lg:h-[3rem] md:h-[3rem] sm:h-[3rem] text-sky-500 font-semibold my-1"> {{ $t("with_world_class") }}</h1>
     <h2 class="block text-center text-lge my-5">
-      We design and develop <strong>high-quality</strong> digital solutions
-      with <br />
-      methodic <strong>strategy</strong> through trusted
-      <strong>alliances</strong>
+      {{ $t("we_design_and_develop") }} <strong>{{ $t("high_quality") }}</strong> {{ $t("digital_solutions") }} <br />
+      {{ $t("methodic") }} <strong>{{ $t("strategy") }}</strong> {{ $t("through_trusted") }}
+      <strong>{{ $t("alliances") }}</strong>
     </h2>
     <div class="flex justify-center">
-      <button class="bg-black text-white rounded-full p-3 px-7 font-semibold text-lg">Contact us</button>
+      <button class="bg-black text-white rounded-full p-3 px-7 font-semibold text-lg">{{ $t("contact_us") }}</button>
     </div>
   </div>
   <!-- <div

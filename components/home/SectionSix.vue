@@ -11,23 +11,20 @@
     ></div>
     <img src="third_step.png" alt="first step" class="hidden md:inline w-[42vw] h-[28vw] z-10" />
     <div class="z-10 px-[5%] md:px-0 md:w-[42vw] relative">
-      <span class="my-6 text-sky-500 text-xs md:text-xl">Third step</span>
-      <h2 class="my-6 text-2xl md:text-4xl font-semibold overflow-y-hidden">Development</h2>
+      <span class="my-6 text-sky-500 text-xs md:text-xl">{{ $t("third") }}</span>
+      <h2 class="my-6 text-2xl md:text-4xl font-semibold overflow-y-hidden">{{ $t("development") }}</h2>
       <h2 class="my-6 text-base md:text-2xl">
-        Your tailor-made software is now in its final
-        steps to be used, but first, we eill use
+        {{ $t("your_tailormade") }}
         <strong
-          >deep-
-          end practices</strong
+          >{{ $t("deep_end") }}</strong
         >
-        and different communication
-        channels.
+        {{ $t("and_different_communication") }}
       </h2>
       <span class="text-base md:text-2xl"
-        >• Web and mobile development <br />
-        • Flutter <br />
-        • Vue <br />
-        • Jira
+        >• {{ $t("web_and_mobile") }} <br />
+        {{ $t("flutter") }}<br />
+        {{ $t("jira") }} <br />
+        {{ $t("vue") }}
       </span>
     </div>
     <img src="third_step.png" alt="first step" class="md:hidden w-[90%] px-[5%] z-10 relative" />    

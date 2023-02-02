@@ -23,27 +23,28 @@
         />        
       </div>
       <div class="mx-[5%]">
-        <h3 class="text-2xl my-6 text-center md:text-left">Lets work <strong>together!</strong></h3>
+        <h3 class="text-2xl my-6 text-center md:text-left">{{ $t("lets_work") }} <strong>{{ $t("together") }}</strong></h3>
         <div class="flex justify-center md:justify-start">
           <button
+          @click="contact"
             class="bg-black text-white rounded-full p-3 px-7 font-semibold text-lg"
           >
-            Contact us
+            {{ $t("contact_us") }}
           </button>          
         </div>
       </div>
       <div class="my-6 mx-[5%]">
         <h3 class="text-xl leading-8 text-center md:text-left">
-          Services <br />
-          Success stories <br />
-          Portfolio
+          {{ $t("services") }} <br />
+          {{ $t("success") }} <br />
+          {{ $t("portfolio") }}
         </h3>
       </div>
       <div class="my-6 mx-[5%]">
         <h3 class="text-xl leading-8 text-center md:text-left">
-          Us <br />
-          Terms <br />
-          Privacy policy
+          {{ $t("Us") }} <br />
+          {{ $t("terms") }} <br />
+          {{ $t("privacy") }}
         </h3>
       </div>
     </div>
@@ -54,8 +55,17 @@
         <img src="linkedin.svg" alt="logo linkedin" class="mx-6" />
       </div>
       <h3 class="text-center text-xs">
-        © 2022 Controlla. All rights reserved.
+        {{ $t("copyright") }}
       </h3>
     </div>
   </section>
 </template>
+<script setup>
+import { createPopup } from "@typeform/embed";
+import "@typeform/embed/build/css/popup.css";
+const { toggle } = createPopup("BYWHV4");
+
+function contact() {
+  toggle();
+}
+</script>

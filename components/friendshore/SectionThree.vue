@@ -6,8 +6,8 @@
           <div class="flex- justify-left rotate-6"><img src="phyton.svg" alt="" class="w-[5rem] md:w-[8rem]"></div>
       </div>
       <div>
-        <h3 class="text-center my-6 text-3xl md:text-4xl font-semi-bold">Still not convinced?</h3>      
-        <h3 class="text-center">Maybe our <span class="text-sky-500">tech-stack</span> will help you</h3>          
+        <h3 class="text-center my-6 text-3xl md:text-4xl font-semi-bold">{{ $t("still_not_convinced") }}</h3>      
+        <h3 class="text-center">{{ $t("maybe_our") }} <span class="text-sky-500">{{ $t("tech_stack") }}</span> {{ $t("will_help") }}</h3>          
       </div>
       <div class="min-h-screen w-[30%] pl-[10%]">
           <div class="flex justify-left rotate-6"><img src="laravel.svg" alt="" class="w-[5rem] md:w-[8rem]"></div>

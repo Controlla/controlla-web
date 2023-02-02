@@ -1,21 +1,5 @@
 <template>
-  <div class="container-fix bg">
-    <div class="header">
-      <nuxt-img src="/logocontrolla.svg" />
-    </div>
-    <div class="message">
-      <div class="soon">We'll be back soon!</div>
-      <div class="while">In the meantime, we can help you here</div>
-      <div class="boton">
-        <button class="button" @click="contact">Contact us</button>
-      </div>
-    </div>
-    <footer class="contact">
-      <div class="socials"><nuxt-img src="/facebook.svg" /></div>
-      <div class="socials"><img src="/instagram.svg" /></div>
-      <div class="socials"><img src="/linkedin.svg" /></div>
-    </footer>
-  </div>
+  
 </template>
 
 <script setup>

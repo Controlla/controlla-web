@@ -18,7 +18,7 @@ export default defineNuxtConfig({
       },
     ],
     langDir: "lang/",
-    defaultLocale: "es",
+    defaultLocale: "en",
   },
   runtimeConfig: {
     public: {

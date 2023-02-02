@@ -8,8 +8,8 @@
             </div>
         </div>
         <div class="w-screen min-h-[50%] md:pt-12 overflow-y-hidden">
-            <h1 class="text-center text-3xl font-bold"> Trusted Partners</h1>
-            <h2 class="text-center"> Some of the companues we proudly worked with</h2>
+            <h1 class="text-center text-3xl font-bold"> {{ $t("trusted_partners") }}</h1>
+            <h2 class="text-center"> {{ $t("some_of_the") }}</h2>
             <div class="flex justify-center my-6">
                 <img src="trusted_partners.svg" alt="trusted partners" class="w-[90%] md:w-[80%] lg:w-[20%]">
             </div>  
