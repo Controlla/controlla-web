@@ -65,4 +65,7 @@ export default defineNuxtConfig({
       iubenda_cookie_key: process.env.IUBENDA_COOKIE_KEY,
     },
   },
+  build: {
+    transpile: ['@typeform/embed']
+  }
 });
