@@ -62,7 +62,11 @@ section(class=`
       flex
       justify-center
     `)
-      img(src='logocontrolla.svg' alt='logo controlla' class=`
+      NuxtImg(
+        loading="lazy"
+        src='/img/logo.svg' 
+        alt='logo controlla' 
+        class=`
         w-[80%]
         md:w-[100%]
         max-w-[20rem]
@@ -75,8 +79,8 @@ section(class=`
         text-2xl
         my-6
         text-center
-      `) {{ $t(&quot;lets_work&quot;) }} 
-        strong {{ $t(&quot;together&quot;) }}
+      `) {{ $t('lets_work') }} 
+        strong {{ $t('together') }}
       ContactButton
     div(class=`
       mx-[5%]
@@ -87,11 +91,11 @@ section(class=`
         leading-8
         text-center
         md:text-left 
-      `) {{ $t(&quot;services&quot;) }} 
+      `) {{ $t('services') }} 
         br
-        |  {{ $t(&quot;success&quot;) }} 
+        |  {{ $t('success') }} 
         br
-        |  {{ $t(&quot;portfolio&quot;) }}
+        |  {{ $t('portfolio') }}
     .my-6(class=`
       mx-[5%]
     `)
@@ -100,11 +104,11 @@ section(class=`
         text-xl
         leading-8
         text-center
-      `) {{ $t(&quot;Us&quot;) }} 
+      `) {{ $t('Us') }} 
         br
-        |  {{ $t(&quot;terms&quot;) }} 
+        |  {{ $t('terms') }} 
         br
-        |  {{ $t(&quot;privacy&quot;) }}
+        |  {{ $t('privacy') }}
   div(class=`
     h-[25%] 
     w-screen
@@ -116,19 +120,30 @@ section(class=`
       mb-6
     `)
       NuxtLink(to='https://www.facebook.com/')
-        img(src='facebook.svg' alt='logo facebook' class=`
+        NuxtImg(
+          loading="lazy"
+          src='/img/facebook.svg' 
+          alt='logo facebook' 
+          class=`
           mx-6
         `)
       NuxtLink(to='https://www.instagram.com/controlla_technologies/')
-        img(src='instagram.svg' alt='logo instagram' class=`
+        NuxtImg(
+          loading="lazy"
+          src='/img/instagram.svg' 
+          alt='logo instagram' 
+          class=`
           mx-6
         `)
       NuxtLink(to='https://www.linkedin.com/company/controlla/')
-        img(src='linkedin.svg' alt='logo linkedin' class=`
+        NuxtImg(
+          src='/img/linkedin.svg' 
+          alt='logo linkedin' 
+          class=`
           mx-6
         `)
     h3(class=`
       text-center
       text-xs
-    `) {{ $t(&quot;copyright&quot;) }}
+    `) {{ $t('copyright') }}
 </template>

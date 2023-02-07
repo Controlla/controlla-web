@@ -42,13 +42,18 @@ section(class=`
     absolute
     z-0
   `)
-  img(src='first_step.png' alt='first step' class=`
-    hidden
-    z-10
-    relative
-    md:inline 
-    md:w-[36vw] 
-    md:h-[25vw] 
+  NuxtImg(
+    src='/img/first_step.png' 
+    format="webp"
+    loading="lazy"
+    alt='first step' 
+    class=`
+      hidden
+      z-10
+      relative
+      md:inline 
+      md:w-[36vw] 
+      md:h-[25vw] 
   `)
   div(class=`
     px-[5%] 
@@ -62,29 +67,29 @@ section(class=`
       text-sky-500
       text-xs
       md:text-xl 
-    `) {{ $t(&quot;first&quot;) }}
+    `) {{ $t('first') }}
     h2(class=`
       my-6
       text-2xl
       font-semibold
       overflow-hidden
       md:text-4xl 
-    `) {{ $t(&quot;ideation_and_evaluation&quot;) }}
+    `) {{ $t('ideation_and_evaluation') }}
     h2(class=`
       my-6
       text-base
       md:text-2xl 
-    `) {{ $t(&quot;first_we&quot;) }} 
+    `) {{ $t('first_we') }} 
       |
-      strong {{ $t(&quot;research_ideate&quot;) }} 
-      |         {{ $t(&quot;your_product_features&quot;) }}
+      strong {{ $t('research_ideate') }} 
+      |         {{ $t('your_product_features') }}
     span(class=`
       text-base
       md:text-2xl 
       marker:text-sky-400
-    `) {{ $t(&quot;discovery&quot;) }} 
+    `) {{ $t('discovery') }} 
       br
-      |         {{ $t(&quot;wireframe&quot;) }} 
+      |         {{ $t('wireframe') }} 
       br
-      |         {{ $t(&quot;scoping&quot;) }}
+      |         {{ $t('scoping') }}
 </template>

@@ -35,5 +35,5 @@ div(class=`
   `
   :class={
   }
-  ) {{ $t(&quot;contact_us&quot;) }}
+  ) {{ $t('contact_us') }}
 </template>

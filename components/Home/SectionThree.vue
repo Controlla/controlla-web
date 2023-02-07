@@ -64,14 +64,14 @@ section(class=`
         overflow-y-hidden
         lg:text-4xl 
       `)
-        | {{ $t(&quot;we_go_beyond&quot;) }} 
-        strong {{ $t(&quot;borders&quot;) }}
+        | {{ $t('we_go_beyond') }} 
+        strong {{ $t('borders') }}
       h2(class=`
         text-xs
         overflow-y-hidden
         lg:text-2xl 
         lg:my-6 
-      `) {{ $t(&quot;discover_why&quot;) }}
+      `) {{ $t('discover_why') }}
       NuxtLink(to='/friendshore' class=`
         inline-block
         lg:text-lg 
@@ -83,13 +83,18 @@ section(class=`
         px-7
         font-semibold
         text-sm
-      `) {{ $t(&quot;visit_friendshore&quot;) }}
-    img(src='rocket.png' alt='rocket' class=`
-      w-[90%] 
-      mt-[1%] 
-      z-10
-      relative
-      sm:w-[50%] 
+      `) {{ $t('visit_friendshore') }}
+    NuxtImg(
+      format="webp"
+      loading="lazy"
+      src='/img/rocket.png' 
+      alt='rocket' 
+      class=`
+        w-[90%] 
+        mt-[1%] 
+        z-10
+        relative
+        sm:w-[50%] 
     `)
   div(class=`
     w-[90%] 
@@ -105,20 +110,20 @@ section(class=`
       font-semibold
       overflow-y-hidden
     `)
-      | {{ $t(&quot;the_key_to&quot;) }} 
+      | {{ $t('the_key_to') }} 
       br
       span(class=`
         text-sky-500
-      `) {{ $t(&quot;strategy&quot;) }}
-      |  {{ $t(&quot;behind&quot;) }}
+      `) {{ $t('strategy') }}
+      |  {{ $t('behind') }}
     h2(class=`
       text-lge
       text-center
       my-6
     `)
-      | {{ $t(&quot;more_than&quot;) }} 
-      strong {{ $t(&quot;development_and_strategic&quot;) }}
+      | {{ $t('more_than') }} 
+      strong {{ $t('development_and_strategic') }}
       br
-      |  {{ $t(&quot;with_necessary_expertise&quot;) }}
+      |  {{ $t('with_necessary_expertise') }}
     ContactButton
 </template>

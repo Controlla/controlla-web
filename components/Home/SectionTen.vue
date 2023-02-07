@@ -16,25 +16,30 @@ section(class=`
       overflow-y-hidden
       my-6
       text-center
-    `) {{ $t(&quot;you_can_find&quot;) }} 
+    `) {{ $t('you_can_find') }} 
       strong(class=`
         text-sky-500  
-      `) {{ $t(&quot;here&quot;) }}
+      `) {{ $t('here') }}
     h3(class=`
       md:text-start 
       my-6
       text-center
-    `) {{ $t(&quot;tell_us_your&quot;) }}
+    `) {{ $t('tell_us_your') }}
       br
-      |         {{ $t(&quot;or_fill_out&quot;) }} 
+      |         {{ $t('or_fill_out') }} 
       br
-      |         {{ $t(&quot;we_will_contact&quot;) }}
+      |         {{ $t('we_will_contact') }}
     ContactButton
   div(class=`
     flex
     justify-center
   `)
-    img(src='building.png' alt='building' class=`
+    NuxtImg(
+      format="web"
+      loading="lazy"
+      src='/img/building.png' 
+      alt='building' 
+      class=`
       w-[75%] 
       my-[5%]
       md:my-0

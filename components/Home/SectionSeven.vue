@@ -43,33 +43,36 @@ section(class=`
       my-6
       text-sky-500
       text-xs
-    `) {{ $t(&quot;fourth&quot;) }}
+    `) {{ $t('fourth') }}
     h2(class=`
       md:text-4xl 
       my-6
       text-2xl
       font-semibold
       overflow-y-hidden
-    `) {{ $t(&quot;qa_test_and_launch&quot;) }}
+    `) {{ $t('qa_test_and_launch') }}
     h2(class=`
       md:text-2xl 
       my-6
       text-base
-    `) {{ $t(&quot;quality_stands&quot;) }} 
-      strong {{ $t(&quot;preventing_error&quot;) }} 
-      |  {{ $t(&quot;delivering_secure&quot;) }}
+    `) {{ $t('quality_stands') }} 
+      strong {{ $t('preventing_error') }} 
+      |  {{ $t('delivering_secure') }}
     span(class=`
       text-base
-    `) {{ $t(&quot;audit&quot;) }} 
+    `) {{ $t('audit') }} 
       br
-      |         {{ $t(&quot;automate&quot;) }} 
+      |         {{ $t('automate') }} 
       br
-      |         {{ $t(&quot;test&quot;) }}
+      |         {{ $t('test') }}
   div(class=`
     flex
     justify-center
   `)
-    img(src='fourth_step.png' alt='first step' class=`
+    NuxtImg(
+      src='/img/fourth_step.png' 
+      alt='fourth step' 
+      class=`
       w-[60%] 
       md:w-[25vw] 
       md:h-[35vw] 

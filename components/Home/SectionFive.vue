@@ -53,34 +53,39 @@ section(class=`
       text-sky-500
       text-xs
       md:text-xl 
-    `) {{ $t(&quot;second&quot;) }}
+    `) {{ $t('second') }}
     h2(class=`
       my-6
       text-2xl
       font-semibold
       overflow-y-hidden
       md:text-4xl 
-    `) {{ $t(&quot;product_design&quot;) }}
+    `) {{ $t('product_design') }}
     h2(class=`
       my-6
       text-base
       md:text-2xl 
-    `) {{ $t(&quot;our_products&quot;) }}
-      strong {{ $t(&quot;aesthetically_pleasing&quot;) }} 
-      | {{ $t(&quot;we_believe&quot;) }}
+    `) {{ $t('our_products') }}
+      strong {{ $t('aesthetically_pleasing') }} 
+      | {{ $t('we_believe') }}
     span(class=`
       text-base
       md:text-2xl 
-    `) {{ $t(&quot;architecture&quot;) }} 
+    `) {{ $t('architecture') }} 
       br
-      |  {{ $t(&quot;sketching&quot;) }}
+      |  {{ $t('sketching') }}
       br
-      |  {{ $t(&quot;design&quot;) }}
-  img(src='second_step.png' alt='first step' class=`
-    w-[90%] 
-    z-10
-    relative
-    md:w-[41vw] 
-    md:h-[30vw] 
+      |  {{ $t('design') }}
+  NuxtImg(
+    format="webp"
+    loading="lazy"
+    src='/img/second_step.png' 
+    alt='second step' 
+    class=`
+      w-[90%] 
+      z-10
+      relative
+      md:w-[41vw] 
+      md:h-[30vw] 
   `)
 </template>

@@ -7,7 +7,11 @@ div(class=`
     items-end
     md:hidden
 `)
-    img(@click='$emit("menuToogled")' src='headbutton.png' alt='hamburger' class=`
+    NuxtImg(
+        @click='$emit("menuToogled")' 
+        src='/img/headbutton.png' 
+        alt='hamburger' 
+        class=`
         w-[2rem] 
         h-[2rem] 
         mr-6

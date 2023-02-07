@@ -21,27 +21,32 @@ section(class=`
     overflow-hidden
     leading-loose
   `)
-    | {{ $t(&quot;we_partner_up&quot;) }} 
+    | {{ $t('we_partner_up') }} 
     span(class=`
       italic
       underline 
-    `) {{ $t(&quot;high_end_tech&quot;) }}
+    `) {{ $t('high_end_tech') }}
     br
-    |  {{ $t(&quot;we_ensure&quot;) }} 
+    |  {{ $t('we_ensure') }} 
     span(class=`
       font-semibold
       text-sky-500
-    `) {{ $t(&quot;your_vision_achieves&quot;) }}
-    |  {{ $t(&quot;on_your_business&quot;) }}
+    `) {{ $t('your_vision_achieves') }}
+    |  {{ $t('on_your_business') }}
   div(class=`
     w-100%
     mt-[5rem] 
     flex
     justify-center
   `)
-    img(src='Luis.png' alt='Luis' class=`
-      w-20
-      h-20
+    NuxtImg(
+      format="webp"
+      loading="lazy"
+      src='/img/Luis.png' 
+      alt='Luis' 
+      class=`
+        w-20
+        h-20
     `)
     h3(class=`
       mt-4
@@ -49,5 +54,5 @@ section(class=`
     `)
       strong Luis R. Torres
       br
-      span {{ $t(&quot;ceo_and&quot;) }}
+      span {{ $t('ceo_and') }}
 </template>

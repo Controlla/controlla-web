@@ -18,8 +18,9 @@ section(class=`
   justify-between
   sticky
 `)
-  img(
-    src='logocontrolla.svg' 
+  NuxtImg(
+    loading="lazy"
+    src='/img/logo.svg' 
     alt='logo controlla' 
     class=`
       w-[12rem]

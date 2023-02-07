@@ -13,12 +13,12 @@ div(v-if="isVisible" class=`
 `)
     NuxtLink(to='/' class=`
         my-2
-    `) {{ $t(&quot;home&quot;) }}
+    `) {{ $t('home') }}
     NuxtLink(to='/team' class=`
         my-2 
-    `) {{ $t(&quot;team&quot;) }}
+    `) {{ $t('team') }}
     NuxtLink(to='/friendshore' class=`
         my-2 
-    `) {{ $t(&quot;friendshore&quot;) }}
+    `) {{ $t('friendshore') }}
     ContactButton(is-mobile)
 </template>

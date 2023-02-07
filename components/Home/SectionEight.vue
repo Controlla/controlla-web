@@ -11,13 +11,13 @@ section(class=`
     text-3xl
     text-center
     overflow-y-hidden
-  `) {{ $t(&quot;why&quot;) }} 
-    strong.text-sky-500  {{ $t(&quot;choose&quot;) }}
-    |  {{ $t(&quot;us&quot;) }}
+  `) {{ $t('why') }} 
+    strong.text-sky-500  {{ $t('choose') }}
+    |  {{ $t('us') }}
   h3(class=`
     text-center
     my-6
-  `) {{ $t(&quot;by_now_you&quot;) }}
+  `) {{ $t('by_now_you') }}
   div(class=`
     md:flex
     md:justify-center
@@ -34,16 +34,21 @@ section(class=`
       min-h-72
       rounded-2xl
     `)
-      img(src='hug.png' alt='hug' class=`
+      NuxtImg(
+        format="webp"
+        loading="lazy"
+        src='/img/hug.png' 
+        alt='hug' 
+        class=`
         w-12
         my-6
       `)
-      h3 {{ $t(&quot;we_care_for&quot;) }}
-      h3 {{ $t(&quot;we_are_all&quot;) }} 
+      h3 {{ $t('we_care_for') }}
+      h3 {{ $t('we_are_all') }} 
         br
-        strong  {{ $t(&quot;culture_needs&quot;) }}
+        strong  {{ $t('culture_needs') }}
         br
-        |           {{ $t(&quot;we_cherish&quot;) }}
+        |           {{ $t('we_cherish') }}
     div(class=`
       shadow-lg
       shadow-gray-300
@@ -53,15 +58,18 @@ section(class=`
       min-h-72
       rounded-2xl
     `)
-      img(src='plane.png' alt='hug' class=`
+      NuxtImg(
+        src='/img/plane.png' 
+        alt='hug' 
+        class=`
         w-12
         my-6
       `)
-      h3 {{ $t(&quot;miles_from_us&quot;) }}
-      h3 {{ $t(&quot;we_are_just&quot;) }}
+      h3 {{ $t('miles_from_us') }}
+      h3 {{ $t('we_are_just') }}
         br
-        |  {{ $t(&quot;or_a_single&quot;) }}
-        strong  {{ $t(&quot;distance_and_language&quot;) }}
+        |  {{ $t('or_a_single') }}
+        strong  {{ $t('distance_and_language') }}
         br
     div(class=`
       shadow-lg
@@ -72,10 +80,15 @@ section(class=`
       min-h-72
       rounded-2xl
     `)
-      img(src='board.png' alt='hug' class=`
+      NuxtImg(
+        format="webp"
+        loading="lazy"
+        src='/img/board.png' 
+        alt='board' 
+        class=`
         w-12
         my-6
       `)
-      h3 {{ $t(&quot;proven_results&quot;) }}
-      h3 {{ $t(&quot;our_partners_have&quot;) }} 
+      h3 {{ $t('proven_results') }}
+      h3 {{ $t('our_partners_have') }} 
 </template>

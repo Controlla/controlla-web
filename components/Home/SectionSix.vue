@@ -42,7 +42,10 @@ section(class=`
     absolute
     z-0
   `)
-  img(src='third_step.png' alt='first step' class=`
+  NuxtImg(
+    src='/img/third_step.png' 
+    alt='third step' 
+    class=`
     w-[42vw] 
     h-[28vw] 
     hidden
@@ -61,32 +64,37 @@ section(class=`
       text-sky-500
       text-xs
       md:text-xl 
-    `) {{ $t(&quot;third&quot;) }}
+    `) {{ $t('third') }}
     h2(class=`
       my-6
       text-2xl
       font-semibold
       overflow-y-hidden
       md:text-4xl 
-    `) {{ $t(&quot;development&quot;) }}
+    `) {{ $t('development') }}
     h2(class=`
       my-6
       text-base
       md:text-2xl 
-    `) {{ $t(&quot;your_tailormade&quot;) }}
-      strong {{ $t(&quot;deep_end&quot;) }}
-      |  {{ $t(&quot;and_different_communication&quot;) }}
+    `) {{ $t('your_tailormade') }}
+      strong {{ $t('deep_end') }}
+      |  {{ $t('and_different_communication') }}
     span(class=`
       md:text-2xl
       text-base
-    `) &bull; {{ $t(&quot;web_and_mobile&quot;) }} 
+    `) &bull; {{ $t('web_and_mobile') }} 
       br
-      |  {{ $t(&quot;flutter&quot;) }}
+      |  {{ $t('flutter') }}
       br
-      |  {{ $t(&quot;jira&quot;) }} 
+      |  {{ $t('jira') }} 
       br
-      |  {{ $t(&quot;vue&quot;) }}
-  img(src='third_step.png' alt='first step' class=`
+      |  {{ $t('vue') }}
+  NuxtImg(
+    format="webp"
+    loading="lazy"
+    src='/img/third_step.png' 
+    alt='third step' 
+    class=`
     w-[90%] 
     px-[5%] 
     z-10
