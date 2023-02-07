@@ -24,6 +24,4 @@
             <div class="flex justify-center mt-6 md:hidden"><img src="mobile_our_services.svg" alt="our_services"></div>
         </div>
     </section>
-    <FriendshoreSectionTwo />
-    <FriendshoreSectionThree />
 </template>

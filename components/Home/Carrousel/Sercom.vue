@@ -1,5 +1,4 @@
 <template>
-  <section class="bg-white px-[5%] md:px-[10%] md:flex overflow-y-hidden">
     <img src="second_step.png" alt="" class="hidden md:inline w-[30vw] h-[20vw]" />
     <div>
       <h1 class="text-3xl font-semibold overflow-y-hidden mx-4">{{ $t("sercom") }}</h1>
@@ -34,5 +33,4 @@
       </button>
     </div>
     <div class="flex justify-center"><img src="second_step.png" alt="" class="md:hidden w-[90%] p-[5%]" /></div>
-  </section>
 </template>

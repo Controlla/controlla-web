@@ -12,8 +12,4 @@
         <div class="bg-white w-[100vw] absolute h-[25vw] md:left-[-90%] top-[40vh] overflow-x-hidden" style="border-radius: 100% 100% 0 0"></div>   
     </div>
 </section>
-<UsSectionTwo/>
-<UsSectionThree/>
-<UsSectionFour/>
-<UsSectionFive/>
 </template> 
