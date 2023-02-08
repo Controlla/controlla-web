@@ -90,6 +90,7 @@ section(class=`
       src='/img/rocket.png' 
       alt='rocket' 
       class=`
+        max-w-[20rem]
         w-[90%] 
         mt-[1%] 
         z-10
