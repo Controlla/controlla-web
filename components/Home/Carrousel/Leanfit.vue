@@ -1,6 +1,6 @@
 <template>
   <section class="bg-white px-[5%] md:px-[10%] md:flex overflow-y-hidden">
-    <nuxt-img format="webp" loading="lazy" src="/img/leanfit.png" alt="" class="hidden md:inline w-[20vw] h-[25vw]" />
+    <img format="webp" loading="lazy" src="/img/leanfit.png" alt="" class="hidden md:inline w-[20vw] h-[25vw]" />
     <div>
       <h1 class="text-3xl font-semibold overflow-y-hidden mx-4">Lean Fit</h1>
       <h3 class="my-6 mx-4">
@@ -25,6 +25,6 @@
         Webpage ↗
       </button>
     </div>
-    <div class="flex justify-center"><nuxt-img format="webp" loading="lazy" src="/img/leanfit.png" alt="" class="md:hidden w-[90%] p-[5%]" /></div>
+    <div class="flex justify-center"><img format="webp" loading="lazy" src="/img/leanfit.png" alt="" class="md:hidden w-[90%] p-[5%]" /></div>
   </section>
 </template>

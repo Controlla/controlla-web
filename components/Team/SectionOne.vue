@@ -8,7 +8,7 @@
         <h1 class="text-sky-500 my-6 text-5xl md:text-4xl lg:text-5xl font-bold overflow-y-hidden relative">{{ $t("problem_solvers") }}</h1>        
     </div>
     <div class="relative">
-        <nuxt-img format="webp" loading="lazy" src="/img/us_lines.svg" alt="home background" class="w-[90%] md:w-[45vw] relative" style="z-index: 1"/>
+        <img format="webp" loading="lazy" src="/img/us_lines.svg" alt="home background" class="w-[90%] md:w-[45vw] relative" style="z-index: 1"/>
         <div class="bg-white w-[100vw] absolute h-[25vw] md:left-[-90%] top-[40vh] overflow-x-hidden" style="border-radius: 100% 100% 0 0"></div>   
     </div>
 </section>

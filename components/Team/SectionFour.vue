@@ -11,7 +11,7 @@
             <h1 class="text-center text-3xl font-bold"> {{ $t("trusted_partners") }}</h1>
             <h2 class="text-center w-[90%] m-auto"> {{ $t("some_of_the") }}</h2>
             <div class="flex justify-center my-6">
-                <nuxt-img format="webp" loading="lazy" src="/img/trusted_partners.svg" alt="trusted partners" class="w-[90%] md:w-[80%] lg:w-[20%]"/>
+                <img format="webp" loading="lazy" src="/img/trusted_partners.svg" alt="trusted partners" class="w-[90%] md:w-[80%] lg:w-[20%]"/>
             </div>  
         </div>
     </section>

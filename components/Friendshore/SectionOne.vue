@@ -15,17 +15,17 @@
                 <h1 class="relative my-6 text-3xl overflow-y-hidden z-10">{{ $t("get_the_best") }}</h1>
             </div>
             <div class="flex justify-center">
-                <nuxt-img format="web" loading="lazy" src="/img/rocket.svg" alt="home background" class="relative w-[90%] md:w-[28vw] z-0" style="z-index: 1" />
+                <img format="web" loading="lazy" src="/img/rocket.svg" alt="home background" class="relative w-[90%] md:w-[28vw] z-0" style="z-index: 1" />
             </div>
             <div class="sm:visible bg-white w-[100vw] h-[50%] absolute bottom-[-20%] overflow-x-hidden left-[-20px] md:left-auto" style="border-radius: 100% 100% 0 0"></div>
         </div>
         <div class="w-[100%] mt-[10%] overflow-y-hidden relative">
             <h1 class="text-center"><strong class="text-3xl">{{ $t("web_and_mobile") }}</strong></h1>
             <div class="justify-center mt-6 hidden md:flex">
-                <nuxt-img format="webp" loading="lazy" src="/img/our_services.svg" alt="our_services" />
+                <img format="webp" loading="lazy" src="/img/our_services.svg" alt="our_services" />
             </div>
             <div class="flex justify-center mt-6 md:hidden">
-                <nuxt-img format="webp" loading="lazy" src="/img/mobile_our_services.svg" alt="our_services" />
+                <img format="webp" loading="lazy" src="/img/mobile_our_services.svg" alt="our_services" />
             </div>
         </div>
     </section>
