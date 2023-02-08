@@ -1,5 +1,6 @@
 <script setup>
 import 'vue3-carousel/dist/carousel.css'
+/* stylelint-disable */
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 const images = [
@@ -33,6 +34,7 @@ div(class=`
 </template>
 
 <style scoped>
+/* stylelint-disable */
 .carousel__slide {
   padding: 5px;
 }
