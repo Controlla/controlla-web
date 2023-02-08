@@ -18,15 +18,22 @@ section(class=`
   justify-between
   sticky
 `)
-  NuxtImg(
-    loading="lazy"
-    src='/img/logo.svg' 
-    alt='logo controlla' 
+  NuxtLink(
+    to="/"
     class=`
-      w-[12rem]
-      ml-6
+      flex
+      flex-row
     `
   )
+    NuxtImg(
+      loading="lazy"
+      src='/img/logo.svg' 
+      alt='logo controlla' 
+      class=`
+        w-[12rem]
+        ml-6
+      `
+    )
   HeaderDesktopLinks
   HeaderHamburgerButton(@menuToogled="toogleMenu")
 HeaderMobileLinks(:is-visible="areMobileLinksVisible")

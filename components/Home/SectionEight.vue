@@ -20,10 +20,9 @@ section(class=`
   `) {{ $t('by_now_you') }}
   div(class=`
     md:flex
-    md:justify-center
+    md:justify-around
     my-6
     min-h-80
-    overflow-y-hidden
   `)
     div(class=`
       shadow-lg
@@ -33,6 +32,7 @@ section(class=`
       py-6
       min-h-72
       rounded-2xl
+      w-[30%]
     `)
       NuxtImg(
         format="webp"
@@ -57,6 +57,7 @@ section(class=`
       py-6
       min-h-72
       rounded-2xl
+      w-[30%]
     `)
       NuxtImg(
         src='/img/plane.png' 
@@ -79,6 +80,7 @@ section(class=`
       py-6
       min-h-72
       rounded-2xl
+      w-[30%]
     `)
       NuxtImg(
         format="webp"

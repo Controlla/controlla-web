@@ -1,7 +1,7 @@
 <template>
   <nuxt-img format="webp" loading="lazy" src="/img/second_step.png" alt="" class="hidden md:inline w-[30vw] h-[20vw]" />
   <div>
-    <h1 class="text-3xl font-semibold overflow-y-hidden mx-4">{{ $t("sercom") }}</h1>
+    <h1 class="text-3xl font-semibold overflow-y-hidden mx-4 text-left">{{ $t("sercom") }}</h1>
     <h3 class="my-6 mx-4">
       {{ $t("custom_software") }} <br />
     </h3>

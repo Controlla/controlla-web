@@ -9,6 +9,13 @@ div(class=`
   mx-auto
   my-20
 `)
+  h2(class=`
+    text-3xl
+    text-center
+    overflow-y-hidden
+    font-semibold
+    mb-20
+  `) {{ $t('success') }} 
   carousel(:items-to-show='1')
     slide(key='1')
       HomeCarrouselSercom

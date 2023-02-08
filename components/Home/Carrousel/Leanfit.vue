@@ -2,8 +2,8 @@
   <section class="bg-white px-[5%] md:px-[10%] md:flex overflow-y-hidden">
     <nuxt-img format="webp" loading="lazy" src="/img/leanfit.png" alt="" class="hidden md:inline w-[20vw] h-[25vw]" />
     <div>
-      <h1 class="text-3xl font-semibold overflow-y-hidden mx-4">Lean Fit</h1>
-      <h3 class="my-6 mx-4">
+      <h1 class="text-3xl font-semibold overflow-y-hidden mx-4 text-left">Lean Fit</h1>
+      <h3 class="my-6 mx-4 text-left">
         Personalized diet program based on macro <br />
         counting for every user type of need.
       </h3>
