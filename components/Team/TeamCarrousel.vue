@@ -8,8 +8,7 @@ const images = [
   '/img/team_carousel_3.svg',
   '/img/team_carousel_4.svg',
   '/img/team_carousel_5.svg',
-  '/img/team_carousel_6.svg',
-  '/img/team_carousel_7.svg',
+  '/img/team_carousel_6.svg'
 ]
 </script>
 
