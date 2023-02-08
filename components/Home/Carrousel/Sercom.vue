@@ -1,5 +1,5 @@
 <template>
-  <img format="webp" loading="lazy" src="/img/second_step.png" alt="" class="hidden md:inline w-[30vw] h-[20vw]" />
+  <nuxt-img format="webp" loading="lazy" src="/img/second_step.png" alt="" class="hidden md:inline w-[30vw] h-[20vw]" />
   <div>
     <h1 class="text-3xl font-semibold overflow-y-hidden mx-4">{{ $t("sercom") }}</h1>
     <h3 class="my-6 mx-4">
@@ -25,6 +25,6 @@
     </button>
   </div>
   <div class="flex justify-center">
-    <img format="webp" loading="lazy" src="/img/second_step.png" alt="" class="md:hidden w-[90%] p-[5%]" />
+    <nuxt-img format="webp" loading="lazy" src="/img/second_step.png" alt="" class="md:hidden w-[90%] p-[5%]" />
   </div>
 </template>
