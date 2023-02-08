@@ -67,5 +67,8 @@ export default defineNuxtConfig({
   },
   build: {
     transpile: ['@typeform/embed']
+  },
+  image: {
+    provider: 'netlify'
   }
 });
