@@ -1,31 +1,28 @@
-<script setup>
+<script setup lang="ts">
 import 'vue3-carousel/dist/carousel.css'
-/* stylelint-disable */
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import { onMounted } from 'vue';
+import type Image from '~/interfaces/Image'
 
-const images = [
-  '/img/team_carousel_1.svg',
-  '/img/team_carousel_2.svg',
-  '/img/team_carousel_3.svg',
-  '/img/team_carousel_4.svg',
-  '/img/team_carousel_5.svg',
-  '/img/team_carousel_6.svg'
-]
+const images: Array<Image> = useImages()
+const itemsToShow = ref(2.75)
+onMounted(() => {
+  if(window.innerWidth < 640) itemsToShow.value = 1.3
+})
 </script>
 
 <template lang="pug">
 div(class=`
   w-[90%]
   mx-auto
-  my-20
+  mb-20
 `)
-  carousel(:items-to-show='2.75' :wrap-around='true')
+  carousel(:items-to-show='itemsToShow' :wrap-around='true')
     slide(v-for='(image, index) in images' :index='index')
       NuxtImg(
         format="webp"
-        loading="lazy"
         class="carrousel__item" 
-        :src='image'
+        :src='image.src'
       )
     template(#addons='')
       navigation

@@ -1,63 +1,136 @@
-<template>
-  <section
-    class="w-screen min-h-screen bg-white relative py-20 sm:px-[5%] overflow-hidden text-center md:text-left"
-  >
-    <div
-      class="rounded-full bg-violet-300 w-[25rem] h-[25rem] absolute left-[12%] top-[15%] blur-[11rem] z-0"
-    ></div>
-    <div
-      class="rounded-full bg-blue-300 w-[25rem] h-[25rem] absolute left-[40%] top-[25%] blur-[11rem] z-0"
-    ></div>
-    <div
-      class="rounded-full bg-violet-300 w-[25rem] h-[25rem] absolute left-[70%] top-[15%] blur-[11rem] z-0"
-    ></div>
-    <div class="md:flex justify-center relative w-[90%] m-auto">
-      <div>
-        <h3
-          class="relative text-6xl overflow-y-hidden leading-relaxed lg:leading-loose z-10"
-        >
-          {{ $t("we_go_beyond") }}
-          <span class="text-sky-500 font-bold"> {{ $t("borders") }}</span>
-        </h3>
-        <h1 class="relative my-6 text-3xl overflow-y-hidden z-10">
-          {{ $t("get_the_best") }}
-        </h1>
-      </div>
-      <div class="flex justify-center">
-        <nuxt-img
-          format="web"
-          loading="lazy"
-          src="/img/rocket.svg"
-          alt="home background"
-          class="relative w-[90%] md:w-[28vw] z-0"
-          style="z-index: 1"
-        />
-      </div>
-      <div
-        class="sm:visible bg-white w-[200%] h-[200%] absolute bottom-[-20%] overflow-x-hidden left-[-20px] md:left-auto"
-        style="border-radius: 100% 100% 0 0"
-      ></div>
-    </div>
-    <div class="w-[100%] mt-[10%] overflow-y-hidden relative">
-      <h1 class="text-center">
-        <strong class="text-3xl">{{ $t("web_and_mobile") }}</strong>
-      </h1>
-      <div class="justify-center mt-6 hidden md:flex">
-        <nuxt-img
-          format="webp"
-          loading="lazy"
-          src="/img/our_services.svg"
-          alt="our_services"
-        />
-      </div>
-      <div class="flex justify-center mt-6 md:hidden">
-        <nuxt-img
-          format="webp"
-          loading="lazy"
-          src="/img/mobile_our_services.svg"
-          alt="our_services"
-        />
-      </div>
-    </div>
-  </section>
+<template lang="pug">
+section(class=`
+  sm:px-[5%] 
+  md:text-left 
+  w-screen
+  min-h-screen
+  bg-white
+  relative
+  py-20
+  overflow-hidden
+  text-center
+`)
+  div(class=`
+    w-[25rem]
+    h-[25rem] 
+    left-[12%] 
+    top-[15%] 
+    blur-[11rem] 
+    rounded-full
+    bg-violet-300
+    absolute
+    z-0
+  `)
+  div(class=`
+    w-[25rem]
+    h-[25rem]
+    left-[40%]
+    top-[25%]
+    blur-[11rem] 
+    rounded-full
+    bg-blue-300
+    absolute
+    z-0
+  `)
+  div(class=`
+    w-[25rem]
+    h-[25rem]
+    left-[70%]
+    top-[15%]
+    blur-[11rem] 
+    rounded-full
+    bg-violet-300
+    absolute
+    z-0
+  `)
+  div(class=`
+    justify-center
+    relative
+    m-auto
+    md:flex w-[90%] 
+  `)
+    div
+      h3(class=`
+        lg:leading-loose 
+        relative
+        text-6xl
+        overflow-y-hidden
+        leading-relaxed
+        z-10
+      `) {{ $t(&quot;we_go_beyond&quot;) }}
+        span(class=`
+          text-sky-500
+          font-bold
+        `)  {{ $t(&quot;borders&quot;) }}
+      h1(class=`
+        relative
+        my-6
+        text-3xl
+        overflow-y-hidden
+        z-10
+      `) {{ $t(&quot;get_the_best&quot;) }}
+    div(class=`
+      flex
+      justify-center
+    `)
+      NuxtImg(
+        format='web' 
+        loading='lazy' 
+        src='/img/rocket.svg' 
+        alt='home background' 
+        class=`
+        w-[90%]
+        md:w-[28vw] 
+        relative
+        z-10
+      `)
+    div(class=`
+      sm:visible 
+      w-[200%]
+      h-[200%]
+      bottom-[-20%]
+      left-[-20px]
+      md:left-auto
+      bg-white
+      absolute
+      overflow-x-hidden
+      rounded-t-[100%]
+    `)
+  div(class=`
+    w-[100%] 
+    mt-[10%] 
+    overflow-y-hidden
+    relative
+  `)
+    h1(class=`
+      text-center
+      md:my-20
+      font-black
+      text-2xl
+    `) {{ $t(&quot;web_and_mobile&quot;) }}
+    div(class=`
+      md:flex 
+      justify-center
+      mt-6
+      hidden
+    `)
+      NuxtImg(
+        format='webp' 
+        loading='lazy' 
+        src='/img/our_services.svg' 
+        alt='our_services'
+      )
+    div(class=`
+      md:hidden 
+      flex
+      justify-center
+      mt-6
+    `)
+      NuxtImg(
+        format='webp' 
+        loading='lazy' 
+        src='/img/mobile_our_services.svg' 
+        alt='our_services'
+      )
+
 </template>

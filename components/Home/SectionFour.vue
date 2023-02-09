@@ -1,6 +1,9 @@
 <template lang="pug">
 section(class=`
-  md:flex 
+  flex
+  flex-col
+  flex-col-reverse
+  md:flex-row
   md:justify-center 
   pt-[12%] 
   bg-white
@@ -72,10 +75,10 @@ section(class=`
     loading="lazy"
     alt='first step' 
     class=`
-      hidden
+      mt-10
+      md:mt-0
       z-10
       relative
-      md:inline 
       md:w-[36vw] 
       md:h-[25vw] 
   `)

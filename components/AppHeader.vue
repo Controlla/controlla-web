@@ -36,5 +36,5 @@ section(class=`
     )
   HeaderDesktopLinks
   HeaderHamburgerButton(@menuToogled="toogleMenu")
-HeaderMobileLinks(:is-visible="areMobileLinksVisible")
+HeaderMobileLinks(@closeMenu="toogleMenu" :is-visible="areMobileLinksVisible")
 </template>

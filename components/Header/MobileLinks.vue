@@ -1,4 +1,9 @@
 <script setup lang="ts">
+import type Link from '~/interfaces/Link'
+
+const { t } = useI18n();
+const links: Array<Link> = useLinks(t)
+
 defineProps<{
     isVisible: boolean
 }>()
@@ -11,14 +16,12 @@ div(v-if="isVisible" class=`
     flex-col
     items-center
 `)
-    NuxtLink(to='/' class=`
+    NuxtLink(
+        v-for="link in links"
+        @click='$emit("closeMenu")' 
+        :to='link.to' 
+        class=`
         my-2
-    `) {{ $t('home') }}
-    NuxtLink(to='/team' class=`
-        my-2 
-    `) {{ $t('team') }}
-    NuxtLink(to='/friendshore' class=`
-        my-2 
-    `) {{ $t('friendshore') }}
+    `) {{ link.text }}
     ContactButton(is-mobile)
 </template>

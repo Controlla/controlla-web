@@ -1,61 +1,98 @@
-<template>
-  <section class="bg-white w-screen px-[20vw] py-24">
-    <h3 class="text-3xl text-center overflow-y-hidden">
-      {{ $t("why") }} <strong class="text-sky-500"> {{ $t("work") }}</strong>
-      {{ $t("with_us") }}
-    </h3>
-    <div class="lg:flex lg:justify-center my-6 min-h-80 overflow-y-hidden py-6">
-      <div
-        class="shadow-lg shadow-gray-300 mx-4 px-6 py-6 min-h-72 rounded-2xl"
-      >
-        <nuxt-img
-          format="webp"
-          loading="lazy"
-          class="w-12 my-6"
-          src="/img/hourglass.svg"
-          alt="hourglass"
-        />
-        <h3>{{ $t("fast_projects") }}</h3>
-        <h3>
-          {{ $t("thanks_to") }} <br />
-          {{ $t("tech_tools") }}
-        </h3>
-      </div>
-      <div
-        class="shadow-lg shadow-gray-300 mx-4 px-6 py-6 min-h-72 rounded-2xl"
-      >
-        <nuxt-img
-          format="webp"
-          loading="lazy"
-          class="w-12 my-6"
-          src="/img/calendar.svg"
-          alt="hug"
-        />
-        <h3>{{ $t("agile_methodology") }}</h3>
-        <h3>
-          {{ $t("timely_delivery") }} <br />
-          {{ $t("at_our_core") }} <br />
-          {{ $t("continuous_feedback") }} <br />
-          {{ $t("following_scrum") }}
-        </h3>
-      </div>
-      <div
-        class="shadow-lg shadow-gray-300 mx-4 px-6 py-6 min-h-72 rounded-2xl"
-      >
-        <nuxt-img
-          format="webp"
-          loading="lazy"
-          class="w-12 my-6"
-          src="/img/plane.png"
-          alt="hug"
-        />
-        <h3>{{ $t("privileged_location") }}</h3>
-        <h3>
-          {{ $t("just_miles") }} <br />
-          {{ $t("flight") }} <br />
-          {{ $t("timezone") }} <br />
-        </h3>
-      </div>
-    </div>
-  </section>
+<template lang="pug">
+section(class=`
+  px-[20vw] 
+  bg-white
+  w-screen
+  py-24
+`)
+  h3(class=`
+    text-3xl
+    text-center
+    overflow-y-hidden
+  `) {{ $t(&quot;why&quot;) }} 
+    strong(class=`
+      text-sky-500
+    `)  {{ $t(&quot;work&quot;) }}
+    |  {{ $t(&quot;with_us&quot;) }}
+  div(class=`
+    lg:flex 
+    lg:justify-center
+    my-6
+    min-h-80
+    overflow-y-hidden
+    py-6
+  `)
+    div(class=`
+      shadow-lg
+      shadow-gray-300
+      mx-4
+      px-6
+      py-6
+      min-h-72
+      rounded-2xl
+    `)
+      NuxtImg(
+        format='webp' 
+        loading='lazy' 
+        src='/img/hourglass.svg' 
+        alt='hourglass' 
+        class=`
+        w-12
+        my-6
+      `)
+      h3 {{ $t(&quot;fast_projects&quot;) }}
+      h3 {{ $t(&quot;thanks_to&quot;) }} 
+        br
+        |  {{ $t(&quot;tech_tools&quot;) }}
+    div(class=`
+      shadow-lg
+      shadow-gray-300
+      mx-4
+      px-6
+      py-6
+      min-h-72
+      rounded-2xl
+    `)
+      NuxtImg(
+        format='webp' 
+        loading='lazy' 
+        src='/img/calendar.svg' 
+        alt='hug' 
+        class=`
+        w-12
+        my-6
+      `)
+      h3 {{ $t(&quot;agile_methodology&quot;) }}
+      h3 {{ $t(&quot;timely_delivery&quot;) }} 
+        br
+        |  {{ $t(&quot;at_our_core&quot;) }} 
+        br
+        |  {{ $t(&quot;continuous_feedback&quot;) }} 
+        br
+        |  {{ $t(&quot;following_scrum&quot;) }}
+    div(class=`
+      shadow-lg
+      shadow-gray-300
+      mx-4
+      px-6
+      py-6
+      min-h-72
+      rounded-2xl
+    `)
+      NuxtImg(
+        format='webp' 
+        loading='lazy' 
+        src='/img/plane.png' 
+        alt='hug' 
+        class=`
+        w-12
+        my-6
+      `)
+      h3 {{ $t(&quot;privileged_location&quot;) }}
+      h3 {{ $t(&quot;just_miles&quot;) }} 
+        br
+        |  {{ $t(&quot;flight&quot;) }} 
+        br
+        |  {{ $t(&quot;timezone&quot;) }} 
+        br
 </template>
