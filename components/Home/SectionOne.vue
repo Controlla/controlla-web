@@ -1,7 +1,6 @@
 <template lang="pug">
 section(class=`
   w-screen
-  h-screen
   overflow-x-hidden
   overflow-y-hidden
   bg-gradient-to-b

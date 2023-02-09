@@ -76,16 +76,16 @@ section(class=`
                 relative
                 z-10
             `)
-        div(class=`
-            w-[100vw] 
-            h-[25vw] 
-            md:left-[-90%] 
-            top-[40vh] 
-            bg-white
-            absolute
-            overflow-x-hidden
-            rounded-tl-[100%]
-            rouneed-tr-[100%]
-        `)
+    div(class=`
+        sm:visible 
+        w-[200%] 
+        h-[200%]
+        top-[80%]
+        left-[-50%]
+        bg-white
+        absolute
+        overflow-x-hidden
+        rounded-t-[100%]
+    `)
 
-</template> 
+</template>
