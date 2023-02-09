@@ -1,6 +1,7 @@
 <template lang="pug">
 section(class=`
   w-screen
+  h-screen
   overflow-x-hidden
   overflow-y-hidden
   bg-gradient-to-b
@@ -8,6 +9,7 @@ section(class=`
   via-blue-200
   to-blue-200
   py-32
+  relative
 `)
   div(class=`
     w-screen
@@ -58,22 +60,21 @@ section(class=`
       strong {{ $t('high_quality') }}
       |  {{ $t('digital_solutions') }} 
       br
-      |       {{ $t('methodic') }} 
+      |      {{ $t('methodic') }} 
       strong {{ $t('strategy') }}
       |  {{ $t('through_trusted') }}
       strong {{ $t('alliances') }}
     ContactButton
   div(class=`
     sm:visible 
-    w-[100vw] 
-    h-[50%] 
-    bottom-[-15%] 
-    md:bottom-[-20%] 
+    w-[200%] 
+    h-[200%]
+    top-[80%]
+    left-[-50%]
     bg-white
     absolute
     overflow-x-hidden
-    rounded-tl-[100%]
-    rouneed-tr-[100%]
+    rounded-t-[100%]
   `)
   div(class=`
     mt-[1%] 
