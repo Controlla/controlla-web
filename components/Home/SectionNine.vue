@@ -7,14 +7,15 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 div(class=`
   w-[90%]
   mx-auto
-  my-20
+  my-10
+  md:my-20
 `)
   h2(class=`
     text-3xl
     text-center
     overflow-y-hidden
     font-semibold
-    mb-20
+    md:mb-20
   `) {{ $t('success') }} 
   carousel(:items-to-show='1')
     slide(key='1')

@@ -5,6 +5,7 @@ section(class=`
   pt-20
   flex
   justify-center
+  mb-20
 `)
   div(class=`
     w-[30%]

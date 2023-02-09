@@ -104,7 +104,7 @@ section(class=`
   `)
     h1(class=`
       text-center
-      my-20
+      md:my-20
       font-black
       text-2xl
     `) {{ $t(&quot;web_and_mobile&quot;) }}

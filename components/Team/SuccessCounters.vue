@@ -55,11 +55,16 @@ onMounted(() => {
 <template lang="pug">
 div#success(
     class=`
-    md:flex 
+    flex 
+    flex-col
+    justify-center
+    items-center
+    md:flex-row
     md:w-[80%]
     md:m-auto
     md:justify-around
     w-screen
+    mb-10
 `)
     div(
         v-for="counter in counters"
