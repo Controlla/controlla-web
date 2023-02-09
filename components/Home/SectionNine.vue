@@ -15,7 +15,7 @@ div(class=`
     text-center
     overflow-y-hidden
     font-semibold
-    md:mb-20
+    mb-20
   `) {{ $t('success') }} 
   carousel(:items-to-show='1')
     slide(key='1')
