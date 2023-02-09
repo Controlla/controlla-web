@@ -7,17 +7,17 @@ section(class=`
   left-0
   overflow-x-hidden
   overflow-y-hidden
-  md:w-[100vw]
-  md:h-[20vw]
+  md:w-[200%] 
+  md:left-[-50%]
+  md:overflow-x-hidden
+  md:rounded-t-[100%]
   md:min-h-[20vw]
   md:right-[-10%]
-  md:rounded-tl-[100%]
-  md:rounded-tr-[100%] 
 `)
   div(class=`
     w-[25rem]
     h-[25rem]
-    left-[6%]
+    left-[26%]
     top-[15%]
     blur-[11rem] 
     rounded-full
@@ -27,7 +27,7 @@ section(class=`
   div(class=`
     w-[25rem]
     h-[25rem]
-    left-[40%]
+    left-[45%]
     top-[-10%]
     blur-[11rem]
     rounded-full
@@ -37,7 +37,7 @@ section(class=`
   div(class=`
     w-[25rem]
     h-[25rem]
-    left-[75%]
+    left-[65%]
     top-[15%]
     blur-[11rem] 
     rounded-full
@@ -45,10 +45,11 @@ section(class=`
     absolute
   `)
   div(class=`
-    md:h-[60%]
     sm:mt-[4%]
+    md:h-[60%]
     md:flex
     md:justify-center
+    md:ml-[28%]
     mt-[20%] 
     block
     w-screen
@@ -113,6 +114,7 @@ section(class=`
     h-[25%] 
     w-screen
     relative
+    md:ml-[28%]
   `)
     div(class=`
       flex

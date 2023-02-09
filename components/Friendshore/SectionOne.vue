@@ -19,7 +19,7 @@ section(class=`
     rounded-full
     bg-violet-300
     absolute
-    z-0
+    z-10
   `)
   div(class=`
     w-[25rem]
@@ -30,7 +30,7 @@ section(class=`
     rounded-full
     bg-blue-300
     absolute
-    z-0
+    z-10
   `)
   div(class=`
     w-[25rem]
@@ -41,7 +41,7 @@ section(class=`
     rounded-full
     bg-violet-300
     absolute
-    z-0
+    z-10
   `)
   div(class=`
     justify-center
@@ -82,25 +82,26 @@ section(class=`
         w-[90%]
         md:w-[28vw] 
         relative
-        z-10
+        z-30
       `)
-    div(class=`
-      sm:visible 
-      w-[200%]
-      h-[200%]
-      bottom-[-20%]
-      left-[-20px]
-      md:left-auto
-      bg-white
-      absolute
-      overflow-x-hidden
-      rounded-t-[100%]
-    `)
+  div(class=`
+    sm:visible 
+    w-[200%] 
+    h-[200%]
+    top-[40%]
+    left-[-50%]
+    bg-white
+    absolute
+    overflow-x-hidden
+    rounded-t-[100%]
+    z-20
+  `)    
   div(class=`
     w-[100%] 
     mt-[10%] 
     overflow-y-hidden
     relative
+    z-30
   `)
     h1(class=`
       text-center
@@ -131,6 +132,6 @@ section(class=`
         loading='lazy' 
         src='/img/mobile_our_services.svg' 
         alt='our_services'
-      )
+      )      
 
 </template>
