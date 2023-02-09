@@ -136,7 +136,7 @@ section(class=`
       right-[49.5%] 
       mt-[1rem] 
       sm:hidden
-    `)
+      `)
     NuxtImg(
       src="/img/line1.svg" 
       alt='arrow' 
@@ -147,6 +147,5 @@ section(class=`
       right-[49.5%] 
       mt-[1rem] 
       sm:inline 
-      xl:w-[30rem]
-    `)
+      xl:w-[30rem]`)
 </template>

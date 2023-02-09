@@ -8,6 +8,37 @@ section(class=`
   md:flex pt-[12%] 
   pb-20
 `)
+  NuxtImg(
+    src="/img/line2_mobile.svg" 
+    alt='arrow' 
+    class=`
+      absolute 
+      w-[8rem] 
+      right-[45%] 
+      top-[-7rem] 
+      z-30
+      sm:right-[70%]
+      md:hidden      
+  `)
+  NuxtImg(
+    src="/img/line2.svg" 
+    alt='arrow' 
+    class=`
+    hidden 
+    w-[20rem] 
+    absolute 
+    right-[30%] 
+    top-[-6rem] 
+    z-30 
+    md:inline 
+    md:w-[35rem] 
+    md:top-[-13rem]
+    md:right-[15%]
+    lg:right-[25%]
+    xl:w-[40rem] 
+    xl:top-[-15rem]
+    xl:right-[38%]
+  `)
   div(class=`
     w-[25rem] 
     h-[25rem] 
