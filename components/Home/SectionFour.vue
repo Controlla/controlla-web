@@ -9,6 +9,30 @@ section(class=`
   overflow-hidden
   pb-20
 `)
+  NuxtImg(
+    src="/img/line1_mobile.svg" 
+    alt='arrow' 
+    class=`
+      sm:hidden 
+      absolute 
+      right-[49.5%] 
+      top-[-14rem] 
+      z-30
+  `)
+  NuxtImg(
+    src="/img/line1.svg" 
+    alt='arrow' 
+    class=`
+    hidden 
+    w-[18rem] 
+    absolute 
+    right-[49.5%] 
+    top-[-6rem] 
+    z-30 
+    sm:inline 
+    xl:w-[30rem] 
+    xl:top-[-10rem]
+  `)
   div(class=`
     w-[25rem] 
     h-[25rem] 
@@ -92,4 +116,17 @@ section(class=`
       |         {{ $t('wireframe') }} 
       br
       |         {{ $t('scoping') }}
+  NuxtImg(
+    src='/img/first_step.png' 
+    format="webp"
+    loading="lazy"
+    alt='first step' 
+    class=`
+      w-[90%]
+      z-10
+      relative
+      md:w-[41vw]
+      md:h-[30vw]
+      md:hidden
+  `)
 </template>

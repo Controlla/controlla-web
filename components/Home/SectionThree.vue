@@ -102,6 +102,7 @@ section(class=`
     mx-auto
     lg:py-24 
     my-20
+    relative
   `)
     h1(class=`
       lg:text-3xl 
@@ -127,4 +128,25 @@ section(class=`
       br
       |  {{ $t('with_necessary_expertise') }}
     ContactButton
+    NuxtImg(
+      src="/img/line1_mobile.svg" 
+      alt='arrow' 
+      class=`
+      absolute
+      right-[49.5%] 
+      mt-[1rem] 
+      sm:hidden
+    `)
+    NuxtImg(
+      src="/img/line1.svg" 
+      alt='arrow' 
+      class=`
+      hidden 
+      w-[18rem] 
+      absolute 
+      right-[49.5%] 
+      mt-[1rem] 
+      sm:inline 
+      xl:w-[30rem]
+    `)
 </template>

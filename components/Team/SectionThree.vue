@@ -7,7 +7,7 @@ section(class=`
     flex
     justify-center
   `)
-  TeamCarrousel
+  Carrousel
   h2(class=`
     text-3xl
     font-bold
@@ -21,4 +21,4 @@ section(class=`
   `)  {{ $t('we_are_a') }} 
     br
     |  {{ $t('helping_companies') }}
-</template> 
+</template>
