@@ -17,18 +17,22 @@ section(class=`
       my-6
       text-center
     `) {{ $t('you_can_find') }} 
-      strong(class=`
+      NuxtLink(
+        to="https://goo.gl/maps/SqqtACYBkVQMjRv39"
+        class=`
+        hover:underline
         text-sky-500  
       `) {{ $t('here') }}
     h3(class=`
       md:text-start 
       my-6
       text-center
+      text-center
     `) {{ $t('tell_us_your') }}
       br
-      |         {{ $t('or_fill_out') }} 
+      |  {{ $t('or_fill_out') }} 
       br
-      |         {{ $t('we_will_contact') }}
+      |  {{ $t('we_will_contact') }}
     ContactButton
   div(class=`
     flex
