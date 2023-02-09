@@ -31,10 +31,10 @@ section(class=`
       mx-4
       px-6
       py-6
+      w-[90%]
       lg:w-[30%]
       min-h-72
       rounded-2xl
-      w-[30%]
     `)
       NuxtImg(
         format="webp"
@@ -57,10 +57,10 @@ section(class=`
       mx-4
       px-6
       py-6
+      w-[90%]
       lg:w-[30%]
       min-h-72
       rounded-2xl
-      w-[30%]
     `)
       NuxtImg(
         src='/img/plane.png' 
@@ -81,10 +81,10 @@ section(class=`
       mx-4
       px-6
       py-6
+      w-[90%]
       lg:w-[30%]
       min-h-72
       rounded-2xl
-      w-[30%]
     `)
       NuxtImg(
         format="webp"
