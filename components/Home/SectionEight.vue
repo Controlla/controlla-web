@@ -19,9 +19,10 @@ section(class=`
     my-6
   `) {{ $t('by_now_you') }}
   div(class=`
-    md:flex
-    md:justify-center
+    lg:flex
+    lg:justify-center
     my-6
+    py-6
     min-h-80
     overflow-y-hidden
   `)
@@ -31,6 +32,7 @@ section(class=`
       mx-4
       px-6
       py-6
+      lg:w-[30%]
       min-h-72
       rounded-2xl
     `)
@@ -55,6 +57,7 @@ section(class=`
       mx-4
       px-6
       py-6
+      lg:w-[30%]
       min-h-72
       rounded-2xl
     `)
@@ -77,6 +80,7 @@ section(class=`
       mx-4
       px-6
       py-6
+      lg:w-[30%]
       min-h-72
       rounded-2xl
     `)
