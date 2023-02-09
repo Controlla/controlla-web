@@ -148,5 +148,6 @@ section(class=`
       right-[49.5%] 
       mt-[1rem] 
       sm:inline 
-      xl:w-[30rem]`)
+      xl:w-[30rem]
+      xl:bottom-[-15rem]`)
 </template>

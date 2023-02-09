@@ -9,18 +9,6 @@ section(class=`
   pb-20
 `)
   NuxtImg(
-    src="/img/line2_mobile.svg" 
-    alt='arrow' 
-    class=`
-      absolute 
-      w-[8rem] 
-      right-[45%] 
-      top-[-7rem] 
-      z-30
-      sm:right-[70%]
-      md:hidden      
-  `)
-  NuxtImg(
     src="/img/line2.svg" 
     alt='arrow' 
     class=`
@@ -119,4 +107,29 @@ section(class=`
       md:w-[41vw] 
       md:h-[30vw] 
   `)
+  NuxtImg(
+    src="/img/line3_mobile.svg" 
+    alt='arrow' 
+    class=`
+    absolute
+    right-[49.5%]
+    bottom-[-4.5rem] 
+    sm:hidden
+    `)
+  NuxtImg(
+    src="/img/line3.svg" 
+    alt='arrow' 
+    class=`
+    hidden 
+    w-[18rem] 
+    absolute 
+    right-[50%] 
+    bottom-[-14rem]
+    sm:inline
+    sm:w-[30rem]
+    sm:right-[20%]
+    lg:w-[40rem]
+    lg:right-[25%]
+    lg:bottom-[-20rem]
+  `)  
 </template>

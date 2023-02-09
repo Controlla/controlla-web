@@ -130,18 +130,6 @@ section(class=`
       md:hidden
   `)
   NuxtImg(
-    src="/img/line2_mobile.svg" 
-    alt='arrow' 
-    class=`
-      absolute
-      w-[8rem] 
-      right-[45%]
-      bottom-[-4rem] 
-      z-30
-      sm:right-[70%]
-      md:hidden 
-  `)
-  NuxtImg(
     src="/img/line2.svg" 
     alt='arrow' 
     class=`

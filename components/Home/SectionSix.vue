@@ -9,6 +9,34 @@ section(class=`
   md:flex 
   pb-20
 `)
+  NuxtImg(
+    src="/img/line3_mobile.svg" 
+    alt='arrow' 
+    class=`
+      sm:hidden 
+      absolute 
+      right-[49.5%] 
+      top-[-6rem] 
+      z-30
+  `)
+  NuxtImg(
+    src="/img/line3.svg" 
+    alt='arrow' 
+    class=`
+    hidden 
+    w-[18rem] 
+    absolute 
+    right-[50%] 
+    top-[-6rem] 
+    z-30 
+    sm:inline 
+    sm:w-[30rem] 
+    sm:right-[20%]
+    sm:top-[-15rem]
+    lg:w-[40rem]
+    lg:right-[25%]
+    lg:top-[-18rem]    
+  `)
   div(class=`
     w-[25rem] 
     h-[25rem] 
