@@ -134,7 +134,7 @@ section(class=`
       class=`
       absolute
       right-[49.5%] 
-      mt-[1rem] 
+      bottom-[-17rem]
       sm:hidden
       `)
     NuxtImg(
@@ -144,6 +144,7 @@ section(class=`
       hidden 
       w-[18rem] 
       absolute 
+      bottom-[-12rem]
       right-[49.5%] 
       mt-[1rem] 
       sm:inline 
