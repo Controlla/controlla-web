@@ -75,10 +75,12 @@ section(class=`
     loading="lazy"
     alt='first step' 
     class=`
+      hidden
       mt-10
       md:mt-0
       z-10
       relative
+      md:inline
       md:w-[36vw] 
       md:h-[25vw] 
   `)

@@ -5,7 +5,29 @@ section(class=`
   bg-white
   justify-center
   my-20
+  relative
 `)
+  NuxtImg(
+    src="/img/line4_mobile.svg" 
+    alt='arrow' 
+    class=`
+      absolute 
+      right-[75%] 
+      top-[10rem] 
+      z-30
+      md:hidden
+  `)
+  NuxtImg(
+    src="/img/line4.svg" 
+    alt='arrow' 
+    class=`
+      hidden
+      absolute
+      right-[75%] 
+      top-[10rem] 
+      z-30
+      md:inline
+  `)  
   div(class=`
     md:mt-[25vh]
   `)

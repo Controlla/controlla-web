@@ -13,7 +13,7 @@ section(class=`
     src="/img/line3_mobile.svg" 
     alt='arrow' 
     class=`
-      sm:hidden 
+      sm:hidden
       absolute 
       right-[49.5%] 
       top-[-6rem] 
@@ -25,7 +25,7 @@ section(class=`
     class=`
     hidden 
     w-[18rem] 
-    absolute 
+    absolute
     right-[50%] 
     top-[-6rem] 
     z-30 
@@ -129,4 +129,28 @@ section(class=`
     relative
     md:hidden 
   `)
+  NuxtImg(
+    src="/img/line3_mobile.svg" 
+    alt='arrow' 
+    class=`
+    absolute
+    right-[49.5%]
+    bottom-[-4.5rem] 
+    md:hidden
+  `)  
+  NuxtImg(
+    src="/img/line2.svg" 
+    alt='arrow' 
+    class=`
+    hidden 
+    w-[25rem] 
+    absolute 
+    right-[40%]
+    bottom-[-3rem]
+    z-30 
+    md:inline
+    lg:w-[35rem]
+    lg:bottom-[-10rem]
+    xl:bottom-[-13rem]
+  `)    
 </template>
