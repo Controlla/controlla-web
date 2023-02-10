@@ -119,7 +119,7 @@ section(class=`
       justify-center
       mb-6
     `)
-      NuxtLink(to='https://www.facebook.com/')
+      NuxtLink(to='https://www.facebook.com/controlla.cuu')
         NuxtImg(
           loading="lazy"
           src='/img/facebook.svg' 

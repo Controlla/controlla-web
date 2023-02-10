@@ -10,13 +10,14 @@ function toogleMenu(): void {
 </script>
 
 <template lang="pug">
-section(class=`
+header(class=`
   w-screen
   bg-white
   h-24
   flex
   justify-between
-  sticky
+  fixed
+  z-20
 `)
   NuxtLink(
     to="/"
@@ -36,5 +37,5 @@ section(class=`
     )
   HeaderDesktopLinks
   HeaderHamburgerButton(@menuToogled="toogleMenu")
-HeaderMobileLinks(@closeMenu="toogleMenu" :is-visible="areMobileLinksVisible")
+  HeaderMobileLinks(@closeMenu="toogleMenu" :is-visible="areMobileLinksVisible")
 </template>

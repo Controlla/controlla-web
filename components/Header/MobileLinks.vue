@@ -10,18 +10,23 @@ defineProps<{
 </script>
 
 <template lang="pug">
-div(v-if="isVisible" class=`
+nav(v-if="isVisible" class=`
     md:hidden
+    absolute
+    bg-white
+    bottom-[-17rem]
+    w-[100%]
     flex
     flex-col
     items-center
+    pb-10
 `)
     NuxtLink(
         v-for="link in links"
         @click='$emit("closeMenu")' 
         :to='link.to' 
         class=`
-        my-2
+        my-5
     `) {{ link.text }}
     ContactButton(is-mobile)
 </template>

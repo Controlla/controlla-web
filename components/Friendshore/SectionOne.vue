@@ -6,7 +6,7 @@ section(class=`
   min-h-screen
   bg-white
   relative
-  py-20
+  pt-40
   overflow-hidden
   text-center
 `)

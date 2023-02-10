@@ -8,7 +8,7 @@ section(class=`
   from-white
   via-blue-200
   to-blue-200
-  py-32
+  pt-40
   relative
 `)
   div(class=`
