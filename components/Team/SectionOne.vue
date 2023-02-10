@@ -9,6 +9,7 @@ section(class=`
     overflow-hidden
     md:flex 
     md:px-0 
+    md:pt-40
 `)
     div(class=`
         w-[25rem] 
@@ -23,7 +24,7 @@ section(class=`
     `)
     div(class=`
         w-[25rem] 
-        h-[25rem] 
+        h-[5rem] 
         left-[40%]
         top-[25%]
         blur-[11rem] 
@@ -64,6 +65,7 @@ section(class=`
         `) {{ $t('problem_solvers') }}
     div(class=`
         relative
+        pt-20
     `)
         nuxt-img(
             format='webp' 
@@ -71,6 +73,7 @@ section(class=`
             src='/img/us_lines.svg' 
             alt='home background' 
             class=`
+
                 w-[90%] 
                 md:w-[45vw] 
                 relative

@@ -25,10 +25,9 @@ section(class=`
       m-auto
     `) {{ $t(&quot;some_of_the&quot;) }}
     div(class=`
-      md:my-12 
+      my-12 
       flex
       justify-center
-      my-6
     `)
       NuxtImg(
         format='webp' 
@@ -42,15 +41,15 @@ section(class=`
           hidden
           md:inline 
       `)
-        NuxtImg(
-          format='webp' 
-          loading='lazy' 
-          src='/img/trusted_partners.svg' 
-          alt='trusted partners' 
-          class=`
-            w-[90%] 
-            md:w-[80%] 
-            md:hidden
-            lg:w-[20%] 
-          `)
+      NuxtImg(
+        format='webp' 
+        loading='lazy' 
+        src='/img/trusted_partners.svg' 
+        alt='trusted partners' 
+        class=`
+          w-[90%] 
+          md:w-[80%] 
+          md:hidden
+          lg:w-[20%] 
+        `)
 </template>

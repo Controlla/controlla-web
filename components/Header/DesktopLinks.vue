@@ -6,7 +6,7 @@ const links: Array<Link> = useLinks(t)
 </script>
 
 <template lang="pug">
-div(class=`
+nav(class=`
   hidden
   md:flex 
   md:justify-end 
