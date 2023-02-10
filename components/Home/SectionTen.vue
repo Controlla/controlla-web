@@ -22,11 +22,16 @@ section(class=`
     alt='arrow' 
     class=`
       hidden
-      absolute
-      right-[75%] 
-      top-[10rem] 
+      absolute 
+      w-[8rem]
+      right-[40%]
+      top-[10rem]
       z-30
       md:inline
+      lg:w-[10rem]
+      xl:w-[8rem]
+      xl:right-[43%]
+      xl:top-[12rem]
   `)  
   div(class=`
     md:mt-[25vh]
@@ -69,8 +74,8 @@ section(class=`
       w-[75%] 
       my-[5%]
       md:my-0
-      md:w-[17vw]
-      md:h-[30vw] 
+      md:w-[20rem]
+      md:ml-[5rem]
       pl-6
     `)
 </template>
