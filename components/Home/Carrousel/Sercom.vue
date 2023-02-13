@@ -15,7 +15,7 @@
       <div
         class="md:w-48 shadow-lg shadow-gray-300 mx-4 px-6 py-12 h-36 rounded-2xl overflow-y-hidden"
       >
-        <h4 class="text-left text-2xl font-bold overflow-y-hidden">20+</h4>
+        <h4 class="text-2xl font-bold overflow-y-hidden">20+</h4>
         <h4>{{ $t("final_users") }}</h4>
       </div>
       <div

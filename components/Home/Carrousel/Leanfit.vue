@@ -8,7 +8,7 @@
       class="hidden md:inline w-[20vw] h-[25vw]"
     />
     <div>
-      <h1 class="text-3xl font-semibold overflow-y-hidden mx-4">
+      <h1 class="text-3xl font-semibold overflow-y-hidden mx-4 text-left">
         {{ $t("leanfit") }}
       </h1>
       <h3 class="text-left my-6 mx-4">
