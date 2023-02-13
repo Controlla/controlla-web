@@ -1,5 +1,7 @@
 <template>
-  <section class="bg-white px-[5%] md:px-[10%] md:flex overflow-y-hidden">
+  <section
+    class="bg-white px-[5%] md:px-[10%] md:flex overflow-y-hidden md:text-lg"
+  >
     <nuxt-img
       format="webp"
       loading="lazy"

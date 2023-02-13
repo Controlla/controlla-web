@@ -59,6 +59,7 @@ section(class=`
       strong {{ $t('preventing_error') }} 
       |  {{ $t('delivering_secure') }}
     span(class=`
+      md:text-2xl
       text-base
     `) {{ $t('audit') }} 
       br

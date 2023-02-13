@@ -5,7 +5,8 @@ section(class=`
   px-6
   py-24
   overflow-hidden
-  md:px-[20vw] 
+  md:px-[20vw]
+  md:text-lg
 `)
   h3(class=`
     text-3xl
@@ -17,6 +18,7 @@ section(class=`
   h3(class=`
     text-center
     my-6
+    md:text-2xl
   `) {{ $t('by_now_you') }}
   div(class=`
     md:flex
@@ -34,7 +36,7 @@ section(class=`
       lg:w-[30%]
       min-h-72
       rounded-2xl
-      w-[30%]
+      md:w-[30%]
     `)
       NuxtImg(
         format="webp"
@@ -45,7 +47,10 @@ section(class=`
         w-12
         my-6
       `)
-      h3 {{ $t('we_care_for') }}
+      h3(class=`
+      font-bold
+      md:text-xl 
+       `) {{ $t('we_care_for') }}
       h3 {{ $t('we_are_all') }} 
         br
         strong  {{ $t('culture_needs') }}
@@ -60,7 +65,7 @@ section(class=`
       lg:w-[30%]
       min-h-72
       rounded-2xl
-      w-[30%]
+      md:w-[30%]
     `)
       NuxtImg(
         src='/img/plane.png' 
@@ -69,7 +74,10 @@ section(class=`
         w-12
         my-6
       `)
-      h3 {{ $t('miles_from_us') }}
+      h3(class=`
+      font-bold
+      md:text-xl 
+       `) {{ $t('miles_from_us') }}
       h3 {{ $t('we_are_just') }}
         br
         |  {{ $t('or_a_single') }}
@@ -84,7 +92,7 @@ section(class=`
       lg:w-[30%]
       min-h-72
       rounded-2xl
-      w-[30%]
+      md:w-[30%]
     `)
       NuxtImg(
         format="webp"
@@ -95,6 +103,9 @@ section(class=`
         w-12
         my-6
       `)
-      h3 {{ $t('proven_results') }}
+      h3(class=`
+      font-bold
+      md:text-xl 
+       `) {{ $t('proven_results') }}
       h3 {{ $t('our_partners_have') }} 
 </template>
