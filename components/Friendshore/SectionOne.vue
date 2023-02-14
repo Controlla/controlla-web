@@ -107,7 +107,8 @@ section(class=`
       text-center
       md:my-20
       font-black
-      text-2xl
+      text-4xl
+      font-semibold
     `) {{ $t(&quot;web_and_mobile&quot;) }}
     div(class=`
       md:flex 

@@ -17,7 +17,7 @@ header(class=`
   flex
   justify-between
   fixed
-  z-20
+  z-40
 `)
   NuxtLink(
     to="/"
