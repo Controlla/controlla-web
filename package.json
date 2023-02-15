@@ -10,7 +10,7 @@
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.4.0",
-    "nuxt": "3.1.2"
+    "nuxt": "3.2.0"
   },
   "dependencies": {
     "@typeform/embed": "^2.8.0"
