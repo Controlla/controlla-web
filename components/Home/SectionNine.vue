@@ -24,6 +24,10 @@ div(class=`
       HomeCarrouselLeanfit
     slide(key='3')
       HomeCarrouselCanoSteel
+    slide(key='4')
+      HomeCarrouselTresOsitas
+    slide(key='5')
+      HomeCarrouselFloat
     template(#addons='')
       navigation
         pagination

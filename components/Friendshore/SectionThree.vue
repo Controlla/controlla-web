@@ -60,14 +60,14 @@ section(class=`
         my-6
         text-3xl
         font-semi-bold
-    `) {{ $t(&quot;still_not_convinced&quot;) }}
+    `) {{ $t('still_not_convinced') }}
     h3(class=`
       text-center
-    `) {{ $t(&quot;maybe_our&quot;) }} 
+    `) {{ $t('maybe_our') }} 
       span(class=`
         text-sky-500 
-      `) {{ $t(&quot;tech_stack&quot;) }}
-      |  {{ $t(&quot;will_help&quot;) }}
+      `) {{ $t('tech_stack') }}
+      |  {{ $t('will_help') }}
   div(class=`
     w-[30%] 
     pl-[10%]

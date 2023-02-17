@@ -10,7 +10,7 @@ section(class=`
   NuxtImg(
     format='webp' 
     loading='lazy' 
-    src='/img/leanfit.png' 
+    src='/img/float.png' 
     alt='' 
     class=`
       hidden
@@ -26,12 +26,12 @@ section(class=`
       overflow-y-hidden
       mx-4
       text-left
-    `) {{ $t('leanfit') }}
+    `) {{ $t('float_title') }}
     h3(class=`
       text-left
       my-6
       mx-4
-    `) {{ $t('personalized_diet') }}
+    `) {{ $t('float_subtitle') }}
     div(class=`
       md:flex 
       my-6
@@ -52,7 +52,7 @@ section(class=`
           text-2xl
           font-bold
           overflow-y-hidden
-        `) 15,200+
+        `) 1,500+
         h4 {{ $t('downloads') }}
       div(class=`
         md:w-48 
@@ -69,7 +69,7 @@ section(class=`
           text-2xl
           font-bold
           overflow-y-hidden
-        `) 35+
+        `) 2
         h4 {{ $t('countries') }}
       div(class=`
         md:w-48 
@@ -86,8 +86,11 @@ section(class=`
           text-2xl
           font-bold
           overflow-y-hidden
-        `) $50,578
-        h4 {{ $t('in_subscriptions') }}
+        `) 2 {{ $t('months') }}
+        h3(class=`
+          font-bold
+        `) /123 hrs
+        h4 {{ $t('duration') }}
     button(class=`
       mx-4
       bg-black

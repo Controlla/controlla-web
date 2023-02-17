@@ -9,11 +9,11 @@ section(class=`
     text-3xl
     text-center
     overflow-y-hidden
-  `) {{ $t(&quot;why&quot;) }} 
+  `) {{ $t('why') }} 
     strong(class=`
       text-sky-500
-    `)  {{ $t(&quot;work&quot;) }}
-    |  {{ $t(&quot;with_us&quot;) }}
+    `)  {{ $t('work') }}
+    |  {{ $t('with_us') }}
   div(class=`
     lg:flex 
     lg:justify-center
@@ -40,10 +40,10 @@ section(class=`
         w-12
         my-6
       `)
-      h3 {{ $t(&quot;fast_projects&quot;) }}
-      h3 {{ $t(&quot;thanks_to&quot;) }} 
+      h3 {{ $t('fast_projects') }}
+      h3 {{ $t('thanks_to') }} 
         br
-        |  {{ $t(&quot;tech_tools&quot;) }}
+        |  {{ $t('tech_tools') }}
     div(class=`
       shadow-lg
       shadow-gray-300
@@ -62,14 +62,14 @@ section(class=`
         w-12
         my-6
       `)
-      h3 {{ $t(&quot;agile_methodology&quot;) }}
-      h3 {{ $t(&quot;timely_delivery&quot;) }} 
+      h3 {{ $t('agile_methodology') }}
+      h3 {{ $t('timely_delivery') }} 
         br
-        |  {{ $t(&quot;at_our_core&quot;) }} 
+        |  {{ $t('at_our_core') }} 
         br
-        |  {{ $t(&quot;continuous_feedback&quot;) }} 
+        |  {{ $t('continuous_feedback') }} 
         br
-        |  {{ $t(&quot;following_scrum&quot;) }}
+        |  {{ $t('following_scrum') }}
     div(class=`
       shadow-lg
       shadow-gray-300
@@ -88,11 +88,11 @@ section(class=`
         w-12
         my-6
       `)
-      h3 {{ $t(&quot;privileged_location&quot;) }}
-      h3 {{ $t(&quot;just_miles&quot;) }} 
+      h3 {{ $t('privileged_location') }}
+      h3 {{ $t('just_miles') }} 
         br
-        |  {{ $t(&quot;flight&quot;) }} 
+        |  {{ $t('flight') }} 
         br
-        |  {{ $t(&quot;timezone&quot;) }} 
+        |  {{ $t('timezone') }} 
         br
 </template>
