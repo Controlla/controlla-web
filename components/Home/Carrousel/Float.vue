@@ -38,7 +38,7 @@ section(class=`
       min-h-40
     `)
       div(class=`
-        md:-48 
+        md:w-48 
         shadow-lg
         shadow-gray-300
         mx-4

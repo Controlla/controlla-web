@@ -1,7 +1,11 @@
 <template lang="pug">
 div(class=`
-  md:flex 
-  md:text-lg
+  px-[5%] 
+  md:px-[10%]
+  md:flex
+  md:text-lg 
+  bg-white
+  overflow-hidden
 `)
   nuxt-img.hidden(
     format='webp' 
@@ -10,9 +14,9 @@ div(class=`
     alt=''
     class=`
       hidden
+      md:inline
       w-[30vw]
       h-[20vw]
-      md:inline 
     `)
   div
     h1(class=`
@@ -97,33 +101,18 @@ div(class=`
       font-semibold
       text-lg
     `) {{ $t('webpage') }} &nearr;
-  div(class=`
+    div(class=`
     flex
     justify-center
-  `)
+    `)
     NuxtImg(
       format='webp' 
       loading='lazy' 
-      src='/img/second_step.png' 
+      src='/img/tres_ositas.png' 
       alt='' 
       class=`
         md:hidden 
         w-[90%] 
         p-[5%]
       `)
-div(class=`
-  flex
-  justify-center
-`)
-  NuxtImg(
-    format='webp' 
-    loading='lazy' 
-    src='/img/second_step.png' 
-    alt='' 
-    class=`
-      md:hidden 
-      w-[90%] 
-      p-[5%]
-    `)
-
 </template>

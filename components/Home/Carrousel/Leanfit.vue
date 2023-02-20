@@ -26,7 +26,7 @@ section(class=`
       overflow-y-hidden
       mx-4
       text-left
-    `) {{ $t('leanfit') }}
+    `) {{ $t('leanfit') }} 
     h3(class=`
       text-left
       my-6
@@ -38,7 +38,7 @@ section(class=`
       min-h-40
     `)
       div(class=`
-        md:-48 
+        md:w-48 
         shadow-lg
         shadow-gray-300
         mx-4

@@ -13,9 +13,10 @@ section(class=`
     src='/img/cano_steel.png'
     alt=''
     class=`
+      hidden
       md:inline
       w-[20vw]
-      h-[25vw] 
+      h-[25vw]
     `)
   div
     h1(class=`
@@ -39,7 +40,7 @@ section(class=`
       `) {{ $t('insights') }}
       ul(class=`
         list-disc
-        grid
+        md:grid
         grid-cols-2
       `)
         li {{ $t('project_overview') }}
@@ -54,7 +55,7 @@ section(class=`
       min-h-40
     `)
       div(class=`
-        min-w-48
+        md:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -71,7 +72,7 @@ section(class=`
         `) 1500+
         h4 {{ $t('downloads') }}
       div(class=`
-        min-w-48
+        md:w-48 
         shadow-lg
         shadow-gray-300
         mx-4

@@ -25,6 +25,7 @@ div(class=`
     h3(class=`
       my-6
       mx-4
+      text-left
     `) {{ $t('custom_software') }} 
       br
     div(class=`
@@ -110,19 +111,5 @@ div(class=`
         w-[90%] 
         p-[5%]
       `)
-div(class=`
-  flex
-  justify-center
-`)
-  NuxtImg(
-    format='webp' 
-    loading='lazy' 
-    src='/img/second_step.png' 
-    alt='' 
-    class=`
-      md:hidden 
-      w-[90%] 
-      p-[5%]
-    `)
 
 </template>
