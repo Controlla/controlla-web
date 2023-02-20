@@ -119,7 +119,7 @@ section(class=`
       `) {{ $t('strategy') }}
       |  {{ $t('behind') }}
     h2(class=`
-      text-lge
+      text-lg
       text-center
       my-6
     `)

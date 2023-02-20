@@ -52,7 +52,7 @@ section(class=`
     h2(class=`
       block
       text-center
-      text-lge
+      text-lg
       my-5 
     `)
       | {{ $t('we_design_and_develop') }} 

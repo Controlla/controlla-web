@@ -53,7 +53,7 @@ section(class=`
     h3(class=`
       md:text-start 
       my-6
-      text-center
+      text-lg
       text-center
     `) {{ $t('tell_us_your') }}
       br

@@ -59,7 +59,7 @@ section(class=`
         text-center
         my-6
         text-3xl
-        font-semi-bold
+        font-semibold
     `) {{ $t('still_not_convinced') }}
     h3(class=`
       text-center
