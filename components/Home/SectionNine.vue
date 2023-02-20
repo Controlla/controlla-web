@@ -1,6 +1,8 @@
 <script setup>
-import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import "vue3-carousel/dist/carousel.css";
+/* eslint-disable */
+import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+/* eslint-enable */
 </script>
 
 <template lang="pug">

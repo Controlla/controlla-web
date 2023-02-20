@@ -1,21 +1,18 @@
 <template lang="pug">
-section(class=`
-  px-[5%]
-  md:px-[10%]
-  md:flex
-  md:text-lg 
-  bg-white
-  overflow-y-hidden
+div(class=`
+  md:flex 
+  md:text-lg
 `)
-  NuxtImg(
-    format='webp'
-    loading='lazy'
-    src='/img/cano_steel.png'
+  nuxt-img.hidden(
+    format='webp' 
+    loading='lazy' 
+    src='/img/tres_ositas.png'
     alt=''
     class=`
-      md:inline
-      w-[20vw]
-      h-[25vw] 
+      hidden
+      w-[30vw]
+      h-[20vw]
+      md:inline 
     `)
   div
     h1(class=`
@@ -24,37 +21,20 @@ section(class=`
       overflow-y-hidden
       mx-4
       text-left
-    `) {{ $t('cano_steel') }}
+    `) {{ $t('tres_ositas_title') }}
     h3(class=`
-      text-left
       my-6
       mx-4
-    `) {{ $t('custom_app') }}
-    div(class=`
       text-left
-      mx-12
-    `)
-      p(class=`
-        font-bold
-      `) {{ $t('insights') }}
-      ul(class=`
-        list-disc
-        grid
-        grid-cols-2
-      `)
-        li {{ $t('project_overview') }}
-        li {{ $t('finances') }}
-        li {{ $t('fabrications') }}
-        li {{ $t('rfi') }}
-        li {{ $t('dashboards') }}
-        li {{ $t('submittals') }}
+    `) {{ $t('tres_ositas_subtitle') }} 
+      br
     div(class=`
       md:flex 
       my-6
       min-h-40
     `)
       div(class=`
-        min-w-48
+        md:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -68,10 +48,10 @@ section(class=`
           text-2xl
           font-bold
           overflow-y-hidden
-        `) 1500+
+        `) 1,500+
         h4 {{ $t('downloads') }}
       div(class=`
-        min-w-48
+        md:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -85,7 +65,7 @@ section(class=`
           text-2xl
           font-bold
           overflow-y-hidden
-        `) 2
+        `)  2
         h4 {{ $t('countries') }}
       div(class=`
         md:w-48 
@@ -102,10 +82,10 @@ section(class=`
           text-2xl
           font-bold
           overflow-y-hidden
-        `) 6 {{ $t('months') }}
+        `)  6 {{ $t('months') }}
         h3(class=`
           font-bold
-        `) 960 hrs
+        `)  /960 hrs
         h4 {{ $t('duration') }}
     button(class=`
       mx-4
@@ -124,11 +104,26 @@ section(class=`
     NuxtImg(
       format='webp' 
       loading='lazy' 
-      src='/img/cano_steel.png' 
+      src='/img/second_step.png' 
       alt='' 
       class=`
-        md:hidden
-        w-[90%]
+        md:hidden 
+        w-[90%] 
         p-[5%]
       `)
+div(class=`
+  flex
+  justify-center
+`)
+  NuxtImg(
+    format='webp' 
+    loading='lazy' 
+    src='/img/second_step.png' 
+    alt='' 
+    class=`
+      md:hidden 
+      w-[90%] 
+      p-[5%]
+    `)
+
 </template>

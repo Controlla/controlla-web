@@ -57,18 +57,18 @@ section(class=`
         overflow-y-hidden
         leading-relaxed
         z-10
-      `) {{ $t(&quot;we_go_beyond&quot;) }}
+      `) {{ $t('we_go_beyond') }}
         span(class=`
           text-sky-500
           font-bold
-        `)  {{ $t(&quot;borders&quot;) }}
+        `)  {{ $t('borders') }}
       h1(class=`
         relative
         my-6
         text-3xl
         overflow-y-hidden
         z-10
-      `) {{ $t(&quot;get_the_best&quot;) }}
+      `) {{ $t('get_the_best') }}
     div(class=`
       flex
       justify-center
@@ -109,7 +109,7 @@ section(class=`
       font-black
       text-4xl
       font-semibold
-    `) {{ $t(&quot;web_and_mobile&quot;) }}
+    `) {{ $t('web_and_mobile') }}
     div(class=`
       md:flex 
       justify-center

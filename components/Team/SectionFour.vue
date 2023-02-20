@@ -18,12 +18,12 @@ section(class=`
       text-center
       text-3xl
       font-bold
-    `) {{ $t(&quot;trusted_partners&quot;) }}
+    `) {{ $t('trusted_partners') }}
     h2(class=`
       w-[90%] 
       text-center
       m-auto
-    `) {{ $t(&quot;some_of_the&quot;) }}
+    `) {{ $t('some_of_the') }}
     div(class=`
       my-12 
       flex

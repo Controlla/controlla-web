@@ -1,6 +1,6 @@
 <template lang="pug">
 section(class=`
-  px-[5%]
+  px-[5%] 
   md:px-[10%]
   md:flex
   md:text-lg 
@@ -8,15 +8,17 @@ section(class=`
   overflow-y-hidden
 `)
   NuxtImg(
-    format='webp'
-    loading='lazy'
-    src='/img/cano_steel.png'
-    alt=''
+    format='webp' 
+    loading='lazy' 
+    src='/img/leanfit.png' 
+    alt='' 
     class=`
+      hidden
       md:inline
       w-[20vw]
-      h-[25vw] 
-    `)
+      h-[25vw]
+    `
+  )
   div
     h1(class=`
       text-3xl
@@ -24,37 +26,19 @@ section(class=`
       overflow-y-hidden
       mx-4
       text-left
-    `) {{ $t('cano_steel') }}
+    `) {{ $t('leanfit') }}
     h3(class=`
       text-left
       my-6
       mx-4
-    `) {{ $t('custom_app') }}
-    div(class=`
-      text-left
-      mx-12
-    `)
-      p(class=`
-        font-bold
-      `) {{ $t('insights') }}
-      ul(class=`
-        list-disc
-        grid
-        grid-cols-2
-      `)
-        li {{ $t('project_overview') }}
-        li {{ $t('finances') }}
-        li {{ $t('fabrications') }}
-        li {{ $t('rfi') }}
-        li {{ $t('dashboards') }}
-        li {{ $t('submittals') }}
+    `) {{ $t('personalized_diet') }}
     div(class=`
       md:flex 
       my-6
       min-h-40
     `)
       div(class=`
-        min-w-48
+        md:-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -68,10 +52,10 @@ section(class=`
           text-2xl
           font-bold
           overflow-y-hidden
-        `) 1500+
+        `) 15,200+
         h4 {{ $t('downloads') }}
       div(class=`
-        min-w-48
+        md:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -85,7 +69,7 @@ section(class=`
           text-2xl
           font-bold
           overflow-y-hidden
-        `) 2
+        `) 35+
         h4 {{ $t('countries') }}
       div(class=`
         md:w-48 
@@ -102,11 +86,8 @@ section(class=`
           text-2xl
           font-bold
           overflow-y-hidden
-        `) 6 {{ $t('months') }}
-        h3(class=`
-          font-bold
-        `) 960 hrs
-        h4 {{ $t('duration') }}
+        `) $50,578
+        h4 {{ $t('in_subscriptions') }}
     button(class=`
       mx-4
       bg-black
@@ -122,13 +103,15 @@ section(class=`
     justify-center
   `)
     NuxtImg(
-      format='webp' 
-      loading='lazy' 
-      src='/img/cano_steel.png' 
-      alt='' 
+      format='webp'
+      loading='lazy'
+      src='/img/leanfit.png'
+      alt=''
       class=`
         md:hidden
         w-[90%]
         p-[5%]
       `)
+
+
 </template>
