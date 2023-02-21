@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import type { Ref } from 'vue'
+import { ref } from "vue";
+import type { Ref } from "vue";
 
-const areMobileLinksVisible: Ref<boolean> = ref(false)
+const areMobileLinksVisible: Ref<boolean> = ref(false);
 
 function toogleMenu(): void {
-  areMobileLinksVisible.value = !areMobileLinksVisible.value
+  areMobileLinksVisible.value = !areMobileLinksVisible.value;
 }
 </script>
 

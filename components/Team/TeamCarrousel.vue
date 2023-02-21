@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
-import { onMounted } from 'vue';
-import type Image from '~/interfaces/Image'
+import "vue3-carousel/dist/carousel.css";
+import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+import { onMounted } from "vue";
+import type Image from "~/interfaces/Image";
 
-const images: Array<Image> = useImages()
-const itemsToShow = ref(2.75)
+const images: Array<Image> = useImages();
+const itemsToShow = ref(2.75);
 onMounted(() => {
-  if(window.innerWidth < 640) itemsToShow.value = 1.3
-})
+  if (window.innerWidth < 640) itemsToShow.value = 1.3;
+});
 </script>
 
 <template lang="pug">

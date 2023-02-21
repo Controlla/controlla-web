@@ -13,7 +13,7 @@ export default class Iubenda {
         ? response.content
         : "<h1>Policy Not Found</h1>";
     } catch (error) {
-        return "<h1>Policy Not Found</h1>";
+      return "<h1>Policy Not Found</h1>";
     }
   }
 }

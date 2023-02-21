@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type Link from '~/interfaces/Link'
+import type Link from "~/interfaces/Link";
 
 const { t } = useI18n();
-const links: Array<Link> = useLinks(t)
+const links: Array<Link> = useLinks(t);
 
 defineProps<{
-    isVisible: boolean
-}>()
+  isVisible: boolean;
+}>();
 </script>
 
 <template lang="pug">

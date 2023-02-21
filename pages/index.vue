@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
-  title: 'Home | Controlla',
-})
+  title: "Home | Controlla",
+});
 </script>
 
 <template lang="pug">
@@ -16,4 +16,3 @@ HomeSectionEight
 HomeSectionNine
 HomeSectionTen
 </template>
-

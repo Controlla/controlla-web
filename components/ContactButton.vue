@@ -4,15 +4,15 @@ import type { EmbedPopup } from "@typeform/embed/types/base";
 
 import "@typeform/embed/build/css/popup.css";
 
-const { toggle } : EmbedPopup = createPopup("BYWHV4");
+const { toggle }: EmbedPopup = createPopup("BYWHV4");
 
 function contact(): void {
   toggle();
 }
 
 defineProps<{
-    isMobile?: boolean
-}>()
+  isMobile?: boolean;
+}>();
 </script>
 
 <template lang="pug">

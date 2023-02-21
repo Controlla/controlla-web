@@ -1,5 +1,5 @@
-import type { ComposerTranslation } from 'vue-i18n'
-import type Link from '~/interfaces/Link'
+import type { ComposerTranslation } from "vue-i18n";
+import type Link from "~/interfaces/Link";
 
 export default function (t: ComposerTranslation): Array<Link> {
   return [

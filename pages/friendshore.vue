@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
-  title: 'Friendshore | Controlla',
-})
+  title: "Friendshore | Controlla",
+});
 </script>
 
 <template lang="pug">

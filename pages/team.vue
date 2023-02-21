@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
-  title: 'Team | Controlla',
-})
+  title: "Team | Controlla",
+});
 </script>
 
 <template lang="pug">
