@@ -19,15 +19,15 @@ div(class=`
   `) {{ $t('success') }} 
   carousel(:items-to-show='1')
     slide(key='1')
-      HomeCarrouselSercom
+      HomeCarrouselSercomErp
     slide(key='2')
-      HomeCarrouselLeanfit
+      HomeCarrouselLeanfitApp
     slide(key='3')
       HomeCarrouselCanoSteel
     slide(key='4')
       HomeCarrouselTresOsitas
     slide(key='5')
-      HomeCarrouselFloat
+      HomeCarrouselFloatApp
     template(#addons='')
       navigation
         pagination
