@@ -64,7 +64,6 @@ section(class=`
       justify-center
     `)
       NuxtImg(
-        loading="lazy"
         src='/img/logo.svg' 
         alt='logo controlla' 
         class=`
@@ -123,7 +122,6 @@ section(class=`
     `)
       NuxtLink(to='https://www.facebook.com/controlla.cuu')
         NuxtImg(
-          loading="lazy"
           src='/img/facebook.svg' 
           alt='logo facebook' 
           class=`
@@ -131,7 +129,6 @@ section(class=`
         `)
       NuxtLink(to='https://www.instagram.com/controlla_technologies/')
         NuxtImg(
-          loading="lazy"
           src='/img/instagram.svg' 
           alt='logo instagram' 
           class=`

@@ -27,7 +27,6 @@ header(class=`
     `
   )
     NuxtImg(
-      loading="lazy"
       src='/img/logo.svg' 
       alt='logo controlla' 
       class=`

@@ -86,7 +86,6 @@ section(class=`
       `) {{ $t('visit_friendshore') }}
     NuxtImg(
       format="webp"
-      loading="lazy"
       src='/img/rocket.png' 
       alt='rocket' 
       class=`

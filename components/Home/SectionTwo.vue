@@ -41,7 +41,6 @@ section(class=`
   `)
     NuxtImg(
       format="webp"
-      loading="lazy"
       src='/img/Luis.png' 
       alt='Luis' 
       class=`

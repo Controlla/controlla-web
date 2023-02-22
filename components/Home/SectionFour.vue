@@ -72,7 +72,6 @@ section(class=`
   NuxtImg(
     src='/img/first_step.png' 
     format="webp"
-    loading="lazy"
     alt='first step' 
     class=`
       hidden
@@ -124,7 +123,6 @@ section(class=`
   NuxtImg(
     src='/img/first_step.png' 
     format="webp"
-    loading="lazy"
     alt='first step' 
     class=`
       w-[90%]

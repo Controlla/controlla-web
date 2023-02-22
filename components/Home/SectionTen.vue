@@ -67,7 +67,6 @@ section(class=`
   `)
     NuxtImg(
       format="web"
-      loading="lazy"
       src='/img/building.png' 
       alt='building' 
       class=`

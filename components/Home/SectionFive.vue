@@ -97,7 +97,6 @@ section(class=`
       |  {{ $t('design') }}
   NuxtImg(
     format="webp"
-    loading="lazy"
     src='/img/second_step.png' 
     alt='second step' 
     class=`

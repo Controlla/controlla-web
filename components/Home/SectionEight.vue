@@ -40,7 +40,6 @@ section(class=`
     `)
       NuxtImg(
         format="webp"
-        loading="lazy"
         src='/img/hug.png' 
         alt='hug' 
         class=`
@@ -96,7 +95,6 @@ section(class=`
     `)
       NuxtImg(
         format="webp"
-        loading="lazy"
         src='/img/board.png' 
         alt='board' 
         class=`

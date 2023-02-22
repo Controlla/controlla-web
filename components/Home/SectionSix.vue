@@ -119,7 +119,6 @@ section(class=`
       |  {{ $t('vue') }}
   NuxtImg(
     format="webp"
-    loading="lazy"
     src='/img/third_step.png' 
     alt='third step' 
     class=`
