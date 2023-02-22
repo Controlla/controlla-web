@@ -32,6 +32,8 @@ section(class=`
       xl:w-[8rem]
       xl:right-[43%]
       xl:top-[12rem]
+      2xl:right-[46%]
+      2xl:top-[17rem]
   `)  
   div(class=`
     md:mt-[25vh]

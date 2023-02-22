@@ -1,6 +1,8 @@
 <script setup>
 import "vue3-carousel/dist/carousel.css";
+/* eslint-disable */
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+/* eslint-enable */
 </script>
 
 <template lang="pug">
@@ -19,15 +21,15 @@ div(class=`
   `) {{ $t('success') }} 
   carousel(:items-to-show='1')
     slide(key='1')
-      HomeCarrouselSercomErp
+      HomeCarrouselSercomSlide
     slide(key='2')
-      HomeCarrouselLeanfitApp
+      HomeCarrouselLeanfitSlide
     slide(key='3')
-      HomeCarrouselCanoSteel
+      HomeCarrouselCanoSteelSlide
     slide(key='4')
-      HomeCarrouselTresOsitas
+      HomeCarrouselTresOsitasSlide
     slide(key='5')
-      HomeCarrouselFloatApp
+      HomeCarrouselFloatSlide
     template(#addons='')
       navigation
         pagination
