@@ -13,7 +13,6 @@ div(class=`
   h2(class=`
     text-3xl
     text-center
-    overflow-y-hidden
     font-semibold
     mb-20
   `) {{ $t('success') }} 

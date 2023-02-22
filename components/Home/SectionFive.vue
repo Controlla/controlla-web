@@ -4,7 +4,6 @@ section(class=`
   w-screen
   relative
   justify-center
-  overflow-hidden
   md:flex pt-[12%] 
   pb-20
 `)

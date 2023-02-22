@@ -9,7 +9,6 @@ section(class=`
   bg-white
   w-screen
   relative
-  overflow-hidden
   pb-20
 `)
   NuxtImg(
@@ -100,7 +99,6 @@ section(class=`
       my-6
       text-2xl
       font-semibold
-      overflow-hidden
       md:text-4xl 
     `) {{ $t('ideation_and_evaluation') }}
     h2(class=`
