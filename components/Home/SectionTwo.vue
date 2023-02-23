@@ -5,6 +5,7 @@ section(class=`
   lg:px-[25%] 
   bg-white
   w-screen
+  overflow-hidden
   mb-20
   md:mt-10
 `)
@@ -17,7 +18,7 @@ section(class=`
     text-center
     text-xl
     font-medium
-
+    overflow-hidden
     leading-loose
   `)
     | {{ $t('we_partner_up') }} 

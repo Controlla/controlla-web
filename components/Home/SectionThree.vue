@@ -3,12 +3,14 @@ section(class=`
   bg-white
   w-screen
   relative
+  overflow-hidden
 `)
   div(class=`
     h-[50%] 
     px-[5%] 
     w-screen
     relative
+    overflow-hidden
     py-6
     justify-center
     sm:flex 

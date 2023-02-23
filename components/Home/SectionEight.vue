@@ -4,6 +4,7 @@ section(class=`
   w-screen
   px-6
   py-24
+  overflow-hidden
   md:px-[20vw]
   md:text-lg
 `)
