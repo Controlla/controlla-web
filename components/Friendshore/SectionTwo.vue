@@ -1,21 +1,22 @@
 <template lang="pug">
 section(class=`
-  px-[20vw] 
+  px-[20vw]
   bg-white
   w-screen
   py-24
+  text-lg
 `)
   h3(class=`
     text-3xl
     text-center
     overflow-y-hidden
-  `) {{ $t('why') }} 
+  `) {{ $t('why') }}
     strong(class=`
       text-sky-500
     `)  {{ $t('work') }}
     |  {{ $t('with_us') }}
   div(class=`
-    lg:flex 
+    lg:flex
     lg:justify-center
     my-6
     min-h-80
@@ -28,80 +29,79 @@ section(class=`
       mx-4
       px-6
       py-6
+      w-[90%]
+      lg:w-[30%]
       min-h-72
       rounded-2xl
+      mb-12
+      lg:mb-0
     `)
       NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/hourglass.svg' 
-        alt='hourglass' 
+        format='webp'
+        loading='lazy'
+        src='/img/hourglass.svg'
+        alt='hourglass'
         class=`
         w-12
         my-6
       `)
       h3(class=`
-      text-lg
+      text-xl
       font-bold
     `) {{ $t('fast_projects') }}
-      h3 {{ $t('thanks_to') }} 
-        br
-        |  {{ $t('tech_tools') }}
+      h3 {{ $t('thanks_to') }}
     div(class=`
       shadow-lg
       shadow-gray-300
       mx-4
       px-6
       py-6
+      w-[90%]
+      lg:w-[30%]
       min-h-72
       rounded-2xl
+      mb-12
+      lg:mb-0
     `)
       NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/calendar.svg' 
-        alt='hug' 
+        format='webp'
+        loading='lazy'
+        src='/img/calendar.svg'
+        alt='hug'
         class=`
         w-12
         my-6
       `)
       h3(class=`
-      text-lg
+      text-xl
       font-bold
     `)  {{ $t('agile_methodology') }}
-      h3 {{ $t('timely_delivery') }} 
-        br
-        |  {{ $t('at_our_core') }} 
-        br
-        |  {{ $t('continuous_feedback') }} 
-        br
-        |  {{ $t('following_scrum') }}
+      h3 {{ $t('timely_delivery') }}
     div(class=`
       shadow-lg
       shadow-gray-300
       mx-4
       px-6
       py-6
+      w-[90%]
+      lg:w-[30%]
       min-h-72
       rounded-2xl
     `)
       NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/plane.png' 
-        alt='hug' 
+        format='webp'
+        loading='lazy'
+        src='/img/plane.png'
+        alt='hug'
         class=`
         w-12
         my-6
       `)
       h3(class=`
-      text-lg
+      text-xl
       font-bold
     `)  {{ $t('privileged_location') }}
-      h3 {{ $t('just_miles') }} 
+      h3 {{ $t('just_miles') }}
         br
-        |  {{ $t('flight') }} 
-        br
-        |  {{ $t('timezone') }} 
-        br
+        |  {{ $t('timezone') }}
 </template>

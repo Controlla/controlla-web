@@ -1,94 +1,104 @@
 <template lang="pug">
 section(class=`
+    sm:px-[5%]
+    md:text-left
     w-screen
-    justify-center
-    bg-white
+    min-h-screen
+    bg-purple-50
     relative
-    py-24
-    px-6
+    pt-40
     overflow-hidden
-    md:flex 
-    md:px-0 
-    md:pt-40
 `)
     div(class=`
-        w-[25rem] 
-        h-[25rem] 
-        left-[12%] 
-        top-[15%] 
-        blur-[11rem] 
+        w-[25rem]
+        h-[25rem]
+        left-[12%]
+        top-[15%]
+        blur-[11rem]
         rounded-full
         bg-violet-300
         absolute
         z-0
     `)
     div(class=`
-        w-[25rem] 
-        h-[5rem] 
+        w-[25rem]
+        h-[25rem]
         left-[40%]
         top-[25%]
-        blur-[11rem] 
-        rounded-full.bg-blue-300.absolute.z-0
+        blur-[11rem]
+        rounded-full
+        bg-sky-100
+        absolute
+        z-0
     `)
     div(class=`
-        w-[25rem] 
+        w-[25rem]
         h-[25rem]
         left-[70%]
         top-[15%]
-        blur-[11rem] 
+        blur-[11rem]
         rounded-full
         bg-violet-300
         absolute
         z-0
     `)
     div(class=`
-        md:mt-[15%] 
-        lg:mt-[8%]
+        justify-center
+        relative
+        m-auto
+        md:flex w-[90%]
     `)
-        h3(class=`
-            md:text-4xl
-            lg:text-5xl 
-            text-5xl
-            my-6
+        div
+            h3(class=`
+            text-4xl
+            lg:text-5xl
+            md:mt-[30%]
             overflow-y-hidden
             relative
+            text-center
+            md:text-start
+            z-10
         `) {{ $t('meet_the_team') }}
-        h1(class=`
-            md:text-4xl
-            lg:text-5xl 
+            h1(class=`
+            text-4xl
+            lg:text-5xl
             text-sky-500
-            my-6
-            text-5xl
+            mt-2
+            mb-6
             font-bold
             overflow-y-hidden
             relative
+            text-center
+            md:text-start
         `) {{ $t('problem_solvers') }}
-    div(class=`
-        relative
-        pt-20
+        div(class=`
+            relative
+            z-10
+            flex
+            justify-center
     `)
-        nuxt-img(
-            format='webp' 
-            loading='lazy' 
-            src='/img/us_lines.svg' 
-            alt='home background' 
+            NuxtImg(
+            format='webp'
+            loading='lazy'
+            src='/img/us_lines.svg'
+            alt='home background'
             class=`
-
-                w-[90%] 
-                md:w-[45vw] 
+                w-[90%]
+                md:w-[50vw]
                 relative
-                z-10
+                z-30
+                pb-44
+                md:pb-22
+                md:pl-[10%]
             `)
-    div(class=`
-        sm:visible 
-        w-[200%] 
-        h-[200%]
-        top-[80%]
-        left-[-50%]
-        bg-white
-        absolute
-        overflow-x-hidden
-        rounded-t-[100%]
-    `)
-
+        div(class=`
+            w-[200%]
+            h-[200%]
+            top-[80%]
+            left-[-50%]
+            bg-white
+            absolute
+            overflow-x-hidden
+            rounded-t-[100%]
+        `)
 </template>

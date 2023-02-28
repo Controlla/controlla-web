@@ -8,6 +8,9 @@ section(class=`
   overflow-hidden
   md:flex 
   pb-20
+  text-base
+  lg:text-xl
+  2xl:text-2xl
 `)
   NuxtImg(
     src="/img/line3_mobile.svg" 
@@ -63,29 +66,24 @@ section(class=`
     md:w-[25vw] 
   `)
     span(class=`
-      md:text-xl 
+      md:text-sm 
       my-6
       text-sky-500
       text-xs
     `) {{ $t('fourth') }}
     h2(class=`
-      md:text-4xl 
+      md:text-3xl 
       my-6
-      text-2xl
+      text-xl
       font-semibold
       overflow-y-hidden
     `) {{ $t('qa_test_and_launch') }}
-    h2(class=`
-      md:text-2xl 
+    h2(class=` 
       my-6
-      text-base
     `) {{ $t('quality_stands') }} 
       strong {{ $t('preventing_error') }} 
       |  {{ $t('delivering_secure') }}
-    span(class=`
-      md:text-2xl
-      text-base
-    `) {{ $t('audit') }} 
+    span {{ $t('audit') }} 
       br
       |         {{ $t('automate') }} 
       br

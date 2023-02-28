@@ -8,8 +8,8 @@ section(class=`
   `)
     TeamSuccessCounters
   div(class=`
-    min-h-[50%] 
-    md:pt-12 
+    min-h-[50%]
+    md:pt-12
     w-screen
     overflow-y-hidden
     mb-10
@@ -20,36 +20,38 @@ section(class=`
       font-bold
     `) {{ $t('trusted_partners') }}
     h2(class=`
-      w-[90%] 
+      w-[90%]
       text-center
+      text-lg
       m-auto
+      py-5
     `) {{ $t('some_of_the') }}
     div(class=`
-      my-12 
+      my-12
       flex
       justify-center
     `)
       NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/trusted_partners_desktop.svg' 
-        alt='trusted partners' 
+        format='webp'
+        loading='lazy'
+        src='/img/trusted_partners_desktop.svg'
+        alt='trusted partners'
         class=`
-          w-[90%] 
-          md:w-[80%] 
-          max-w-[70rem] 
+          w-[90%]
+          md:w-[80%]
+          max-w-[70rem]
           hidden
-          md:inline 
+          md:inline
       `)
       NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/trusted_partners.svg' 
-        alt='trusted partners' 
+        format='webp'
+        loading='lazy'
+        src='/img/trusted_partners.svg'
+        alt='trusted partners'
         class=`
-          w-[90%] 
-          md:w-[80%] 
+          w-[90%]
+          md:w-[80%]
           md:hidden
-          lg:w-[20%] 
+          lg:w-[20%]
         `)
 </template>

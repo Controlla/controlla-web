@@ -11,6 +11,9 @@ section(class=`
   relative
   overflow-hidden
   pb-20
+  text-base
+  lg:text-xl
+  2xl:text-2xl
 `)
   NuxtImg(
     src="/img/line1_mobile.svg" 
@@ -94,26 +97,22 @@ section(class=`
       my-6
       text-sky-500
       text-xs
-      md:text-xl 
+      md:text-sm 
     `) {{ $t('first') }}
     h2(class=`
       my-6
       text-2xl
       font-semibold
       overflow-hidden
-      md:text-4xl 
+      md:text-3xl 
     `) {{ $t('ideation_and_evaluation') }}
     h2(class=`
       my-6
-      text-base
-      md:text-2xl 
     `) {{ $t('first_we') }} 
       |
       strong {{ $t('research_ideate') }} 
       |         {{ $t('your_product_features') }}
     span(class=`
-      text-base
-      md:text-2xl 
       marker:text-sky-400
     `) {{ $t('discovery') }} 
       br

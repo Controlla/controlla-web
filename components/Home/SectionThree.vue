@@ -6,75 +6,83 @@ section(class=`
   overflow-hidden
 `)
   div(class=`
-    h-[50%] 
-    px-[5%] 
+    h-[50%]
     w-screen
     relative
     overflow-hidden
-    py-6
     justify-center
-    sm:flex 
-    lg:px-[10%] 
-    lg:py-24 
-  `)
+    sm:flex
+    px-[10%]
+    sm:px-[5%]
+    md:px-[10%]
+    py-16
+    lg:py-24  `)
     div(class=`
-      w-[25rem] 
-      h-[25rem] 
-      left-[6%] 
-      top-[15%] 
-      blur-[11rem] 
+      w-[25rem]
+      h-[25rem]
+      left-[6%]
+      top-[15%]
+      blur-[11rem]
       rounded-full
       bg-violet-300
       absolute
       z-0
     `)
     div(class=`
-      w-[25rem] 
-      h-[25rem] 
-      left-[40%] 
-      top-[-10%] 
-      blur-[11rem] 
+      w-[25rem]
+      h-[25rem]
+      left-[40%]
+      top-[-10%]
+      blur-[11rem]
       rounded-full
       bg-blue-300
       absolute
       z-0
     `)
     div(class=`
-      w-[25rem] 
-      h-[25rem] 
-      left-[75%] 
-      top-[15%] 
-      blur-[11rem] 
+      w-[25rem]
+      h-[25rem]
+      left-[75%]
+      top-[15%]
+      blur-[11rem]
       rounded-full
       bg-violet-300
       absolute
       z-0
     `)
     div(class=`
-      mr-[10%] 
+      sm:mr-[10%]
       z-10
       overflow-y-hidden
       relative
     `)
       h2(class=`
-        leading-[3rem] 
-        lg:my-6 
-        text-2xl
+        leading-[3rem]
+        lg:my-6
+        text-3xl
         leading-normal
         overflow-y-hidden
-        lg:text-4xl 
+        lg:text-4xl
+        text-center
+        sm:text-start
       `)
-        | {{ $t('we_go_beyond') }} 
+        | {{ $t('we_go_beyond') }}
         strong {{ $t('borders') }}
       h2(class=`
-        text-xs
+        text-lg
         overflow-y-hidden
-        lg:text-2xl 
-        lg:my-6 
+        lg:text-2xl
+        lg:my-6
+        text-center
+        sm:text-start
       `) {{ $t('discover_why') }}
-      NuxtLink(to='/friendshore' class=`
+      div(class=`
+      flex
+      justify-center
+      sm:justify-start`)
+        NuxtLink(to='/friendshore' class=`
         inline-block
-        lg:text-lg 
+        lg:text-lg
         my-6
         bg-black
         text-white
@@ -82,36 +90,38 @@ section(class=`
         p-3
         px-7
         font-semibold
-        text-sm
-      `) {{ $t('visit_friendshore') }}
-    NuxtImg(
+        text-lg      `) {{ $t('visit_friendshore') }}
+    div(class=`
+      flex
+      justify-center
+      sm:block`)
+      NuxtImg(
       format="webp"
-      src='/img/rocket.png' 
-      alt='rocket' 
+      src='/img/rocket.png'
+      alt='rocket'
       class=`
         max-w-[20rem]
-        w-[90%] 
-        mt-[1%] 
+        w-[90%]
+        mt-[1%]
         z-10
         relative
-        sm:w-[50%] 
+        sm:w-[100%]
     `)
   div(class=`
-    w-[90%] 
+    w-[90%]
     mx-auto
-    lg:py-24 
+    lg:py-24
     my-20
-    relative
   `)
     h1(class=`
-      lg:text-3xl 
+      lg:text-3xl
       text-2xl
       text-center
       my-1
       font-semibold
       overflow-y-hidden
     `)
-      | {{ $t('the_key_to') }} 
+      | {{ $t('the_key_to') }}
       br
       span(class=`
         text-sky-500
@@ -119,10 +129,11 @@ section(class=`
       |  {{ $t('behind') }}
     h2(class=`
       text-lg
+      lg:text-xl
       text-center
       my-6
     `)
-      | {{ $t('more_than') }} 
+      | {{ $t('more_than') }}
       strong {{ $t('development_and_strategic') }}
       br
       |  {{ $t('with_necessary_expertise') }}
@@ -133,7 +144,7 @@ section(class=`
       class=`
       absolute
       right-[49.5%] 
-      bottom-[-17rem]
+      bottom-[-12rem]
       sm:hidden
       `)
     NuxtImg(
@@ -142,11 +153,12 @@ section(class=`
       class=`
       hidden 
       w-[18rem] 
-      absolute 
-      bottom-[-12rem]
+      absolute
+      sm:bottom-[-8rem]
+      lg:bottom-[-2rem]
       right-[49.5%] 
       mt-[1rem] 
       sm:inline 
       xl:w-[30rem]
-      xl:bottom-[-15rem]`)
+      xl:bottom-[-10rem]`)
 </template>

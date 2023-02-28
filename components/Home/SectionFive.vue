@@ -7,6 +7,9 @@ section(class=`
   overflow-hidden
   md:flex pt-[12%] 
   pb-20
+  text-base
+  lg:text-xl
+  2xl:text-2xl
 `)
   NuxtImg(
     src="/img/line2.svg" 
@@ -71,26 +74,21 @@ section(class=`
       my-6
       text-sky-500
       text-xs
-      md:text-xl 
+      md:text-sm 
     `) {{ $t('second') }}
     h2(class=`
       my-6
       text-2xl
       font-semibold
       overflow-y-hidden
-      md:text-4xl 
+      lg:text-3xl 
     `) {{ $t('product_design') }}
     h2(class=`
-      my-6
-      text-base
-      md:text-2xl 
+      my-6 
     `) {{ $t('our_products') }}
       strong {{ $t('aesthetically_pleasing') }} 
       | {{ $t('we_believe') }}
-    span(class=`
-      text-base
-      md:text-2xl 
-    `) {{ $t('architecture') }} 
+    span {{ $t('architecture') }} 
       br
       |  {{ $t('sketching') }}
       br

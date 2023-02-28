@@ -36,7 +36,11 @@ section(class=`
       2xl:top-[17rem]
   `)  
   div(class=`
-    md:mt-[25vh]
+      md:mt-[12vh]
+      xl:mt-[18vh]
+      2xl:mt-[22vh]
+      md:pr-2
+      lg:pr-16
   `)
     h3(class=`
       md:text-start 

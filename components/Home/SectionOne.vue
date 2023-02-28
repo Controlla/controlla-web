@@ -1,72 +1,72 @@
 <template lang="pug">
 section(class=`
   w-screen
-  overflow-x-hidden
-  overflow-y-hidden
+  h-screen
+  overflow-hidden
   bg-gradient-to-b
   from-white
   via-blue-200
   to-blue-200
-  pt-40
+  py-32
   relative
 `)
   div(class=`
     w-screen
     relative
     z-10
+    px-20
   `)
     h1(class=`
       block
       text-center
       my-1
-      text-2xl
-      sm:text-3xl 
-      sm:h-[3rem] 
-      md:text-4xl 
-      md:h-[3rem] 
-      lg:text-4xl 
-      lg:h-[3rem] 
-      xl:text-4xl 
-      xl:h-[3rem] 
-      2xl:text-5xl 
-      2xl:h-[4rem] 
+      text-3xl
+      sm:h-[3rem]
+      md:text-4xl
+      md:h-[3rem]
+      lg:text-4xl
+      lg:h-[3rem]
+      xl:text-4xl
+      xl:h-[3rem]
+      2xl:text-5xl
+      2xl:h-[4rem]
     `) {{ $t('transform_your_company') }}
     h1(class=`
       block
       text-center
-      text-2xl
+      text-3xl
       text-sky-500
       font-semibold
       my-1
-      sm:h-[3rem] 
-      sm:text-3xl 
-      md:text-4xl 
-      md:h-[3rem] 
-      lg:text-4xl 
-      lg:h-[3rem] 
-      xl:text-4xl 
-      xl:h-[3rem] 
-      2xl:h-[4rem] 
-      2xl:text-5xl 
+      sm:h-[3rem]
+      md:text-4xl
+      md:h-[3rem]
+      lg:text-4xl
+      lg:h-[3rem]
+      xl:text-4xl
+      xl:h-[3rem]
+      2xl:h-[4rem]
+      2xl:text-5xl
     `)  {{ $t('with_world_class') }}
     h2(class=`
       block
       text-center
       text-lg
-      my-5 
+      lg:text-xl
+      my-5
     `)
-      | {{ $t('we_design_and_develop') }} 
+      | {{ $t('we_design_and_develop') }}
       strong {{ $t('high_quality') }}
-      |  {{ $t('digital_solutions') }} 
+      |  {{ $t('digital_solutions') }}
       br
-      |      {{ $t('methodic') }} 
+      |      {{ $t('methodic') }}
       strong {{ $t('strategy') }}
       |  {{ $t('through_trusted') }}
       strong {{ $t('alliances') }}
     ContactButton
   div(class=`
-    sm:visible 
-    w-[200%] 
+    sm:visible
+    w-[200%]
     h-[200%]
     top-[80%]
     left-[-50%]
@@ -76,16 +76,16 @@ section(class=`
     rounded-t-[100%]
   `)
   div(class=`
-    mt-[1%] 
+    mt-[1%]
     relative
     w-screen
     flex
     justify-center
   `)
     NuxtImg(src='/img/home_background.png' format="webp" alt='home background' class=`
-      w-[90%] 
-      md:w-[70%] 
-      lg:w-[65%] 
+      w-[90%]
+      md:w-[70%]
+      lg:w-[65%]
       xl:w-[40%]
     `)
 </template>

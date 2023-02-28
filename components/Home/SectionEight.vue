@@ -6,23 +6,23 @@ section(class=`
   py-24
   overflow-hidden
   md:px-[20vw]
-  md:text-lg
+  text-lg
 `)
   h3(class=`
     text-3xl
     text-center
     overflow-y-hidden
-  `) {{ $t('why') }} 
+  `) {{ $t('why') }}
     strong.text-sky-500  {{ $t('choose') }}
     |  {{ $t('us') }}
   h3(class=`
     text-center
     my-6
-    md:text-2xl
+    lg:text-xl
   `) {{ $t('by_now_you') }}
   div(class=`
-    md:flex
-    md:justify-around
+    lg:flex
+    lg:justify-around
     my-6
     py-6
     min-h-80
@@ -33,27 +33,27 @@ section(class=`
       mx-4
       px-6
       py-6
-      w-[90%]
       lg:w-[30%]
       min-h-72
       rounded-2xl
+      mb-12
+      lg:mb-0
     `)
       NuxtImg(
         format="webp"
-        src='/img/hug.png' 
-        alt='hug' 
+        loading="lazy"
+        src='/img/hug.png'
+        alt='hug'
         class=`
         w-12
         my-6
       `)
       h3(class=`
       font-bold
-      md:text-xl 
+      text-xl
        `) {{ $t('we_care_for') }}
-      h3 {{ $t('we_are_all') }} 
-        br
+      h3 {{ $t('we_are_all') }}
         strong  {{ $t('culture_needs') }}
-        br
         |           {{ $t('we_cherish') }}
     div(class=`
       shadow-lg
@@ -61,49 +61,48 @@ section(class=`
       mx-4
       px-6
       py-6
-      w-[90%]
       lg:w-[30%]
       min-h-72
       rounded-2xl
+      mb-12
+      lg:mb-0
     `)
       NuxtImg(
-        src='/img/plane.png' 
-        alt='hug' 
+        src='/img/plane.png'
+        alt='hug'
         class=`
         w-12
         my-6
       `)
       h3(class=`
       font-bold
-      md:text-xl 
+      text-xl
        `) {{ $t('miles_from_us') }}
       h3 {{ $t('we_are_just') }}
-        br
-        |  {{ $t('or_a_single') }}
         strong  {{ $t('distance_and_language') }}
-        br
     div(class=`
       shadow-lg
       shadow-gray-300
       mx-4
       px-6
       py-6
-      w-[90%]
       lg:w-[30%]
       min-h-72
       rounded-2xl
+      mb-12
+      lg:mb-0
     `)
       NuxtImg(
         format="webp"
-        src='/img/board.png' 
-        alt='board' 
+        src='/img/board.png'
+        alt='board'
         class=`
         w-12
         my-6
       `)
       h3(class=`
       font-bold
-      md:text-xl 
+      text-xl
        `) {{ $t('proven_results') }}
-      h3 {{ $t('our_partners_have') }} 
+      h3 {{ $t('our_partners_have') }}
 </template>
