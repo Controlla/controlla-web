@@ -8,13 +8,14 @@ section(class=`
   overflow-hidden
   mb-20
   md:mt-10
+  max-w-screen-xl
 `)
   h2(class=`
     lg:text-4xl 
     md:text-3xl 
     sm:text-2xl 
     lg:leading-relaxed 
-    w-full.
+    w-full
     text-center
     text-xl
     font-medium

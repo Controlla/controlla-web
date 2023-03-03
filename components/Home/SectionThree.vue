@@ -4,6 +4,7 @@ section(class=`
   w-screen
   relative
   overflow-hidden
+  max-w-screen-xl
 `)
   div(class=`
     h-[50%]
@@ -15,6 +16,7 @@ section(class=`
     px-[10%]
     sm:px-[5%]
     md:px-[10%]
+    2xl:px-0
     py-16
     lg:py-24  `)
     div(class=`
@@ -52,6 +54,7 @@ section(class=`
     `)
     div(class=`
       sm:mr-[10%]
+      xl:mr-0
       z-10
       overflow-y-hidden
       relative
@@ -90,11 +93,13 @@ section(class=`
         p-3
         px-7
         font-semibold
-        text-lg      `) {{ $t('visit_friendshore') }}
+        text-lg`) {{ $t('visit_friendshore') }}
     div(class=`
       flex
       justify-center
-      sm:block`)
+      sm:block
+      2xl:mr-[30%]
+      `)
       NuxtImg(
       format="webp"
       src='/img/rocket.png'
@@ -109,9 +114,9 @@ section(class=`
     `)
   div(class=`
     w-[90%]
-    mx-auto
     lg:py-24
     my-20
+    mx-auto
   `)
     h1(class=`
       lg:text-3xl

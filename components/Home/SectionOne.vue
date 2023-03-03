@@ -9,9 +9,9 @@ section(class=`
   to-blue-200
   py-32
   relative
+  max-w-screen-xl
 `)
   div(class=`
-    w-screen
     relative
     z-10
     px-20
@@ -78,14 +78,11 @@ section(class=`
   div(class=`
     mt-[1%]
     relative
-    w-screen
     flex
     justify-center
   `)
     NuxtImg(src='/img/home_background.png' format="webp" alt='home background' class=`
       w-[90%]
       md:w-[70%]
-      lg:w-[65%]
-      xl:w-[40%]
     `)
 </template>

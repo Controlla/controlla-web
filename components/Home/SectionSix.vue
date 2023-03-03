@@ -11,6 +11,7 @@ section(class=`
   text-base
   lg:text-xl
   2xl:text-2xl
+  max-w-screen-xl
 `)
   NuxtImg(
     src="/img/line3_mobile.svg" 
@@ -81,11 +82,14 @@ section(class=`
     h-[28vw] 
     hidden
     z-10
-    md:inline 
+    md:inline
+    2xl:w-[34vw]
+    2xl:h-[23vw]
   `)
   div(class=`
     px-[5%] 
     md:px-0 
+    xl:px-[5%]
     md:w-[42vw] 
     z-10
     relative
@@ -124,7 +128,7 @@ section(class=`
     px-[5%] 
     z-10
     relative
-    md:hidden 
+    md:hidden
   `)
   NuxtImg(
     src="/img/line3_mobile.svg" 

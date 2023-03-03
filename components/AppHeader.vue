@@ -20,6 +20,7 @@ header(class=`
   justify-between
   fixed
   z-40
+  max-w-screen-xl
 `)
   NuxtLink(
     to="/"

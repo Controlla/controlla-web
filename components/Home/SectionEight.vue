@@ -7,6 +7,7 @@ section(class=`
   overflow-hidden
   md:px-[20vw]
   text-lg
+  max-w-screen-xl
 `)
   h3(class=`
     text-3xl
@@ -23,6 +24,7 @@ section(class=`
   div(class=`
     lg:flex
     lg:justify-around
+    2xl:contents
     my-6
     py-6
     min-h-80
@@ -34,6 +36,7 @@ section(class=`
       px-6
       py-6
       lg:w-[30%]
+      2xl:w-[100%]
       min-h-72
       rounded-2xl
       mb-12
@@ -66,6 +69,7 @@ section(class=`
       rounded-2xl
       mb-12
       lg:mb-0
+      2xl:w-[100%]
     `)
       NuxtImg(
         src='/img/plane.png'
@@ -91,6 +95,7 @@ section(class=`
       rounded-2xl
       mb-12
       lg:mb-0
+      2xl:w-[100%]
     `)
       NuxtImg(
         format="webp"

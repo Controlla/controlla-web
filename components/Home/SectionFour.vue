@@ -1,5 +1,6 @@
 <template lang="pug">
 section(class=`
+  max-w-screen-xl
   flex
   flex-col
   flex-col-reverse
@@ -85,6 +86,8 @@ section(class=`
       md:inline
       md:w-[36vw] 
       md:h-[25vw] 
+      2xl:w-[34vw]
+      2xl:h-[23vw]
   `)
   div(class=`
     px-[5%] 
@@ -143,12 +146,12 @@ section(class=`
     z-30 
     md:inline 
     md:w-[35rem] 
-    md:bottom-[-8rem]
+    md:bottom-[-12rem]
     md:right-[15%]
     lg:right-[25%]
-    lg:bottom-[-10rem]
+    lg:bottom-[-16rem]
     xl:w-[40rem] 
-    xl:bottom-[-15rem]
+    xl:bottom-[-18rem]
     xl:right-[38%]
   `)    
 </template>

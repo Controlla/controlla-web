@@ -11,6 +11,7 @@ section(class=`
   text-base
   lg:text-xl
   2xl:text-2xl
+  max-w-screen-xl
 `)
   NuxtImg(
     src="/img/line3_mobile.svg" 
@@ -63,7 +64,7 @@ section(class=`
     relative
     z-10
     md:px-0
-    md:w-[25vw] 
+    md:w-[30vw] 
   `)
     span(class=`
       md:text-sm 
@@ -91,6 +92,7 @@ section(class=`
   div(class=`
     flex
     justify-center
+    px-16
   `)
     NuxtImg(
       src='/img/fourth_step.png' 
@@ -101,5 +103,7 @@ section(class=`
       md:h-[35vw] 
       relative
       z-10
+      2xl:w-[17vw]
+      2xl:h-[27vw]
     `)
 </template>
