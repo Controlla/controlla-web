@@ -1,20 +1,22 @@
 <template lang="pug">
 section(class=`
-  px-[5%]
+  px-[5%] 
   md:px-[10%]
-  md:flex
+  lg:px-0
+  lg:flex
   md:text-lg 
-  bg-white
-  overflow-y-hidden
+  h-[95%]
+  lg:h-[100%]
+  pt-8
+  lg:pt-16
 `)
   NuxtImg(
     format='webp'
-    loading='lazy'
     src='/img/cano_steel.png'
     alt=''
     class=`
       hidden
-      md:inline
+      lg:inline
       w-[20vw]
       h-[25vw]
     `)
@@ -64,6 +66,8 @@ section(class=`
         h-36
         rounded-2xl
         overflow-y-hidden
+        mb-6
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -81,6 +85,8 @@ section(class=`
         h-36
         rounded-2xl
         overflow-y-hidden
+        mb-6
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -98,6 +104,8 @@ section(class=`
         h-36
         rounded-2xl
         overflow-y-hidden
+        mb-6
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -124,12 +132,11 @@ section(class=`
   `)
     NuxtImg(
       format='webp' 
-      loading='lazy' 
       src='/img/cano_steel.png' 
       alt='' 
       class=`
-        md:hidden
-        w-[90%]
+        lg:hidden
+        w-[70%]
         p-[5%]
       `)
 </template>

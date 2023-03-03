@@ -1,18 +1,23 @@
 <template lang="pug">
 div(class=`
-  md:flex 
-  md:text-lg
+  px-[5%] 
+  md:px-[15%]
+  lg:px-0
+  lg:flex
+  md:text-lg 
+  h-[90%]
+  lg:h-[100%]
+  lg:pt-16
 `)
   nuxt-img.hidden(
     format='webp' 
-    loading='lazy' 
     src='/img/second_step.png'
     alt=''
     class=`
       hidden
-      w-[30vw]
-      h-[20vw]
-      md:inline 
+      w-[25vw]
+      h-[18vw]
+      lg:inline 
     `)
   div
     h1(class=`
@@ -43,6 +48,8 @@ div(class=`
         h-36
         rounded-2xl
         overflow-y-hidden
+        mb-6
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -60,6 +67,8 @@ div(class=`
         h-36
         rounded-2xl
         overflow-y-hidden
+        mb-6
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -80,6 +89,8 @@ div(class=`
         h-36
         rounded-2xl
         overflow-y-hidden
+        mb-6
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -103,12 +114,11 @@ div(class=`
   `)
     NuxtImg(
       format='webp' 
-      loading='lazy' 
       src='/img/second_step.png' 
       alt='' 
       class=`
-        md:hidden 
-        w-[90%] 
+        lg:hidden 
+        md:w-[70%] 
         p-[5%]
       `)
 
