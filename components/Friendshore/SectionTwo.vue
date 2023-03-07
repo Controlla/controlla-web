@@ -1,10 +1,12 @@
 <template lang="pug">
 section(class=`
-  px-[20vw]
+  px-6
   bg-white
   w-screen
   py-24
   text-lg
+  max-w-screen-xl
+  sm:px-[20%]
 `)
   h3(class=`
     text-3xl
@@ -16,12 +18,11 @@ section(class=`
     `)  {{ $t('work') }}
     |  {{ $t('with_us') }}
   div(class=`
-    lg:flex
-    lg:justify-center
+   lg:flex
+    lg:justify-around
     my-6
-    min-h-80
-    overflow-y-hidden
     py-6
+    min-h-80
   `)
     div(class=`
       shadow-lg
@@ -29,7 +30,6 @@ section(class=`
       mx-4
       px-6
       py-6
-      w-[90%]
       lg:w-[30%]
       min-h-72
       rounded-2xl
@@ -56,7 +56,6 @@ section(class=`
       mx-4
       px-6
       py-6
-      w-[90%]
       lg:w-[30%]
       min-h-72
       rounded-2xl
@@ -83,10 +82,11 @@ section(class=`
       mx-4
       px-6
       py-6
-      w-[90%]
       lg:w-[30%]
       min-h-72
       rounded-2xl
+      mb-12
+      lg:mb-0
     `)
       NuxtImg(
         format='webp'

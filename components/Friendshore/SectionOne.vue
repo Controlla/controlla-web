@@ -9,6 +9,7 @@ section(class=`
   pt-40
   overflow-hidden
   text-center
+  max-w-screen-xl
 `)
   div(class=`
     w-[25rem]
@@ -100,14 +101,13 @@ section(class=`
   `)
   div(class=`
     w-[100%]
-    mt-[10%]
     overflow-y-hidden
     relative
     z-30
   `)
     h1(class=`
       text-center
-      md:my-20
+      md:mb-20
       font-black
       text-2xl
     `) {{ $t('web_and_mobile') }}
@@ -115,6 +115,7 @@ section(class=`
       md:flex
       justify-center
       mt-6
+      mb-28
       hidden
     `)
       NuxtImg(

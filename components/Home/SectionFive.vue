@@ -104,7 +104,7 @@ section(class=`
       z-10
       relative
       md:w-[41vw] 
-      md:h-[30vw] 
+      md:h-[29vw] 
       2xl:w-[34vw]
       2xl:h-[23vw]
   `)

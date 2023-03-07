@@ -1,7 +1,7 @@
 <template lang="pug">
 section(class=`
   w-screen
-  h-screen
+  h-fit
   overflow-hidden
   bg-gradient-to-b
   from-white
@@ -77,6 +77,7 @@ section(class=`
   `)
   div(class=`
     mt-[1%]
+    mb-5
     relative
     flex
     justify-center
@@ -84,5 +85,6 @@ section(class=`
     NuxtImg(src='/img/home_background.png' format="webp" alt='home background' class=`
       w-[90%]
       md:w-[70%]
+      lg:w-[65%]
     `)
 </template>

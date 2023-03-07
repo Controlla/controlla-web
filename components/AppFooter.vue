@@ -1,12 +1,10 @@
 <template lang="pug">
 section(class=`
-  w-[100vw]
-  bg-white
+  bg-teal-50
   min-h-screen
   absolute
   left-0
-  overflow-x-hidden
-  overflow-y-hidden
+  overflow-hidden
   md:w-[200%] 
   md:left-[-50%]
   md:overflow-x-hidden
@@ -75,18 +73,18 @@ section(class=`
       mx-[5%]
     `)
       h3(class=`
-        md:text-left 
         text-2xl
-        my-6
+        mb-6
         text-center
       `) {{ $t('lets_work') }} 
         strong {{ $t('together') }}
       ContactButton
     div(class=`
       mx-[5%]
-      my-6
     `)
       h3(class=`
+        pt-8
+        md:pt-0
         text-xl
         leading-8
         text-center
@@ -96,8 +94,9 @@ section(class=`
         |  {{ $t('success') }} 
         br
         |  {{ $t('portfolio') }}
-    .my-6(class=`
+    div(class=`
       mx-[5%]
+      md:mr-[6%]
     `)
       h3(class=`
         md:text-left 
@@ -113,7 +112,8 @@ section(class=`
     h-[25%] 
     w-screen
     relative
-    md:ml-[28%]
+    md:ml-[25%]
+    pt-10
   `)
     div(class=`
       flex

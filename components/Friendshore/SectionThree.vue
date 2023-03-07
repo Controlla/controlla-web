@@ -6,9 +6,12 @@ section(class=`
   flex
   justify-center
   mb-20
+  max-w-screen-xl
 `)
   div(class=`
     w-[30%]
+    ml-auto
+    pl-[5%]
   `)
     div(class=`
       flex
@@ -53,6 +56,7 @@ section(class=`
       `)
   div(class=`
     w-[30%]
+    m-auto
   `)
     h3(class=`
         md:text-4xl

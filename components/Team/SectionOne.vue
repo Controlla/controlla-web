@@ -4,10 +4,11 @@ section(class=`
     md:text-left
     w-screen
     min-h-screen
-    bg-purple-50
+    bg-teal-50
     relative
     pt-40
     overflow-hidden
+    max-w-screen-xl
 `)
     div(class=`
         w-[25rem]

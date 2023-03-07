@@ -6,7 +6,7 @@ AppFooter
 <style>
 html {
   overflow-x: hidden;
-  max-width: 1280px;
+  max-width: 80rem;
   margin: auto;
   background-color: white;
 }

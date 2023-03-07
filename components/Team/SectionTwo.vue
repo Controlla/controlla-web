@@ -3,6 +3,7 @@ section(class=`
     w-screen
     bg-white
     z-40
+    max-w-screen-xl
 `)
     h3(class=`
         text-4xl
@@ -14,10 +15,8 @@ section(class=`
     div(class=`
         flex
         justify-center
-        my-6
-        md:hidden
     `)
-        nuxt-img(
+        NuxtImg(
             format='webp'
             loading='lazy'
             src='/img/mobile_team.svg'
@@ -25,8 +24,10 @@ section(class=`
             class=`
                 w-[90%]
                 sm:w-[60%]
+                my-6
+                md:hidden
             `)
-    nuxt-img(
+        NuxtImg(
         format='webp'
         loading='lazy'
         src='/img/team.svg'

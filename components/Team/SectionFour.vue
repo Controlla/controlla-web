@@ -2,6 +2,7 @@
 section(class=`
   w-screen
   overflow-y-hidden
+  max-w-screen-xl
 `)
   div(class=`
     min-h-[50%]
@@ -13,6 +14,7 @@ section(class=`
     w-screen
     overflow-y-hidden
     mb-10
+    max-w-screen-xl
   `)
     h1(class=`
       text-center
