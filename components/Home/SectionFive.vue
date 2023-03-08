@@ -11,25 +11,25 @@ section(class=`
   lg:text-xl
   2xl:text-2xl
 `)
-  img(
-    src="@/assets/img/line2.webp" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[20rem] 
-    absolute 
-    right-[30%] 
-    top-[-6rem] 
-    z-30 
-    md:inline 
-    md:w-[35rem] 
-    md:top-[-13rem]
-    md:right-[15%]
-    lg:right-[25%]
-    xl:w-[40rem] 
-    xl:top-[-15rem]
-    xl:right-[38%]
-  `)
+  //- img(
+  //-   src="@/assets/img/line2.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-   hidden 
+  //-   w-[20rem] 
+  //-   absolute 
+  //-   right-[30%] 
+  //-   top-[-6rem] 
+  //-   z-30 
+  //-   md:inline 
+  //-   md:w-[35rem] 
+  //-   md:top-[-13rem]
+  //-   md:right-[15%]
+  //-   lg:right-[25%]
+  //-   xl:w-[40rem] 
+  //-   xl:top-[-15rem]
+  //-   xl:right-[38%]
+  //- `)
   div(class=`
     w-[25rem] 
     h-[25rem] 
@@ -103,29 +103,29 @@ section(class=`
       md:w-[41vw] 
       md:h-[30vw] 
   `)
-  img(
-    src="@/assets/img/line3_mobile.webp" 
-    alt='arrow' 
-    class=`
-    absolute
-    right-[49.5%]
-    bottom-[-4.5rem] 
-    sm:hidden
-  `)
-  img(
-    src="@/assets/img/line3.webp" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[18rem] 
-    absolute 
-    right-[50%] 
-    bottom-[-14rem]
-    sm:inline
-    sm:w-[30rem]
-    sm:right-[20%]
-    lg:w-[40rem]
-    lg:right-[25%]
-    lg:bottom-[-20rem]
-  `)  
+  //- img(
+  //-   src="@/assets/img/line3_mobile.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-   absolute
+  //-   right-[49.5%]
+  //-   bottom-[-4.5rem] 
+  //-   sm:hidden
+  //- `)
+  //- img(
+  //-   src="@/assets/img/line3.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-   hidden 
+  //-   w-[18rem] 
+  //-   absolute 
+  //-   right-[50%] 
+  //-   bottom-[-14rem]
+  //-   sm:inline
+  //-   sm:w-[30rem]
+  //-   sm:right-[20%]
+  //-   lg:w-[40rem]
+  //-   lg:right-[25%]
+  //-   lg:bottom-[-20rem]
+  //- `)  
 </template>

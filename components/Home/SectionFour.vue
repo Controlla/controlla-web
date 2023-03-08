@@ -15,30 +15,30 @@ section(class=`
   lg:text-xl
   2xl:text-2xl
 `)
-  img(
-    src="@/assets/img/line1_mobile.webp" 
-    alt='arrow' 
-    class=`
-      sm:hidden 
-      absolute 
-      right-[49.5%] 
-      top-[-14rem] 
-      z-30
-  `)
-  img(
-    src="@/assets/img/line1.webp" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[18rem] 
-    absolute 
-    right-[49.5%] 
-    top-[-6rem] 
-    z-30 
-    sm:inline 
-    xl:w-[30rem] 
-    xl:top-[-10rem]
-  `)
+  //- img(
+  //-   src="@/assets/img/line1_mobile.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-     sm:hidden 
+  //-     absolute 
+  //-     right-[49.5%] 
+  //-     top-[-14rem] 
+  //-     z-30
+  //- `)
+  //- img(
+  //-   src="@/assets/img/line1.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-   hidden 
+  //-   w-[18rem] 
+  //-   absolute 
+  //-   right-[49.5%] 
+  //-   top-[-6rem] 
+  //-   z-30 
+  //-   sm:inline 
+  //-   xl:w-[30rem] 
+  //-   xl:top-[-10rem]
+  //- `)
   div(class=`
     w-[25rem] 
     h-[25rem] 
@@ -129,24 +129,24 @@ section(class=`
       md:h-[30vw]
       md:hidden
   `)
-  img(
-    src="@/assets/img/line2.webp" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[20rem] 
-    absolute 
-    right-[30%]
-    bottom-[-3rem]
-    z-30 
-    md:inline 
-    md:w-[35rem] 
-    md:bottom-[-8rem]
-    md:right-[15%]
-    lg:right-[25%]
-    lg:bottom-[-10rem]
-    xl:w-[40rem] 
-    xl:bottom-[-15rem]
-    xl:right-[38%]
-  `)    
+  //- img(
+  //-   src="@/assets/img/line2.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-   hidden 
+  //-   w-[20rem] 
+  //-   absolute 
+  //-   right-[30%]
+  //-   bottom-[-3rem]
+  //-   z-30 
+  //-   md:inline 
+  //-   md:w-[35rem] 
+  //-   md:bottom-[-8rem]
+  //-   md:right-[15%]
+  //-   lg:right-[25%]
+  //-   lg:bottom-[-10rem]
+  //-   xl:w-[40rem] 
+  //-   xl:bottom-[-15rem]
+  //-   xl:right-[38%]
+  //- `)    
 </template>
