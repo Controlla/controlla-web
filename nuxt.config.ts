@@ -60,6 +60,12 @@ export default defineNuxtConfig({
     langDir: "lang/",
     defaultLocale: "en",
   },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
+  },
   runtimeConfig: {
     public: {
       iubenda_cookie_key: process.env.IUBENDA_COOKIE_KEY,
