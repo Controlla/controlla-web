@@ -56,7 +56,6 @@ section(class=`
         relative
         text-5xl
         lg:text-6xl
-        overflow-y-hidden
         leading-relaxed
         z-10
       `) {{ $t('we_go_beyond') }}
@@ -68,7 +67,6 @@ section(class=`
         relative
         my-6
         text-3xl
-        overflow-y-hidden
         z-10
       `) {{ $t('get_the_best') }}
     div(class=`
@@ -99,7 +97,6 @@ section(class=`
   div(class=`
     w-[100%]
     mt-[10%]
-    overflow-y-hidden
     relative
     z-30
   `)

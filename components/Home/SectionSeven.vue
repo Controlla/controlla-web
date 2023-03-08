@@ -76,7 +76,6 @@ section(class=`
       my-6
       text-xl
       font-semibold
-      overflow-y-hidden
     `) {{ $t('qa_test_and_launch') }}
     h2(class=` 
       my-6

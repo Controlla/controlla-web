@@ -5,7 +5,6 @@ section(class=`
   md:flex
   md:text-lg 
   bg-white
-  overflow-y-hidden
 `)
   img(
     src='@/assets/img/float.webp' 
@@ -21,7 +20,6 @@ section(class=`
     h1(class=`
       text-3xl
       font-semibold
-      overflow-y-hidden
       mx-4
       text-left
     `) {{ $t('float_title') }}
@@ -44,12 +42,10 @@ section(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 1,500+
         h4 {{ $t('downloads') }}
       div(class=`
@@ -61,12 +57,10 @@ section(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 2
         h4 {{ $t('countries') }}
       div(class=`
@@ -78,12 +72,10 @@ section(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 2 {{ $t('months') }}
         h3(class=`
           font-bold

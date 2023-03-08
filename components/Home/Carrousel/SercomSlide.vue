@@ -18,7 +18,6 @@ div(class=`
     h1(class=`
       text-3xl
       font-semibold
-      overflow-y-hidden
       mx-4
       text-left
     `) {{ $t('sercom') }}
@@ -42,12 +41,10 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 20+
         h4 {{ $t('final_users') }}
       div(class=`
@@ -59,12 +56,10 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 12 {{ $t('months') }}
         h3(class=`
           font-bold
@@ -79,12 +74,10 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden 
         `) Web
         h4 {{ $t('technologies') }}
     button(class=`

@@ -6,7 +6,6 @@ section(class=`
   absolute
   left-0
   overflow-x-hidden
-  overflow-y-hidden
   md:w-[200%] 
   md:left-[-50%]
   md:overflow-x-hidden

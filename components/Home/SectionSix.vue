@@ -100,7 +100,6 @@ section(class=`
       my-6
       text-2xl
       font-semibold
-      overflow-y-hidden
       lg:text-3xl 
     `) {{ $t('development') }}
     h2(class=`

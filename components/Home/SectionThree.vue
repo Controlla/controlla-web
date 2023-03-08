@@ -53,7 +53,6 @@ section(class=`
     div(class=`
       sm:mr-[10%]
       z-10
-      overflow-y-hidden
       relative
     `)
       h2(class=`
@@ -61,7 +60,6 @@ section(class=`
         lg:my-6
         text-3xl
         leading-normal
-        overflow-y-hidden
         lg:text-4xl
         text-center
         sm:text-start
@@ -70,7 +68,6 @@ section(class=`
         strong {{ $t('borders') }}
       h2(class=`
         text-lg
-        overflow-y-hidden
         lg:text-2xl
         lg:my-6
         text-center
@@ -118,7 +115,6 @@ section(class=`
       text-center
       my-1
       font-semibold
-      overflow-y-hidden
     `)
       | {{ $t('the_key_to') }}
       br

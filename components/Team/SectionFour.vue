@@ -1,7 +1,6 @@
 <template lang="pug">
 section(class=`
   w-screen
-  overflow-y-hidden
 `)
   div(class=`
     min-h-[50%]
@@ -11,7 +10,6 @@ section(class=`
     min-h-[50%]
     md:pt-12
     w-screen
-    overflow-y-hidden
     mb-10
   `)
     h1(class=`

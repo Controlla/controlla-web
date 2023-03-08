@@ -9,7 +9,6 @@ section(class=`
   h3(class=`
     text-3xl
     text-center
-    overflow-y-hidden
   `) {{ $t('why') }}
     strong(class=`
       text-sky-500
@@ -20,7 +19,6 @@ section(class=`
     lg:justify-center
     my-6
     min-h-80
-    overflow-y-hidden
     py-6
   `)
     div(class=`

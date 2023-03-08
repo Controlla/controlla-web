@@ -11,7 +11,6 @@ section(class=`
   h3(class=`
     text-3xl
     text-center
-    overflow-y-hidden
   `) {{ $t('why') }}
     strong.text-sky-500  {{ $t('choose') }}
     |  {{ $t('us') }}

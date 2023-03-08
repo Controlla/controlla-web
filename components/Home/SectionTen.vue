@@ -46,7 +46,6 @@ section(class=`
       md:text-start 
       text-3xl
       font-semibold
-      overflow-y-hidden
       my-6
       text-center
     `) {{ $t('you_can_find') }} 

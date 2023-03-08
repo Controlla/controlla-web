@@ -53,7 +53,6 @@ section(class=`
             text-4xl
             lg:text-5xl
             md:mt-[30%]
-            overflow-y-hidden
             relative
             text-center
             md:text-start
@@ -66,7 +65,6 @@ section(class=`
             mt-2
             mb-6
             font-bold
-            overflow-y-hidden
             relative
             text-center
             md:text-start
