@@ -32,8 +32,6 @@ section(class=`
       justify-center
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/trusted_partners_desktop.svg'
         alt='trusted partners'
         class=`
@@ -44,8 +42,6 @@ section(class=`
           md:inline
       `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/trusted_partners.svg'
         alt='trusted partners'
         class=`

@@ -40,7 +40,6 @@ section(class=`
     justify-center
   `)
     NuxtImg(
-      format="webp"
       src='/img/Luis.png' 
       alt='Luis' 
       class=`

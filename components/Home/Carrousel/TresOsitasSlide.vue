@@ -106,8 +106,6 @@ div(class=`
     justify-center
     `)
     NuxtImg(
-      format='webp' 
-      loading='lazy' 
       src='/img/tres_ositas.png' 
       alt='' 
       class=`

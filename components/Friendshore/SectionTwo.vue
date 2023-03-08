@@ -37,8 +37,6 @@ section(class=`
       lg:mb-0
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/hourglass.svg'
         alt='hourglass'
         class=`
@@ -64,8 +62,6 @@ section(class=`
       lg:mb-0
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/calendar.svg'
         alt='hug'
         class=`
@@ -89,8 +85,6 @@ section(class=`
       rounded-2xl
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/plane.png'
         alt='hug'
         class=`

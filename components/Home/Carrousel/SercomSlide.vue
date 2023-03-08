@@ -102,8 +102,6 @@ div(class=`
     justify-center
   `)
     NuxtImg(
-      format='webp' 
-      loading='lazy' 
       src='/img/second_step.png' 
       alt='' 
       class=`

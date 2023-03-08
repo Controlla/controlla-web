@@ -78,8 +78,6 @@ section(class=`
             justify-center
     `)
             NuxtImg(
-            format='webp'
-            loading='lazy'
             src='/img/us_lines.svg'
             alt='home background'
             class=`

@@ -8,8 +8,6 @@ section(class=`
   overflow-y-hidden
 `)
   NuxtImg(
-    format='webp'
-    loading='lazy'
     src='/img/cano_steel.png'
     alt=''
     class=`
@@ -123,8 +121,6 @@ section(class=`
     justify-center
   `)
     NuxtImg(
-      format='webp' 
-      loading='lazy' 
       src='/img/cano_steel.png' 
       alt='' 
       class=`

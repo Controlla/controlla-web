@@ -72,7 +72,6 @@ section(class=`
     justify-center
   `)
     NuxtImg(
-      format="web"
       src='/img/building.png' 
       alt='building' 
       class=`

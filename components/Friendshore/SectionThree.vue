@@ -15,8 +15,7 @@ section(class=`
       justify-left
       rotate-6
     `)
-      NuxtImg(format='webp'
-        loading='lazy'
+      NuxtImg(
         src='/img/php.svg'
         alt=''
         class=`
@@ -29,8 +28,6 @@ section(class=`
       justify-center
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/java.svg'
         alt=''
         class=`
@@ -43,8 +40,6 @@ section(class=`
       rotate-6
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/phyton.svg'
         alt=''
         class=`
@@ -79,8 +74,6 @@ section(class=`
       rotate-6
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/laravel.svg'
         alt=''
         class=`
@@ -93,8 +86,6 @@ section(class=`
       justify-center
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/vue.svg'
         alt=''
         class=`
@@ -107,8 +98,6 @@ section(class=`
       rotate-6
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/flutter.svg'
         alt=''
         class=`

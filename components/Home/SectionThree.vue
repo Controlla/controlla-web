@@ -96,17 +96,16 @@ section(class=`
       justify-center
       sm:block`)
       NuxtImg(
-      format="webp"
-      src='/img/rocket.png'
-      alt='rocket'
-      class=`
-        max-w-[20rem]
-        w-[90%]
-        mt-[1%]
-        z-10
-        relative
-        sm:w-[100%]
-    `)
+        src='/img/rocket.png'
+        alt='rocket'
+        class=`
+          max-w-[20rem]
+          w-[90%]
+          mt-[1%]
+          z-10
+          relative
+          sm:w-[100%]
+      `)
   div(class=`
     w-[90%]
     mx-auto

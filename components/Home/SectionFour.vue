@@ -74,7 +74,6 @@ section(class=`
   `)
   NuxtImg(
     src='/img/first_step.png' 
-    format="webp"
     alt='first step' 
     class=`
       hidden
@@ -121,7 +120,6 @@ section(class=`
       |         {{ $t('scoping') }}
   NuxtImg(
     src='/img/first_step.png' 
-    format="webp"
     alt='first step' 
     class=`
       w-[90%]

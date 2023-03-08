@@ -8,8 +8,6 @@ section(class=`
   overflow-y-hidden
 `)
   NuxtImg(
-    format='webp' 
-    loading='lazy' 
     src='/img/leanfit.png' 
     alt='' 
     class=`
@@ -103,8 +101,6 @@ section(class=`
     justify-center
   `)
     NuxtImg(
-      format='webp'
-      loading='lazy'
       src='/img/leanfit.png'
       alt=''
       class=`

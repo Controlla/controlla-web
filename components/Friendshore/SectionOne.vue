@@ -76,8 +76,6 @@ section(class=`
       justify-center
     `)
       NuxtImg(
-        format='web'
-        loading='lazy'
         src='/img/rocket.svg'
         alt='home background'
         class=`
@@ -118,8 +116,6 @@ section(class=`
       hidden
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/our_services.svg'
         alt='our_services'
       )
@@ -130,8 +126,6 @@ section(class=`
       mt-6
     `)
       NuxtImg(
-        format='webp'
-        loading='lazy'
         src='/img/mobile_our_services.svg'
         alt='our_services'
       )</template>
