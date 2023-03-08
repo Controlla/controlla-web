@@ -1,0 +1,19 @@
+<template lang="pug">
+div(class=`
+    w-[100%]
+    flex 
+    flex-col 
+    justify-center 
+    items-end
+    md:hidden
+`)
+    img(
+        @click='$emit("menuToogled")' 
+        src='@/assets/img/headbutton.webp' 
+        alt='hamburger' 
+        class=`
+        w-[2rem] 
+        h-[2rem] 
+        mr-6
+    `)
+</template>

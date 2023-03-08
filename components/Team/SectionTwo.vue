@@ -1,0 +1,39 @@
+<template lang="pug">
+section(class=`
+    w-screen
+    bg-white
+    z-40
+`)
+    h3(class=`
+        text-4xl
+        font-bold
+        text-center
+        hidden
+        md:block
+    `) {{ $t('our_team') }}
+    div(class=`
+        flex
+        justify-center
+        my-6
+        md:hidden
+    `)
+        img(
+            src='@/assets/img/mobile_team.webp'
+            alt='team'
+            class=`
+                w-[90%]
+                sm:w-[60%]
+            `)
+    img(
+        src='@/assets/img/team.webp'
+        alt='home background'
+        class=`
+            hidden
+            w-[90%]
+            mx-[5%]
+            mt-[10vh]
+            md:w-[60vw]
+            md:mx-[20vw]
+            md:inline
+        `)
+</template>
