@@ -39,8 +39,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        src='/img/hug.png'
+      img(
+        src='@/assets/img/hug.webp'
         alt='hug'
         class=`
         w-12
@@ -65,8 +65,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        src='/img/plane.png'
+      img(
+        src='@/assets/img/plane.webp'
         alt='hug'
         class=`
         w-12
@@ -90,8 +90,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        src='/img/board.png'
+      img(
+        src='@/assets/img/board.webp'
         alt='board'
         class=`
         w-12

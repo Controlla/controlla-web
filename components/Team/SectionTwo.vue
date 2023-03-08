@@ -20,7 +20,7 @@ section(class=`
         nuxt-img(
             format='webp'
             loading='lazy'
-            src='/img/mobile_team.svg'
+            src='@/assets/img/mobile_team.webp'
             alt='team'
             class=`
                 w-[90%]
@@ -29,7 +29,7 @@ section(class=`
     nuxt-img(
         format='webp'
         loading='lazy'
-        src='/img/team.svg'
+        src='@/assets/img/team.webp'
         alt='home background'
         class=`
             hidden

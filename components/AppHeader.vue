@@ -28,8 +28,8 @@ header(class=`
       flex-row
     `
   )
-    NuxtImg(
-      src='/img/logo.svg' 
+    img(
+      src='@/assets/img/logo.webp' 
       alt='logo controlla' 
       class=`
         w-[12rem]

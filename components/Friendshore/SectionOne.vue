@@ -75,8 +75,8 @@ section(class=`
       flex
       justify-center
     `)
-      NuxtImg(
-        src='/img/rocket.svg'
+      img(
+        src='@/assets/img/rocket.webp'
         alt='home background'
         class=`
         w-[90%]
@@ -115,8 +115,8 @@ section(class=`
       mt-6
       hidden
     `)
-      NuxtImg(
-        src='/img/our_services.svg'
+      img(
+        src='@/assets/img/our_services.webp'
         alt='our_services'
       )
     div(class=`
@@ -125,7 +125,7 @@ section(class=`
       justify-center
       mt-6
     `)
-      NuxtImg(
-        src='/img/mobile_our_services.svg'
+      img(
+        src='@/assets/img/mobile_our_services.webp'
         alt='our_services'
       )</template>

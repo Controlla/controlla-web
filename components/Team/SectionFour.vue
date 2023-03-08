@@ -31,8 +31,8 @@ section(class=`
       flex
       justify-center
     `)
-      NuxtImg(
-        src='/img/trusted_partners_desktop.svg'
+      img(
+        src='@/assets/img/trusted_partners_desktop.webp'
         alt='trusted partners'
         class=`
           w-[90%]
@@ -41,8 +41,8 @@ section(class=`
           hidden
           md:inline
       `)
-      NuxtImg(
-        src='/img/trusted_partners.svg'
+      img(
+        src='@/assets/img/trusted_partners.webp'
         alt='trusted partners'
         class=`
           w-[90%]

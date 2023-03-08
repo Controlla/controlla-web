@@ -15,8 +15,8 @@ section(class=`
   lg:text-xl
   2xl:text-2xl
 `)
-  NuxtImg(
-    src="/img/line1_mobile.svg" 
+  img(
+    src="@/assets/img/line1_mobile.webp" 
     alt='arrow' 
     class=`
       sm:hidden 
@@ -25,8 +25,8 @@ section(class=`
       top-[-14rem] 
       z-30
   `)
-  NuxtImg(
-    src="/img/line1.svg" 
+  img(
+    src="@/assets/img/line1.webp" 
     alt='arrow' 
     class=`
     hidden 
@@ -72,8 +72,8 @@ section(class=`
     absolute
     z-0
   `)
-  NuxtImg(
-    src='/img/first_step.png' 
+  img(
+    src='@/assets/img/first_step.webp' 
     alt='first step' 
     class=`
       hidden
@@ -118,8 +118,8 @@ section(class=`
       |         {{ $t('wireframe') }} 
       br
       |         {{ $t('scoping') }}
-  NuxtImg(
-    src='/img/first_step.png' 
+  img(
+    src='@/assets/img/first_step.webp' 
     alt='first step' 
     class=`
       w-[90%]
@@ -129,8 +129,8 @@ section(class=`
       md:h-[30vw]
       md:hidden
   `)
-  NuxtImg(
-    src="/img/line2.svg" 
+  img(
+    src="@/assets/img/line2.webp" 
     alt='arrow' 
     class=`
     hidden 

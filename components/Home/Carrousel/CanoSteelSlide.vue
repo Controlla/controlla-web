@@ -7,8 +7,8 @@ section(class=`
   bg-white
   overflow-y-hidden
 `)
-  NuxtImg(
-    src='/img/cano_steel.png'
+  img(
+    src='@/assets/img/cano_steel.webp'
     alt=''
     class=`
       hidden
@@ -120,8 +120,8 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      src='/img/cano_steel.png' 
+    img(
+      src='@/assets/img/cano_steel.webp' 
       alt='' 
       class=`
         md:hidden

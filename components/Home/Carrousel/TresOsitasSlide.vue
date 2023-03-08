@@ -10,7 +10,7 @@ div(class=`
   nuxt-img.hidden(
     format='webp' 
     loading='lazy' 
-    src='/img/tres_ositas.png'
+    src='@/assets/img/tres_ositas.webp'
     alt=''
     class=`
       hidden
@@ -105,8 +105,8 @@ div(class=`
     flex
     justify-center
     `)
-    NuxtImg(
-      src='/img/tres_ositas.png' 
+    img(
+      src='@/assets/img/tres_ositas.webp' 
       alt='' 
       class=`
         md:hidden 

@@ -7,8 +7,8 @@ section(class=`
   bg-white
   overflow-y-hidden
 `)
-  NuxtImg(
-    src='/img/leanfit.png' 
+  img(
+    src='@/assets/img/leanfit.webp' 
     alt='' 
     class=`
       hidden
@@ -100,8 +100,8 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      src='/img/leanfit.png'
+    img(
+      src='@/assets/img/leanfit.webp'
       alt=''
       class=`
         md:hidden

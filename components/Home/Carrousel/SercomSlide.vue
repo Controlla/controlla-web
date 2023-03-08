@@ -6,7 +6,7 @@ div(class=`
   nuxt-img.hidden(
     format='webp' 
     loading='lazy' 
-    src='/img/second_step.png'
+    src='@/assets/img/second_step.webp'
     alt=''
     class=`
       hidden
@@ -101,8 +101,8 @@ div(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      src='/img/second_step.png' 
+    img(
+      src='@/assets/img/second_step.webp' 
       alt='' 
       class=`
         md:hidden 

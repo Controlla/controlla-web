@@ -7,8 +7,8 @@ section(class=`
   my-20
   relative
 `)
-  NuxtImg(
-    src="/img/line4_mobile.svg" 
+  img(
+    src="@/assets/img/line4_mobile.webp" 
     alt='arrow' 
     class=`
       absolute 
@@ -17,8 +17,8 @@ section(class=`
       z-30
       md:hidden
   `)
-  NuxtImg(
-    src="/img/line4.svg" 
+  img(
+    src="@/assets/img/line4.webp" 
     alt='arrow' 
     class=`
       hidden
@@ -71,8 +71,8 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      src='/img/building.png' 
+    img(
+      src='@/assets/img/building.webp' 
       alt='building' 
       class=`
       w-[75%] 

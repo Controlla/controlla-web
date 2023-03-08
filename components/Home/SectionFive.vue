@@ -11,8 +11,8 @@ section(class=`
   lg:text-xl
   2xl:text-2xl
 `)
-  NuxtImg(
-    src="/img/line2.svg" 
+  img(
+    src="@/assets/img/line2.webp" 
     alt='arrow' 
     class=`
     hidden 
@@ -93,8 +93,8 @@ section(class=`
       |  {{ $t('sketching') }}
       br
       |  {{ $t('design') }}
-  NuxtImg(
-    src='/img/second_step.png' 
+  img(
+    src='@/assets/img/second_step.webp' 
     alt='second step' 
     class=`
       w-[90%] 
@@ -103,8 +103,8 @@ section(class=`
       md:w-[41vw] 
       md:h-[30vw] 
   `)
-  NuxtImg(
-    src="/img/line3_mobile.svg" 
+  img(
+    src="@/assets/img/line3_mobile.webp" 
     alt='arrow' 
     class=`
     absolute
@@ -112,8 +112,8 @@ section(class=`
     bottom-[-4.5rem] 
     sm:hidden
   `)
-  NuxtImg(
-    src="/img/line3.svg" 
+  img(
+    src="@/assets/img/line3.webp" 
     alt='arrow' 
     class=`
     hidden 

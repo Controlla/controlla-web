@@ -39,8 +39,8 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      src='/img/Luis.png' 
+    img(
+      src='@/assets/img/Luis.webp' 
       alt='Luis' 
       class=`
         w-20

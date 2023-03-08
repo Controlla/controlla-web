@@ -63,8 +63,8 @@ section(class=`
       flex
       justify-center
     `)
-      NuxtImg(
-        src='/img/logo.svg' 
+      img(
+        src='@/assets/img/logo.webp' 
         alt='logo controlla' 
         class=`
         w-[80%]
@@ -121,22 +121,22 @@ section(class=`
       mb-6
     `)
       NuxtLink(to='https://www.facebook.com/controlla.cuu')
-        NuxtImg(
-          src='/img/facebook.svg' 
+        img(
+          src='@/assets/img/facebook.webp' 
           alt='logo facebook' 
           class=`
           mx-6
         `)
       NuxtLink(to='https://www.instagram.com/controlla_technologies/')
-        NuxtImg(
-          src='/img/instagram.svg' 
+        img(
+          src='@/assets/img/instagram.webp' 
           alt='logo instagram' 
           class=`
           mx-6
         `)
       NuxtLink(to='https://www.linkedin.com/company/controlla/')
-        NuxtImg(
-          src='/img/linkedin.svg' 
+        img(
+          src='@/assets/img/linkedin.webp' 
           alt='logo linkedin' 
           class=`
           mx-6

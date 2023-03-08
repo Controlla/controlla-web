@@ -35,7 +35,7 @@ export default defineNuxtConfig({
           hid: "og:image",
           property: "og:image",
           name: "og:image",
-          content: "https://www.controlla.com.mx/logocontrolla.svg",
+          content: "https://www.controlla.com.mx/logocontrolla.webp",
         },
       ],
     },

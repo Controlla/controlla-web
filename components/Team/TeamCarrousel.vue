@@ -19,7 +19,7 @@ div(class=`
 `)
   carousel(:items-to-show='itemsToShow' :wrap-around='true')
     slide(v-for='(image, index) in images' :index='index')
-      NuxtImg(
+      img(
         class="carrousel__item" 
         :src='image.src'
       )

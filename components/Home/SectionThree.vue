@@ -95,8 +95,8 @@ section(class=`
       flex
       justify-center
       sm:block`)
-      NuxtImg(
-        src='/img/rocket.png'
+      img(
+        src='@/assets/img/rocket.webp'
         alt='rocket'
         class=`
           max-w-[20rem]
@@ -137,8 +137,8 @@ section(class=`
       br
       |  {{ $t('with_necessary_expertise') }}
     ContactButton
-    NuxtImg(
-      src="/img/line1_mobile.svg" 
+    img(
+      src="@/assets/img/line1_mobile.webp" 
       alt='arrow' 
       class=`
       absolute
@@ -146,8 +146,8 @@ section(class=`
       bottom-[-12rem]
       sm:hidden
       `)
-    NuxtImg(
-      src="/img/line1.svg" 
+    img(
+      src="@/assets/img/line1.webp" 
       alt='arrow' 
       class=`
       hidden 

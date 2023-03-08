@@ -36,8 +36,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        src='/img/hourglass.svg'
+      img(
+        src='@/assets/img/hourglass.webp'
         alt='hourglass'
         class=`
         w-12
@@ -61,8 +61,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        src='/img/calendar.svg'
+      img(
+        src='@/assets/img/calendar.webp'
         alt='hug'
         class=`
         w-12
@@ -84,8 +84,8 @@ section(class=`
       min-h-72
       rounded-2xl
     `)
-      NuxtImg(
-        src='/img/plane.png'
+      img(
+        src='@/assets/img/plane.webp'
         alt='hug'
         class=`
         w-12

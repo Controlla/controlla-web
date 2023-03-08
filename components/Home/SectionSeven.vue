@@ -12,8 +12,8 @@ section(class=`
   lg:text-xl
   2xl:text-2xl
 `)
-  NuxtImg(
-    src="/img/line3_mobile.svg" 
+  img(
+    src="@/assets/img/line3_mobile.webp" 
     alt='arrow' 
     class=`
       md:hidden
@@ -22,8 +22,8 @@ section(class=`
       top-[-6rem] 
       z-30
   `)
-  NuxtImg(
-    src="/img/line2.svg" 
+  img(
+    src="@/assets/img/line2.webp" 
     alt='arrow' 
     class=`
     hidden 
@@ -92,8 +92,8 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      src='/img/fourth_step.png' 
+    img(
+      src='@/assets/img/fourth_step.webp' 
       alt='fourth step' 
       class=`
       w-[60%] 
