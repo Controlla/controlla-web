@@ -5,6 +5,7 @@ import { onMounted } from "vue";
 import type Image from "~/interfaces/Image";
 
 const images: Array<Image> = useImages();
+
 const itemsToShow = ref(2.75);
 onMounted(() => {
   if (window.innerWidth < 640) itemsToShow.value = 1.3;

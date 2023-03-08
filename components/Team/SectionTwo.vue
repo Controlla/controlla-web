@@ -17,18 +17,14 @@ section(class=`
         my-6
         md:hidden
     `)
-        nuxt-img(
-            format='webp'
-            loading='lazy'
+        img(
             src='@/assets/img/mobile_team.webp'
             alt='team'
             class=`
                 w-[90%]
                 sm:w-[60%]
             `)
-    nuxt-img(
-        format='webp'
-        loading='lazy'
+    img(
         src='@/assets/img/team.webp'
         alt='home background'
         class=`
