@@ -17,39 +17,39 @@ section(class=`
     md:px-[10%]
     py-16
     lg:py-24  `)
-    div(class=`
-      w-[25rem]
-      h-[25rem]
-      left-[6%]
-      top-[15%]
-      blur-[11rem]
-      rounded-full
-      bg-violet-300
-      absolute
-      z-0
-    `)
-    div(class=`
-      w-[25rem]
-      h-[25rem]
-      left-[40%]
-      top-[-10%]
-      blur-[11rem]
-      rounded-full
-      bg-blue-300
-      absolute
-      z-0
-    `)
-    div(class=`
-      w-[25rem]
-      h-[25rem]
-      left-[75%]
-      top-[15%]
-      blur-[11rem]
-      rounded-full
-      bg-violet-300
-      absolute
-      z-0
-    `)
+    //- div(class=`
+    //-   w-[25rem]
+    //-   h-[25rem]
+    //-   left-[6%]
+    //-   top-[15%]
+    //-   blur-[11rem]
+    //-   rounded-full
+    //-   bg-violet-300
+    //-   absolute
+    //-   z-0
+    //- `)
+    //- div(class=`
+    //-   w-[25rem]
+    //-   h-[25rem]
+    //-   left-[40%]
+    //-   top-[-10%]
+    //-   blur-[11rem]
+    //-   rounded-full
+    //-   bg-blue-300
+    //-   absolute
+    //-   z-0
+    //- `)
+    //- div(class=`
+    //-   w-[25rem]
+    //-   h-[25rem]
+    //-   left-[75%]
+    //-   top-[15%]
+    //-   blur-[11rem]
+    //-   rounded-full
+    //-   bg-violet-300
+    //-   absolute
+    //-   z-0
+    //- `)
     div(class=`
       sm:mr-[10%]
       z-10

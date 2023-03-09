@@ -36,28 +36,28 @@ section(class=`
   //-   lg:w-[35rem]
   //-   lg:top-[-10rem]
   //- `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem]
-    left-[6%]
-    top-[15%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[75%]
-    top-[8%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem]
+  //-   left-[6%]
+  //-   top-[15%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
+  //- div(class=`
+  //-   w-[25rem]
+  //-   h-[25rem]
+  //-   left-[75%]
+  //-   top-[8%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
   div(class=`
     px-[5%] 
     relative

@@ -39,39 +39,39 @@ section(class=`
   //-   xl:w-[30rem] 
   //-   xl:top-[-10rem]
   //- `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[12%] 
-    top-[15%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[40%] 
-    top-[50%] 
-    blur-[11rem] 
-    rounded-full
-    bg-blue-100
-    absolute
-    z-0 
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[70%] 
-    top-[15%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[12%] 
+  //-   top-[15%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[40%] 
+  //-   top-[50%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-blue-100
+  //-   absolute
+  //-   z-0 
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[70%] 
+  //-   top-[15%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
   img(
     src='@/assets/img/first_step.webp' 
     alt='first step' 

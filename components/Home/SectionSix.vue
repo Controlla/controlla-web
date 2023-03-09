@@ -40,39 +40,39 @@ section(class=`
   //-   lg:right-[25%]
   //-   lg:top-[-18rem]    
   //- `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[6%] 
-    top-[15%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[40%] 
-    top-[50%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[75%] 
-    top-[8%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[6%] 
+  //-   top-[15%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[40%] 
+  //-   top-[50%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[75%] 
+  //-   top-[8%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
   img(
     src='@/assets/img/third_step.webp' 
     alt='third step' 

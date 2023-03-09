@@ -13,36 +13,36 @@ section(class=`
   md:min-h-[20vw]
   md:right-[-10%]
 `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[26%]
-    top-[15%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-300
-    absolute
-  `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[45%]
-    top-[-10%]
-    blur-[11rem]
-    rounded-full
-    bg-blue-300
-    absolute
-  `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[65%]
-    top-[15%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-300
-    absolute
-  `)
+  //- div(class=`
+  //-   w-[25rem]
+  //-   h-[25rem]
+  //-   left-[26%]
+  //-   top-[15%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-300
+  //-   absolute
+  //- `)
+  //- div(class=`
+  //-   w-[25rem]
+  //-   h-[25rem]
+  //-   left-[45%]
+  //-   top-[-10%]
+  //-   blur-[11rem]
+  //-   rounded-full
+  //-   bg-blue-300
+  //-   absolute
+  //- `)
+  //- div(class=`
+  //-   w-[25rem]
+  //-   h-[25rem]
+  //-   left-[65%]
+  //-   top-[15%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-300
+  //-   absolute
+  //- `)
   div(class=`
     sm:mt-[4%]
     md:h-[60%]

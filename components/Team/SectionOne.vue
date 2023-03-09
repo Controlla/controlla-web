@@ -9,39 +9,39 @@ section(class=`
     pt-40
     overflow-hidden
 `)
-    div(class=`
-        w-[25rem]
-        h-[25rem]
-        left-[12%]
-        top-[15%]
-        blur-[11rem]
-        rounded-full
-        bg-violet-300
-        absolute
-        z-0
-    `)
-    div(class=`
-        w-[25rem]
-        h-[25rem]
-        left-[40%]
-        top-[25%]
-        blur-[11rem]
-        rounded-full
-        bg-sky-100
-        absolute
-        z-0
-    `)
-    div(class=`
-        w-[25rem]
-        h-[25rem]
-        left-[70%]
-        top-[15%]
-        blur-[11rem]
-        rounded-full
-        bg-violet-300
-        absolute
-        z-0
-    `)
+    //- div(class=`
+    //-     w-[25rem]
+    //-     h-[25rem]
+    //-     left-[12%]
+    //-     top-[15%]
+    //-     blur-[11rem]
+    //-     rounded-full
+    //-     bg-violet-300
+    //-     absolute
+    //-     z-0
+    //- `)
+    //- div(class=`
+    //-     w-[25rem]
+    //-     h-[25rem]
+    //-     left-[40%]
+    //-     top-[25%]
+    //-     blur-[11rem]
+    //-     rounded-full
+    //-     bg-sky-100
+    //-     absolute
+    //-     z-0
+    //- `)
+    //- div(class=`
+    //-     w-[25rem]
+    //-     h-[25rem]
+    //-     left-[70%]
+    //-     top-[15%]
+    //-     blur-[11rem]
+    //-     rounded-full
+    //-     bg-violet-300
+    //-     absolute
+    //-     z-0
+    //- `)
     div(class=`
         justify-center
         relative

@@ -30,39 +30,39 @@ section(class=`
   //-   xl:top-[-15rem]
   //-   xl:right-[38%]
   //- `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[6%] 
-    top-[15%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem]
-    left-[40%]
-    top-[45%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-100
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem]
-    left-[75%] 
-    top-[8%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[6%] 
+  //-   top-[15%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem]
+  //-   left-[40%]
+  //-   top-[45%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-100
+  //-   absolute
+  //-   z-0
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem]
+  //-   left-[75%] 
+  //-   top-[8%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
   div(class=`
     px-[5%] 
     z-10
