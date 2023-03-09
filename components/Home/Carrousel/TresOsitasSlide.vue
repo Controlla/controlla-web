@@ -9,9 +9,8 @@ div(class=`
   lg:h-[100%]
   lg:pt-16
 `)
-  nuxt-img.hidden(
-    format='webp' 
-    src='/img/tres_ositas.png'
+  img(
+    src='@/assets/img/tres_ositas.webp'
     alt=''
     class=`
       hidden
@@ -23,7 +22,6 @@ div(class=`
     h1(class=`
       text-3xl
       font-semibold
-      overflow-y-hidden
       mx-4
       text-left
     `) {{ $t('tres_ositas_title') }}
@@ -47,14 +45,12 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
         mb-6
         lg:mb-0
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 1,500+
         h4 {{ $t('downloads') }}
       div(class=`
@@ -66,14 +62,12 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
         mb-6
         lg:mb-0
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `)  2
         h4 {{ $t('countries') }}
       div(class=`
@@ -85,14 +79,12 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
         mb-6
         lg:mb-0
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `)  6 {{ $t('months') }}
         h3(class=`
           font-bold
@@ -112,13 +104,13 @@ div(class=`
     flex
     justify-center
     `)
-      NuxtImg(
-      format='webp'  
-      src='/img/tres_ositas.png' 
+    img(
+      src='@/assets/img/tres_ositas.webp' 
       alt='' 
       class=`
         lg:hidden 
         w-[80%] 
         p-[5%]
+        mx-[10%]
       `)
 </template>

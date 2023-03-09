@@ -9,9 +9,8 @@ div(class=`
   lg:h-[100%]
   lg:pt-16
 `)
-  nuxt-img.hidden(
-    format='webp' 
-    src='/img/second_step.png'
+  img(
+    src='@/assets/img/second_step.webp'
     alt=''
     class=`
       hidden
@@ -23,7 +22,6 @@ div(class=`
     h1(class=`
       text-3xl
       font-semibold
-      overflow-y-hidden
       mx-4
       text-left
     `) {{ $t('sercom') }}
@@ -47,14 +45,12 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
         mb-6
         lg:mb-0
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 20+
         h4 {{ $t('final_users') }}
       div(class=`
@@ -66,14 +62,12 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
         mb-6
         lg:mb-0
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 12 {{ $t('months') }}
         h3(class=`
           font-bold
@@ -88,14 +82,12 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
         mb-6
         lg:mb-0
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden 
         `) Web
         h4 {{ $t('technologies') }}
     button(class=`
@@ -112,9 +104,8 @@ div(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      format='webp' 
-      src='/img/second_step.png' 
+    img(
+      src='@/assets/img/second_step.webp' 
       alt='' 
       class=`
         lg:hidden 

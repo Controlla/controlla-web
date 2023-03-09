@@ -16,10 +16,8 @@ section(class=`
         flex
         justify-center
     `)
-        NuxtImg(
-            format='webp'
-            loading='lazy'
-            src='/img/mobile_team.svg'
+        img(
+            src='@/assets/img/mobile_team.webp'
             alt='team'
             class=`
                 w-[90%]
@@ -27,10 +25,8 @@ section(class=`
                 my-6
                 md:hidden
             `)
-        NuxtImg(
-        format='webp'
-        loading='lazy'
-        src='/img/team.svg'
+        img(
+        src='@/assets/img/team.webp'
         alt='home background'
         class=`
             hidden
