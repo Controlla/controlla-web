@@ -22,7 +22,7 @@ section(class=`
             class=`
                 w-[90%]
                 sm:w-[60%]
-            `)
+        `)
     img(
         src='@/assets/img/team.webp'
         alt='home background'

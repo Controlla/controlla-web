@@ -27,7 +27,7 @@ section(class=`
             text-center
             md:text-start
             z-10
-        `) {{ $t('meet_the_team') }}
+            `) {{ $t('meet_the_team') }}
             h1(class=`
             text-4xl
             lg:text-5xl
@@ -38,7 +38,7 @@ section(class=`
             relative
             text-center
             md:text-start
-        `) {{ $t('problem_solvers') }}
+            `) {{ $t('problem_solvers') }}
         div(class=`
             relative
             z-10
@@ -55,16 +55,6 @@ section(class=`
                 z-30
                 pb-44
                 md:pb-22
-                md:pl-[10%]
+                md:pl-[10%#f9fafb]
             `)
-        div(class=`
-            w-[200%]
-            h-[200%]
-            top-[80%]
-            left-[-50%]
-            bg-white
-            absolute
-            overflow-x-hidden
-            rounded-t-[100%]
-        `)
 </template>
