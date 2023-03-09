@@ -5,6 +5,7 @@ import { onMounted } from "vue";
 import type Image from "~/interfaces/Image";
 
 const images: Array<Image> = useImages();
+
 const itemsToShow = ref(2.75);
 onMounted(() => {
   if (window.innerWidth < 640) itemsToShow.value = 1.3;
@@ -19,8 +20,7 @@ div(class=`
 `)
   carousel(:items-to-show='itemsToShow' :wrap-around='true')
     slide(v-for='(image, index) in images' :index='index')
-      NuxtImg(
-        format="webp"
+      img(
         class="carrousel__item" 
         :src='image.src'
       )

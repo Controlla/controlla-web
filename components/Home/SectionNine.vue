@@ -13,7 +13,6 @@ div(class=`
   h2(class=`
     text-3xl
     text-center
-    overflow-hidden
     font-semibold
   `) {{ $t('success') }} 
   carousel(:items-to-show='1')

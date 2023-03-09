@@ -4,7 +4,7 @@ section(class=`
   min-h-screen
   absolute
   left-0
-  overflow-hidden
+  overflow-x-hidden
   md:w-[200%] 
   md:left-[-50%]
   md:overflow-x-hidden
@@ -12,36 +12,36 @@ section(class=`
   md:min-h-[20vw]
   md:right-[-10%]
 `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[26%]
-    top-[15%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-300
-    absolute
-  `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[45%]
-    top-[-10%]
-    blur-[11rem]
-    rounded-full
-    bg-blue-300
-    absolute
-  `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[65%]
-    top-[15%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-300
-    absolute
-  `)
+  //- div(class=`
+  //-   w-[25rem]
+  //-   h-[25rem]
+  //-   left-[26%]
+  //-   top-[15%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-300
+  //-   absolute
+  //- `)
+  //- div(class=`
+  //-   w-[25rem]
+  //-   h-[25rem]
+  //-   left-[45%]
+  //-   top-[-10%]
+  //-   blur-[11rem]
+  //-   rounded-full
+  //-   bg-blue-300
+  //-   absolute
+  //- `)
+  //- div(class=`
+  //-   w-[25rem]
+  //-   h-[25rem]
+  //-   left-[65%]
+  //-   top-[15%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-300
+  //-   absolute
+  //- `)
   div(class=`
     sm:mt-[4%]
     md:h-[60%]
@@ -61,8 +61,8 @@ section(class=`
       flex
       justify-center
     `)
-      NuxtImg(
-        src='/img/logo.svg' 
+      img(
+        src='@/assets/img/logo.webp' 
         alt='logo controlla' 
         class=`
         w-[80%]
@@ -121,22 +121,22 @@ section(class=`
       mb-6
     `)
       NuxtLink(to='https://www.facebook.com/controlla.cuu')
-        NuxtImg(
-          src='/img/facebook.svg' 
+        img(
+          src='@/assets/img/facebook.webp' 
           alt='logo facebook' 
           class=`
           mx-6
         `)
       NuxtLink(to='https://www.instagram.com/controlla_technologies/')
-        NuxtImg(
-          src='/img/instagram.svg' 
+        img(
+          src='@/assets/img/instagram.webp' 
           alt='logo instagram' 
           class=`
           mx-6
         `)
       NuxtLink(to='https://www.linkedin.com/company/controlla/')
-        NuxtImg(
-          src='/img/linkedin.svg' 
+        img(
+          src='@/assets/img/linkedin.webp' 
           alt='logo linkedin' 
           class=`
           mx-6

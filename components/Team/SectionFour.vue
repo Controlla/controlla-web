@@ -1,8 +1,6 @@
 <template lang="pug">
 section(class=`
   w-screen
-  overflow-y-hidden
-  max-w-screen-xl
 `)
   div(class=`
     min-h-[50%]
@@ -12,7 +10,6 @@ section(class=`
     min-h-[50%]
     md:pt-12
     w-screen
-    overflow-y-hidden
     mb-10
     max-w-screen-xl
   `)
@@ -33,10 +30,8 @@ section(class=`
       flex
       justify-center
     `)
-      NuxtImg(
-        format='webp'
-        loading='lazy'
-        src='/img/trusted_partners_desktop.svg'
+      img(
+        src='@/assets/img/trusted_partners_desktop.webp'
         alt='trusted partners'
         class=`
           w-[90%]
@@ -45,10 +40,8 @@ section(class=`
           hidden
           md:inline
       `)
-      NuxtImg(
-        format='webp'
-        loading='lazy'
-        src='/img/trusted_partners.svg'
+      img(
+        src='@/assets/img/trusted_partners.webp'
         alt='trusted partners'
         class=`
           w-[90%]

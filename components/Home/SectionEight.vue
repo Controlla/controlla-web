@@ -12,7 +12,6 @@ section(class=`
   h3(class=`
     text-3xl
     text-center
-    overflow-y-hidden
   `) {{ $t('why') }}
     strong.text-sky-500  {{ $t('choose') }}
     |  {{ $t('us') }}
@@ -40,10 +39,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        format="webp"
-        loading="lazy"
-        src='/img/hug.png'
+      img(
+        src='@/assets/img/hug.webp'
         alt='hug'
         class=`
         w-12
@@ -68,8 +65,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        src='/img/plane.png'
+      img(
+        src='@/assets/img/plane.webp'
         alt='hug'
         class=`
         w-12
@@ -93,9 +90,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        format="webp"
-        src='/img/board.png'
+      img(
+        src='@/assets/img/board.webp'
         alt='board'
         class=`
         w-12

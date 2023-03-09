@@ -82,7 +82,7 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(src='/img/home_background.png' format="webp" alt='home background' class=`
+    img(src='@/assets/img/home_background.webp' alt='home background' class=`
       w-[90%]
       md:w-[70%]
       lg:w-[65%]

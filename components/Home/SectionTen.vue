@@ -8,34 +8,34 @@ section(class=`
   relative
   max-w-screen-xl
 `)
-  NuxtImg(
-    src="/img/line4_mobile.svg" 
-    alt='arrow' 
-    class=`
-      absolute 
-      right-[75%] 
-      top-[10rem] 
-      z-30
-      md:hidden
-  `)
-  NuxtImg(
-    src="/img/line4.svg" 
-    alt='arrow' 
-    class=`
-      hidden
-      absolute 
-      w-[8rem]
-      right-[40%]
-      top-[10rem]
-      z-30
-      md:inline
-      lg:w-[10rem]
-      xl:w-[8rem]
-      xl:right-[43%]
-      xl:top-[12rem]
-      2xl:right-[46%]
-      2xl:top-[17rem]
-  `)  
+  //- img(
+  //-   src="@/assets/img/line4_mobile.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-     absolute 
+  //-     right-[75%] 
+  //-     top-[10rem] 
+  //-     z-30
+  //-     md:hidden
+  //- `)
+  //- img(
+  //-   src="@/assets/img/line4.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-     hidden
+  //-     absolute 
+  //-     w-[8rem]
+  //-     right-[40%]
+  //-     top-[10rem]
+  //-     z-30
+  //-     md:inline
+  //-     lg:w-[10rem]
+  //-     xl:w-[8rem]
+  //-     xl:right-[43%]
+  //-     xl:top-[12rem]
+  //-     2xl:right-[46%]
+  //-     2xl:top-[17rem]
+  //- `)  
   div(class=`
       md:mt-[12vh]
       xl:mt-[18vh]
@@ -47,7 +47,6 @@ section(class=`
       md:text-start 
       text-3xl
       font-semibold
-      overflow-y-hidden
       my-6
       text-center
     `) {{ $t('you_can_find') }} 
@@ -72,9 +71,8 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      format="web"
-      src='/img/building.png' 
+    img(
+      src='@/assets/img/building.webp' 
       alt='building' 
       class=`
       w-[75%] 

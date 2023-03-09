@@ -19,44 +19,43 @@ section(class=`
     2xl:px-0
     py-16
     lg:py-24  `)
-    div(class=`
-      w-[25rem]
-      h-[25rem]
-      left-[6%]
-      top-[15%]
-      blur-[11rem]
-      rounded-full
-      bg-violet-300
-      absolute
-      z-0
-    `)
-    div(class=`
-      w-[25rem]
-      h-[25rem]
-      left-[40%]
-      top-[-10%]
-      blur-[11rem]
-      rounded-full
-      bg-blue-300
-      absolute
-      z-0
-    `)
-    div(class=`
-      w-[25rem]
-      h-[25rem]
-      left-[75%]
-      top-[15%]
-      blur-[11rem]
-      rounded-full
-      bg-violet-300
-      absolute
-      z-0
-    `)
+    //- div(class=`
+    //-   w-[25rem]
+    //-   h-[25rem]
+    //-   left-[6%]
+    //-   top-[15%]
+    //-   blur-[11rem]
+    //-   rounded-full
+    //-   bg-violet-300
+    //-   absolute
+    //-   z-0
+    //- `)
+    //- div(class=`
+    //-   w-[25rem]
+    //-   h-[25rem]
+    //-   left-[40%]
+    //-   top-[-10%]
+    //-   blur-[11rem]
+    //-   rounded-full
+    //-   bg-blue-300
+    //-   absolute
+    //-   z-0
+    //- `)
+    //- div(class=`
+    //-   w-[25rem]
+    //-   h-[25rem]
+    //-   left-[75%]
+    //-   top-[15%]
+    //-   blur-[11rem]
+    //-   rounded-full
+    //-   bg-violet-300
+    //-   absolute
+    //-   z-0
+    //- `)
     div(class=`
       sm:mr-[10%]
       xl:mr-0
       z-10
-      overflow-y-hidden
       relative
     `)
       h2(class=`
@@ -64,7 +63,6 @@ section(class=`
         lg:my-6
         text-3xl
         leading-normal
-        overflow-y-hidden
         lg:text-4xl
         text-center
         sm:text-start
@@ -73,7 +71,6 @@ section(class=`
         strong {{ $t('borders') }}
       h2(class=`
         text-lg
-        overflow-y-hidden
         lg:text-2xl
         lg:my-6
         text-center
@@ -97,21 +94,18 @@ section(class=`
     div(class=`
       flex
       justify-center
-      sm:block
-      2xl:mr-[30%]
+      sm:block`)
+      img(
+        src='@/assets/img/rocket.webp'
+        alt='rocket'
+        class=`
+          max-w-[20rem]
+          w-[90%]
+          mt-[1%]
+          z-10
+          relative
+          sm:w-[100%]
       `)
-      NuxtImg(
-      format="webp"
-      src='/img/rocket.png'
-      alt='rocket'
-      class=`
-        max-w-[20rem]
-        w-[90%]
-        mt-[1%]
-        z-10
-        relative
-        sm:w-[100%]
-    `)
   div(class=`
     w-[90%]
     lg:py-24
@@ -124,7 +118,6 @@ section(class=`
       text-center
       my-1
       font-semibold
-      overflow-y-hidden
     `)
       | {{ $t('the_key_to') }}
       br
@@ -143,27 +136,27 @@ section(class=`
       br
       |  {{ $t('with_necessary_expertise') }}
     ContactButton
-    NuxtImg(
-      src="/img/line1_mobile.svg" 
-      alt='arrow' 
-      class=`
-      absolute
-      right-[49.5%] 
-      bottom-[-12rem]
-      sm:hidden
-      `)
-    NuxtImg(
-      src="/img/line1.svg" 
-      alt='arrow' 
-      class=`
-      hidden 
-      w-[18rem] 
-      absolute
-      sm:bottom-[-8rem]
-      lg:bottom-[-2rem]
-      right-[49.5%] 
-      mt-[1rem] 
-      sm:inline 
-      xl:w-[30rem]
-      xl:bottom-[-10rem]`)
+    //- img(
+    //-   src="@/assets/img/line1_mobile.webp" 
+    //-   alt='arrow' 
+    //-   class=`
+    //-   absolute
+    //-   right-[49.5%] 
+    //-   bottom-[-12rem]
+    //-   sm:hidden
+    //-   `)
+    //- img(
+    //-   src="@/assets/img/line1.webp" 
+    //-   alt='arrow' 
+    //-   class=`
+    //-   hidden 
+    //-   w-[18rem] 
+    //-   absolute
+    //-   sm:bottom-[-8rem]
+    //-   lg:bottom-[-2rem]
+    //-   right-[49.5%] 
+    //-   mt-[1rem] 
+    //-   sm:inline 
+    //-   xl:w-[30rem]
+    //-   xl:bottom-[-10rem]`)
 </template>

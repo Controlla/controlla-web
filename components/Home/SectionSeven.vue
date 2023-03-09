@@ -13,52 +13,52 @@ section(class=`
   2xl:text-2xl
   max-w-screen-xl
 `)
-  NuxtImg(
-    src="/img/line3_mobile.svg" 
-    alt='arrow' 
-    class=`
-      md:hidden
-      absolute 
-      right-[49.5%] 
-      top-[-6rem] 
-      z-30
-  `)
-  NuxtImg(
-    src="/img/line2.svg" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[25rem] 
-    absolute 
-    right-[40%] 
-    top-[-7rem] 
-    z-30 
-    md:inline
-    lg:w-[35rem]
-    lg:top-[-10rem]
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem]
-    left-[6%]
-    top-[15%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[75%]
-    top-[8%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
+  //- img(
+  //-   src="@/assets/img/line3_mobile.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-     md:hidden
+  //-     absolute 
+  //-     right-[49.5%] 
+  //-     top-[-6rem] 
+  //-     z-30
+  //- `)
+  //- img(
+  //-   src="@/assets/img/line2.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-   hidden 
+  //-   w-[25rem] 
+  //-   absolute 
+  //-   right-[40%] 
+  //-   top-[-7rem] 
+  //-   z-30 
+  //-   md:inline
+  //-   lg:w-[35rem]
+  //-   lg:top-[-10rem]
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem]
+  //-   left-[6%]
+  //-   top-[15%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
+  //- div(class=`
+  //-   w-[25rem]
+  //-   h-[25rem]
+  //-   left-[75%]
+  //-   top-[8%]
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
   div(class=`
     px-[5%] 
     relative
@@ -77,7 +77,6 @@ section(class=`
       my-6
       text-xl
       font-semibold
-      overflow-y-hidden
     `) {{ $t('qa_test_and_launch') }}
     h2(class=` 
       my-6
@@ -94,8 +93,8 @@ section(class=`
     justify-center
     px-16
   `)
-    NuxtImg(
-      src='/img/fourth_step.png' 
+    img(
+      src='@/assets/img/fourth_step.webp' 
       alt='fourth step' 
       class=`
       w-[60%] 

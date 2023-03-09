@@ -11,7 +11,6 @@ section(class=`
   h3(class=`
     text-3xl
     text-center
-    overflow-y-hidden
   `) {{ $t('why') }}
     strong(class=`
       text-sky-500
@@ -21,6 +20,7 @@ section(class=`
    lg:flex
     lg:justify-around
     my-6
+    min-h-80
     py-6
     min-h-80
   `)
@@ -36,10 +36,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        format='webp'
-        loading='lazy'
-        src='/img/hourglass.svg'
+      img(
+        src='@/assets/img/hourglass.webp'
         alt='hourglass'
         class=`
         w-12
@@ -62,10 +60,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        format='webp'
-        loading='lazy'
-        src='/img/calendar.svg'
+      img(
+        src='@/assets/img/calendar.webp'
         alt='hug'
         class=`
         w-12
@@ -88,10 +84,8 @@ section(class=`
       mb-12
       lg:mb-0
     `)
-      NuxtImg(
-        format='webp'
-        loading='lazy'
-        src='/img/plane.png'
+      img(
+        src='@/assets/img/plane.webp'
         alt='hug'
         class=`
         w-12

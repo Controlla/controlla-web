@@ -16,66 +16,65 @@ section(class=`
   lg:text-xl
   2xl:text-2xl
 `)
-  NuxtImg(
-    src="/img/line1_mobile.svg" 
-    alt='arrow' 
-    class=`
-      sm:hidden 
-      absolute 
-      right-[49.5%] 
-      top-[-14rem] 
-      z-30
-  `)
-  NuxtImg(
-    src="/img/line1.svg" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[18rem] 
-    absolute 
-    right-[49.5%] 
-    top-[-6rem] 
-    z-30 
-    sm:inline 
-    xl:w-[30rem] 
-    xl:top-[-10rem]
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[12%] 
-    top-[15%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[40%] 
-    top-[50%] 
-    blur-[11rem] 
-    rounded-full
-    bg-blue-100
-    absolute
-    z-0 
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[70%] 
-    top-[15%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  NuxtImg(
-    src='/img/first_step.png' 
-    format="webp"
+  //- img(
+  //-   src="@/assets/img/line1_mobile.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-     sm:hidden 
+  //-     absolute 
+  //-     right-[49.5%] 
+  //-     top-[-14rem] 
+  //-     z-30
+  //- `)
+  //- img(
+  //-   src="@/assets/img/line1.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-   hidden 
+  //-   w-[18rem] 
+  //-   absolute 
+  //-   right-[49.5%] 
+  //-   top-[-6rem] 
+  //-   z-30 
+  //-   sm:inline 
+  //-   xl:w-[30rem] 
+  //-   xl:top-[-10rem]
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[12%] 
+  //-   top-[15%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[40%] 
+  //-   top-[50%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-blue-100
+  //-   absolute
+  //-   z-0 
+  //- `)
+  //- div(class=`
+  //-   w-[25rem] 
+  //-   h-[25rem] 
+  //-   left-[70%] 
+  //-   top-[15%] 
+  //-   blur-[11rem] 
+  //-   rounded-full
+  //-   bg-violet-200
+  //-   absolute
+  //-   z-0
+  //- `)
+  img(
+    src='@/assets/img/first_step.webp' 
     alt='first step' 
     class=`
       hidden
@@ -122,9 +121,8 @@ section(class=`
       |         {{ $t('wireframe') }} 
       br
       |         {{ $t('scoping') }}
-  NuxtImg(
-    src='/img/first_step.png' 
-    format="webp"
+  img(
+    src='@/assets/img/first_step.webp' 
     alt='first step' 
     class=`
       w-[90%]
@@ -134,24 +132,24 @@ section(class=`
       md:h-[30vw]
       md:hidden
   `)
-  NuxtImg(
-    src="/img/line2.svg" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[20rem] 
-    absolute 
-    right-[30%]
-    bottom-[-3rem]
-    z-30 
-    md:inline 
-    md:w-[35rem] 
-    md:bottom-[-12rem]
-    md:right-[15%]
-    lg:right-[25%]
-    lg:bottom-[-16rem]
-    xl:w-[40rem] 
-    xl:bottom-[-18rem]
-    xl:right-[38%]
-  `)    
+  //- img(
+  //-   src="@/assets/img/line2.webp" 
+  //-   alt='arrow' 
+  //-   class=`
+  //-   hidden 
+  //-   w-[20rem] 
+  //-   absolute 
+  //-   right-[30%]
+  //-   bottom-[-3rem]
+  //-   z-30 
+  //-   md:inline 
+  //-   md:w-[35rem] 
+  //-   md:bottom-[-8rem]
+  //-   md:right-[15%]
+  //-   lg:right-[25%]
+  //-   lg:bottom-[-10rem]
+  //-   xl:w-[40rem] 
+  //-   xl:bottom-[-15rem]
+  //-   xl:right-[38%]
+  //- `)    
 </template>

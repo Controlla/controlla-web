@@ -10,39 +10,39 @@ section(class=`
     overflow-hidden
     max-w-screen-xl
 `)
-    div(class=`
-        w-[25rem]
-        h-[25rem]
-        left-[12%]
-        top-[15%]
-        blur-[11rem]
-        rounded-full
-        bg-violet-300
-        absolute
-        z-0
-    `)
-    div(class=`
-        w-[25rem]
-        h-[25rem]
-        left-[40%]
-        top-[25%]
-        blur-[11rem]
-        rounded-full
-        bg-sky-100
-        absolute
-        z-0
-    `)
-    div(class=`
-        w-[25rem]
-        h-[25rem]
-        left-[70%]
-        top-[15%]
-        blur-[11rem]
-        rounded-full
-        bg-violet-300
-        absolute
-        z-0
-    `)
+    //- div(class=`
+    //-     w-[25rem]
+    //-     h-[25rem]
+    //-     left-[12%]
+    //-     top-[15%]
+    //-     blur-[11rem]
+    //-     rounded-full
+    //-     bg-violet-300
+    //-     absolute
+    //-     z-0
+    //- `)
+    //- div(class=`
+    //-     w-[25rem]
+    //-     h-[25rem]
+    //-     left-[40%]
+    //-     top-[25%]
+    //-     blur-[11rem]
+    //-     rounded-full
+    //-     bg-sky-100
+    //-     absolute
+    //-     z-0
+    //- `)
+    //- div(class=`
+    //-     w-[25rem]
+    //-     h-[25rem]
+    //-     left-[70%]
+    //-     top-[15%]
+    //-     blur-[11rem]
+    //-     rounded-full
+    //-     bg-violet-300
+    //-     absolute
+    //-     z-0
+    //- `)
     div(class=`
         justify-center
         relative
@@ -54,7 +54,6 @@ section(class=`
             text-4xl
             lg:text-5xl
             md:mt-[30%]
-            overflow-y-hidden
             relative
             text-center
             md:text-start
@@ -67,7 +66,6 @@ section(class=`
             mt-2
             mb-6
             font-bold
-            overflow-y-hidden
             relative
             text-center
             md:text-start
@@ -78,10 +76,8 @@ section(class=`
             flex
             justify-center
     `)
-            NuxtImg(
-            format='webp'
-            loading='lazy'
-            src='/img/us_lines.svg'
+            img(
+            src='@/assets/img/us_lines.webp'
             alt='home background'
             class=`
                 w-[90%]
