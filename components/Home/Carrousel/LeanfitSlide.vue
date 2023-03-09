@@ -28,6 +28,14 @@ section(class=`
       my-6
       mx-4
     `) {{ $t('personalized_diet') }}
+    img(
+      src='@/assets/img/leanfit.webp'
+      alt=''
+      class=`
+        md:hidden
+        w-[90%]
+        p-[5%]
+      `)
     div(class=`
       md:flex 
       my-6
@@ -76,8 +84,12 @@ section(class=`
         h4(class=`
           text-2xl
           font-bold
-        `) $50,578
-        h4 {{ $t('in_subscriptions') }}
+        `) {{$t('app')}}/{{$t('web')}}
+        h4 {{ $t('technologies') }}
+        h4(
+          class=`
+          font-light`
+        ) {{ $t('flutter') }}
     button(class=`
       mx-4
       bg-black
@@ -92,14 +104,6 @@ section(class=`
     flex
     justify-center
   `)
-    img(
-      src='@/assets/img/leanfit.webp'
-      alt=''
-      class=`
-        md:hidden
-        w-[90%]
-        p-[5%]
-      `)
 
 
 </template>

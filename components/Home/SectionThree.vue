@@ -3,53 +3,24 @@ section(class=`
   bg-white
   w-screen
   relative
-  overflow-hidden
+  pb-[3rem]
+  sm:pb-1
 `)
   div(class=`
     h-[50%]
     w-screen
     relative
-    overflow-hidden
     justify-center
     sm:flex
     px-[10%]
     sm:px-[5%]
     md:px-[10%]
     py-16
-    lg:py-24  `)
-    //- div(class=`
-    //-   w-[25rem]
-    //-   h-[25rem]
-    //-   left-[6%]
-    //-   top-[15%]
-    //-   blur-[11rem]
-    //-   rounded-full
-    //-   bg-violet-300
-    //-   absolute
-    //-   z-0
-    //- `)
-    //- div(class=`
-    //-   w-[25rem]
-    //-   h-[25rem]
-    //-   left-[40%]
-    //-   top-[-10%]
-    //-   blur-[11rem]
-    //-   rounded-full
-    //-   bg-blue-300
-    //-   absolute
-    //-   z-0
-    //- `)
-    //- div(class=`
-    //-   w-[25rem]
-    //-   h-[25rem]
-    //-   left-[75%]
-    //-   top-[15%]
-    //-   blur-[11rem]
-    //-   rounded-full
-    //-   bg-violet-300
-    //-   absolute
-    //-   z-0
-    //- `)
+    lg:py-24
+    bg-[url('@/assets/img/frienshore_home_background.webp')]
+    bg-cover
+    bg-no-repeat
+  `)
     div(class=`
       sm:mr-[10%]
       z-10
@@ -138,22 +109,23 @@ section(class=`
       alt='arrow' 
       class=`
       absolute
-      right-[49.5%] 
-      bottom-[-12rem]
+      left-5
+      bottom-[-10rem]
       sm:hidden
-      `)
+      z-30
+    `)
     img(
       src="@/assets/img/line1.webp" 
       alt='arrow' 
       class=`
+      z-30
       hidden 
       w-[18rem] 
       absolute
-      sm:bottom-[-8rem]
+      sm:bottom-[-7rem]
       lg:bottom-[-2rem]
       right-[49.5%] 
-      mt-[1rem] 
       sm:inline 
       xl:w-[30rem]
-      xl:bottom-[-10rem]`)
+      xl:bottom-[-8rem]`)
 </template>

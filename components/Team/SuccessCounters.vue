@@ -32,7 +32,7 @@ onMounted(() => {
     rootMargin: "0px 0px -25% 0px",
   };
 
-  async function increment(counter) {
+  async function increment(counter: Counter) {
     for (let index = 0; index < counter.max; index++) {
       await new Promise((resolve) => setTimeout(resolve, 10));
       counter.value.value++;

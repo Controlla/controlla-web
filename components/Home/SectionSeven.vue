@@ -1,63 +1,19 @@
 <template lang="pug">
 section(class=`
-  pt-[12%] 
+  pt-[25%] 
+  md:pt-[20%] 
   bg-cyan-50
   w-screen
   relative
   justify-center
   overflow-hidden
   md:flex 
-  pb-20
+  pb-10
   text-base
+  md:pt-[12%]
   lg:text-xl
   2xl:text-2xl
 `)
-  img(
-    src="@/assets/img/line3_mobile.webp" 
-    alt='arrow' 
-    class=`
-      md:hidden
-      absolute 
-      right-[49.5%] 
-      top-[-6rem] 
-      z-30
-  `)
-  img(
-    src="@/assets/img/line2.webp" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[25rem] 
-    absolute 
-    right-[40%] 
-    top-[-7rem] 
-    z-30 
-    md:inline
-    lg:w-[35rem]
-    lg:top-[-10rem]
-  `)
-  //- div(class=`
-  //-   w-[25rem] 
-  //-   h-[25rem]
-  //-   left-[6%]
-  //-   top-[15%]
-  //-   blur-[11rem] 
-  //-   rounded-full
-  //-   bg-violet-200
-  //-   absolute
-  //-   z-0
-  //- `)
-  //- div(class=`
-  //-   w-[25rem]
-  //-   h-[25rem]
-  //-   left-[75%]
-  //-   top-[8%]
-  //-   blur-[11rem] 
-  //-   rounded-full
-  //-   bg-violet-200
-  //-   absolute
-  //-   z-0
-  //- `)
   div(class=`
     px-[5%] 
     relative
@@ -87,6 +43,20 @@ section(class=`
       |         {{ $t('automate') }} 
       br
       |         {{ $t('test') }}
+    div(
+      class=`
+      w-20
+      md:w-40
+      mt-5
+      flex
+      `
+    )
+      img(
+        src='@/assets/img/cypress.webp' 
+      )
+      img(
+        src='@/assets/img/selenium.webp' 
+      )
   div(class=`
     flex
     justify-center

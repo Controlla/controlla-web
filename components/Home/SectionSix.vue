@@ -1,78 +1,20 @@
 <template lang="pug">
 section(class=`
-  pt-[12%] 
+  pt-[25%] 
+  md:pt-[20%] 
   bg-white
   w-screen
   relative
   justify-center
-  overflow-hidden
   md:flex 
   pb-20
   text-base
   lg:text-xl
   2xl:text-2xl
+  bg-[url('@/assets/img/frienshore_home_background.webp')]
+  bg-cover
+  bg-no-repeat
 `)
-  img(
-    src="@/assets/img/line3_mobile.webp" 
-    alt='arrow' 
-    class=`
-      sm:hidden
-      absolute 
-      right-[49.5%] 
-      top-[-6rem] 
-      z-30
-  `)
-  img(
-    src="@/assets/img/line3.webp" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[18rem] 
-    absolute
-    right-[50%] 
-    top-[-6rem] 
-    z-30 
-    sm:inline 
-    sm:w-[30rem] 
-    sm:right-[20%]
-    sm:top-[-15rem]
-    lg:w-[40rem]
-    lg:right-[25%]
-    lg:top-[-18rem]    
-  `)
-  //- div(class=`
-  //-   w-[25rem] 
-  //-   h-[25rem] 
-  //-   left-[6%] 
-  //-   top-[15%] 
-  //-   blur-[11rem] 
-  //-   rounded-full
-  //-   bg-violet-200
-  //-   absolute
-  //-   z-0
-  //- `)
-  //- div(class=`
-  //-   w-[25rem] 
-  //-   h-[25rem] 
-  //-   left-[40%] 
-  //-   top-[50%] 
-  //-   blur-[11rem] 
-  //-   rounded-full
-  //-   bg-violet-200
-  //-   absolute
-  //-   z-0
-  //- `)
-  //- div(class=`
-  //-   w-[25rem] 
-  //-   h-[25rem] 
-  //-   left-[75%] 
-  //-   top-[8%] 
-  //-   blur-[11rem] 
-  //-   rounded-full
-  //-   bg-violet-200
-  //-   absolute
-  //-   z-0
-  //- `)
   img(
     src='@/assets/img/third_step.webp' 
     alt='third step' 
@@ -130,9 +72,10 @@ section(class=`
     alt='arrow' 
     class=`
     absolute
-    right-[49.5%]
+    left-10
     bottom-[-4.5rem] 
     md:hidden
+    z-30
   `)  
   img(
     src="@/assets/img/line2.webp" 

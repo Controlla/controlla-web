@@ -4,65 +4,14 @@ section(class=`
   w-screen
   relative
   justify-center
-  overflow-hidden
-  md:flex pt-[12%] 
+  md:flex 
+  pt-[8rem]
+  md:pt-[15rem]
   pb-20
   text-base
   lg:text-xl
   2xl:text-2xl
 `)
-  img(
-    src="@/assets/img/line2.webp" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[20rem] 
-    absolute 
-    right-[30%] 
-    top-[-6rem] 
-    z-30 
-    md:inline 
-    md:w-[35rem] 
-    md:top-[-13rem]
-    md:right-[15%]
-    lg:right-[25%]
-    xl:w-[40rem] 
-    xl:top-[-15rem]
-    xl:right-[38%]
-  `)
-  //- div(class=`
-  //-   w-[25rem] 
-  //-   h-[25rem] 
-  //-   left-[6%] 
-  //-   top-[15%] 
-  //-   blur-[11rem] 
-  //-   rounded-full
-  //-   bg-violet-200
-  //-   absolute
-  //-   z-0
-  //- `)
-  //- div(class=`
-  //-   w-[25rem] 
-  //-   h-[25rem]
-  //-   left-[40%]
-  //-   top-[45%]
-  //-   blur-[11rem] 
-  //-   rounded-full
-  //-   bg-violet-100
-  //-   absolute
-  //-   z-0
-  //- `)
-  //- div(class=`
-  //-   w-[25rem] 
-  //-   h-[25rem]
-  //-   left-[75%] 
-  //-   top-[8%]
-  //-   blur-[11rem] 
-  //-   rounded-full
-  //-   bg-violet-200
-  //-   absolute
-  //-   z-0
-  //- `)
   div(class=`
     px-[5%] 
     z-10
@@ -92,6 +41,20 @@ section(class=`
       |  {{ $t('sketching') }}
       br
       |  {{ $t('design') }}
+    div(
+      class=`
+      w-20
+      md:w-40
+      mt-5
+      flex
+      `
+    )
+      img(
+        src='@/assets/img/figma.webp' 
+      )
+      img(
+        src='@/assets/img/miro.webp' 
+      )
   img(
     src='@/assets/img/second_step.webp' 
     alt='second step' 
@@ -107,9 +70,10 @@ section(class=`
     alt='arrow' 
     class=`
     absolute
-    right-[49.5%]
     bottom-[-4.5rem] 
+    left-5
     sm:hidden
+    z-30
   `)
   img(
     src="@/assets/img/line3.webp" 
@@ -126,5 +90,6 @@ section(class=`
     lg:w-[40rem]
     lg:right-[25%]
     lg:bottom-[-20rem]
+    z-30
   `)  
 </template>

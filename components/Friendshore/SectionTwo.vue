@@ -1,6 +1,7 @@
 <template lang="pug">
 section(class=`
-  px-[20vw]
+  px-[5vw]
+  md:px-[20vw]
   bg-white
   w-screen
   py-24

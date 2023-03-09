@@ -1,6 +1,6 @@
 <template lang="pug">
 section(class=`
-  pt-[12%] 
+  pt-[10%] 
   px-[20%] 
   lg:px-[25%] 
   bg-white

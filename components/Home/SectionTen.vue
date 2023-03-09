@@ -13,7 +13,7 @@ section(class=`
     class=`
       absolute 
       right-[75%] 
-      top-[10rem] 
+      top-[12rem] 
       z-30
       md:hidden
   `)
@@ -31,7 +31,7 @@ section(class=`
       lg:w-[10rem]
       xl:w-[8rem]
       xl:right-[43%]
-      xl:top-[12rem]
+      xl:top-[14rem]
       2xl:right-[46%]
       2xl:top-[17rem]
   `)  

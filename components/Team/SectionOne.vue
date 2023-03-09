@@ -3,45 +3,15 @@ section(class=`
     sm:px-[5%]
     md:text-left
     w-screen
-    min-h-screen
     bg-purple-50
     relative
     pt-40
     overflow-hidden
+    bg-[url('@/assets/img/top_team_bg.webp')]
+    bg-cover
+    bg-no-repeat
+    bg-center
 `)
-    //- div(class=`
-    //-     w-[25rem]
-    //-     h-[25rem]
-    //-     left-[12%]
-    //-     top-[15%]
-    //-     blur-[11rem]
-    //-     rounded-full
-    //-     bg-violet-300
-    //-     absolute
-    //-     z-0
-    //- `)
-    //- div(class=`
-    //-     w-[25rem]
-    //-     h-[25rem]
-    //-     left-[40%]
-    //-     top-[25%]
-    //-     blur-[11rem]
-    //-     rounded-full
-    //-     bg-sky-100
-    //-     absolute
-    //-     z-0
-    //- `)
-    //- div(class=`
-    //-     w-[25rem]
-    //-     h-[25rem]
-    //-     left-[70%]
-    //-     top-[15%]
-    //-     blur-[11rem]
-    //-     rounded-full
-    //-     bg-violet-300
-    //-     absolute
-    //-     z-0
-    //- `)
     div(class=`
         justify-center
         relative
@@ -74,7 +44,7 @@ section(class=`
             z-10
             flex
             justify-center
-    `)
+        `)
             img(
             src='@/assets/img/us_lines.webp'
             alt='home background'

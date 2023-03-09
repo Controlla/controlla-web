@@ -3,7 +3,7 @@ div(class=`
   md:flex 
   md:text-lg
 `)
-  nuxt-img.hidden(
+  img.hidden(
     format='webp' 
     loading='lazy' 
     src='@/assets/img/second_step.webp'
@@ -26,7 +26,15 @@ div(class=`
       mx-4
       text-left
     `) {{ $t('custom_software') }} 
-      br
+    img(
+      src='@/assets/img/second_step.webp' 
+      alt='' 
+      class=`
+        md:hidden 
+        w-[90%] 
+        p-[5%]
+      `)
+
     div(class=`
       md:flex 
       my-6
@@ -90,17 +98,4 @@ div(class=`
       font-semibold
       text-lg
     `) {{ $t('webpage') }} &nearr;
-  div(class=`
-    flex
-    justify-center
-  `)
-    img(
-      src='@/assets/img/second_step.webp' 
-      alt='' 
-      class=`
-        md:hidden 
-        w-[90%] 
-        p-[5%]
-      `)
-
 </template>

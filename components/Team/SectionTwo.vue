@@ -8,7 +8,6 @@ section(class=`
         text-4xl
         font-bold
         text-center
-        hidden
         md:block
     `) {{ $t('our_team') }}
     div(class=`

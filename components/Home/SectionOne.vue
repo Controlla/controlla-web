@@ -1,14 +1,13 @@
 <template lang="pug">
 section(class=`
   w-screen
-  h-screen
   overflow-hidden
-  bg-gradient-to-b
-  from-white
-  via-blue-200
-  to-blue-200
   py-32
   relative
+  bg-[url('@/assets/img/top_home_bg.webp')]
+  bg-cover
+  bg-no-repeat
+  bg-center
 `)
   div(class=`
     w-screen
@@ -64,17 +63,6 @@ section(class=`
       |  {{ $t('through_trusted') }}
       strong {{ $t('alliances') }}
     ContactButton
-  div(class=`
-    sm:visible
-    w-[200%]
-    h-[200%]
-    top-[80%]
-    left-[-50%]
-    bg-white
-    absolute
-    overflow-x-hidden
-    rounded-t-[100%]
-  `)
   div(class=`
     mt-[1%]
     relative

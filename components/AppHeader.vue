@@ -34,7 +34,8 @@ header(class=`
       class=`
         w-[12rem]
         ml-6
-        h-10
+        h-8
+        md:h-10
         my-auto
       `
     ) 

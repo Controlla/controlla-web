@@ -118,7 +118,7 @@
   "trusted_partners": "Trusted Partners",
   "some_of_the": "Some of the companies we proudly worked with",
 
-  "get_the_best": "Get the best quality for the best price",
+  "get_the_best": "Get top quality software development",
   "our_services": "Our services",
   "why": "Why ",
   "work": "work ",
@@ -149,5 +149,13 @@
   "tres_ositas_subtitle": "Custom-made software was what Tres Ositas, a family agricultural business in Cuauhtémoc, Chihuahua, needed to organize from production to shipments.",
 
   "float_title": "Float",
-  "float_subtitle": "Float is the only credit app for couples, keeping them financially healthy. We designed and developed a subscription and payment wall for this project float required."
+  "float_subtitle": "Float is the only credit app for couples, keeping them financially healthy. We designed and developed a subscription and payment wall for this project float required.",
+  "construction": "Construction",
+  "industry": "Industry",
+  "customer": "Customer",
+  "kotlin": "Kotlin",
+  "swift": "Swift",
+  "agriculture": "Agriculture",
+  "app": "App",
+  "web": "Web"
 }

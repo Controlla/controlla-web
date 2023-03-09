@@ -3,52 +3,22 @@ section(class=`
   sm:px-[5%]
   md:text-left
   w-screen
-  min-h-screen
   bg-white
   relative
   pt-40
   overflow-hidden
   text-center
+  bg-[url('@/assets/img/top_friendshore_bg.webp')]
+  bg-cover
+  bg-no-repeat
+  bg-center
 `)
-  //- div(class=`
-  //-   w-[25rem]
-  //-   h-[25rem]
-  //-   left-[12%]
-  //-   top-[15%]
-  //-   blur-[11rem]
-  //-   rounded-full
-  //-   bg-violet-300
-  //-   absolute
-  //-   z-10
-  //- `)
-  //- div(class=`
-  //-   w-[25rem]
-  //-   h-[25rem]
-  //-   left-[40%]
-  //-   top-[25%]
-  //-   blur-[11rem]
-  //-   rounded-full
-  //-   bg-blue-300
-  //-   absolute
-  //-   z-10
-  //- `)
-  //- div(class=`
-  //-   w-[25rem]
-  //-   h-[25rem]
-  //-   left-[70%]
-  //-   top-[15%]
-  //-   blur-[11rem]
-  //-   rounded-full
-  //-   bg-violet-300
-  //-   absolute
-  //-   z-10
-  //- `)
   div(class=`
     justify-center
     relative
     m-auto
-    md:flex w-[90%]
-    md:mb-[50%]
+    md:flex 
+    w-[90%]
   `)
     div
       h3(class=`
