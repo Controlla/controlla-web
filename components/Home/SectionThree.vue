@@ -133,27 +133,27 @@ section(class=`
       br
       |  {{ $t('with_necessary_expertise') }}
     ContactButton
-    //- img(
-    //-   src="@/assets/img/line1_mobile.webp" 
-    //-   alt='arrow' 
-    //-   class=`
-    //-   absolute
-    //-   right-[49.5%] 
-    //-   bottom-[-12rem]
-    //-   sm:hidden
-    //-   `)
-    //- img(
-    //-   src="@/assets/img/line1.webp" 
-    //-   alt='arrow' 
-    //-   class=`
-    //-   hidden 
-    //-   w-[18rem] 
-    //-   absolute
-    //-   sm:bottom-[-8rem]
-    //-   lg:bottom-[-2rem]
-    //-   right-[49.5%] 
-    //-   mt-[1rem] 
-    //-   sm:inline 
-    //-   xl:w-[30rem]
-    //-   xl:bottom-[-10rem]`)
+    img(
+      src="@/assets/img/line1_mobile.webp" 
+      alt='arrow' 
+      class=`
+      absolute
+      right-[49.5%] 
+      bottom-[-12rem]
+      sm:hidden
+      `)
+    img(
+      src="@/assets/img/line1.webp" 
+      alt='arrow' 
+      class=`
+      hidden 
+      w-[18rem] 
+      absolute
+      sm:bottom-[-8rem]
+      lg:bottom-[-2rem]
+      right-[49.5%] 
+      mt-[1rem] 
+      sm:inline 
+      xl:w-[30rem]
+      xl:bottom-[-10rem]`)
 </template>

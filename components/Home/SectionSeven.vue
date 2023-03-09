@@ -12,30 +12,30 @@ section(class=`
   lg:text-xl
   2xl:text-2xl
 `)
-  //- img(
-  //-   src="@/assets/img/line3_mobile.webp" 
-  //-   alt='arrow' 
-  //-   class=`
-  //-     md:hidden
-  //-     absolute 
-  //-     right-[49.5%] 
-  //-     top-[-6rem] 
-  //-     z-30
-  //- `)
-  //- img(
-  //-   src="@/assets/img/line2.webp" 
-  //-   alt='arrow' 
-  //-   class=`
-  //-   hidden 
-  //-   w-[25rem] 
-  //-   absolute 
-  //-   right-[40%] 
-  //-   top-[-7rem] 
-  //-   z-30 
-  //-   md:inline
-  //-   lg:w-[35rem]
-  //-   lg:top-[-10rem]
-  //- `)
+  img(
+    src="@/assets/img/line3_mobile.webp" 
+    alt='arrow' 
+    class=`
+      md:hidden
+      absolute 
+      right-[49.5%] 
+      top-[-6rem] 
+      z-30
+  `)
+  img(
+    src="@/assets/img/line2.webp" 
+    alt='arrow' 
+    class=`
+    hidden 
+    w-[25rem] 
+    absolute 
+    right-[40%] 
+    top-[-7rem] 
+    z-30 
+    md:inline
+    lg:w-[35rem]
+    lg:top-[-10rem]
+  `)
   //- div(class=`
   //-   w-[25rem] 
   //-   h-[25rem]
