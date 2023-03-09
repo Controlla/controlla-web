@@ -1,6 +1,7 @@
 <template lang="pug">
 section(class=`
   w-screen
+  max-w-screen-xl
 `)
   div(class=`
     min-h-[50%]
