@@ -3,7 +3,7 @@ section(class=`
   pt-[10%] 
   px-[20%] 
   lg:px-[25%] 
-  bg-white
+  bg-[#FAFAFA]
   w-screen
   overflow-hidden
   mb-20

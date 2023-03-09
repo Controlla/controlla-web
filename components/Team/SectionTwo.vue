@@ -1,7 +1,7 @@
 <template lang="pug">
 section(class=`
     w-screen
-    bg-white
+    bg-[#F9FAFB]
     z-40
 `)
     h3(class=`
