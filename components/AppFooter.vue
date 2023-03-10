@@ -38,8 +38,7 @@ section(class=`
         src='@/assets/img/logo.webp' 
         alt='logo controlla' 
         class=`
-        h-10
-        w-[80%]
+        md:h-10
         md:w-[100%]
         max-w-[20rem]
       `)
