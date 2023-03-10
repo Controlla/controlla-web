@@ -7,7 +7,7 @@ div(class=`
   bg-white
   overflow-hidden
 `)
-  nuxt-img.hidden(
+  img.hidden(
     format='webp' 
     loading='lazy' 
     src='@/assets/img/tres_ositas.webp'
@@ -30,7 +30,14 @@ div(class=`
       mx-4
       text-left
     `) {{ $t('tres_ositas_subtitle') }} 
-      br
+    img(
+      src='@/assets/img/tres_ositas.webp' 
+      alt='' 
+      class=`
+        md:hidden 
+        w-[90%] 
+        p-[5%]
+      `)
     div(class=`
       md:flex 
       my-6
@@ -64,8 +71,8 @@ div(class=`
         h4(class=`
           text-2xl
           font-bold
-        `)  2
-        h4 {{ $t('countries') }}
+        `)  {{$t('agriculture')}}
+        h4 {{ $t('industry') }}
       div(class=`
         md:w-48 
         shadow-lg
@@ -98,12 +105,4 @@ div(class=`
     flex
     justify-center
     `)
-    img(
-      src='@/assets/img/tres_ositas.webp' 
-      alt='' 
-      class=`
-        md:hidden 
-        w-[90%] 
-        p-[5%]
-      `)
 </template>

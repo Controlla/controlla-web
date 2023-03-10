@@ -30,22 +30,13 @@ section(class=`
       justify-center
     `)
       img(
-        src='@/assets/img/trusted_partners_desktop.webp'
-        alt='trusted partners'
-        class=`
-          w-[90%]
-          md:w-[80%]
-          max-w-[70rem]
-          hidden
-          md:inline
-      `)
-      img(
         src='@/assets/img/trusted_partners.webp'
         alt='trusted partners'
         class=`
           w-[90%]
           md:w-[80%]
-          md:hidden
-          lg:w-[20%]
-        `)
+          max-w-[70rem]
+          md:inline
+          lg:w-[40%]
+      `)
 </template>

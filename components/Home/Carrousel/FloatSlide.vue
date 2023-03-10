@@ -28,6 +28,14 @@ section(class=`
       my-6
       mx-4
     `) {{ $t('float_subtitle') }}
+    img(
+      src='@/assets/img/float.webp'
+      alt=''
+      class=`
+        md:hidden
+        w-[90%]
+        p-[5%]
+      `)
     div(class=`
       md:flex 
       my-6
@@ -46,8 +54,8 @@ section(class=`
         h4(class=`
           text-2xl
           font-bold
-        `) 1,500+
-        h4 {{ $t('downloads') }}
+        `) US
+        h4 {{ $t('customer') }}
       div(class=`
         md:w-48 
         shadow-lg
@@ -61,8 +69,8 @@ section(class=`
         h4(class=`
           text-2xl
           font-bold
-        `) 2
-        h4 {{ $t('countries') }}
+        `) {{ $t('kotlin')}}/{{$t('swift')}}
+        h4 {{ $t('techonologies') }}
       div(class=`
         md:w-48 
         shadow-lg
@@ -95,14 +103,6 @@ section(class=`
     flex
     justify-center
   `)
-    img(
-      src='@/assets/img/leanfit.webp'
-      alt=''
-      class=`
-        md:hidden
-        w-[90%]
-        p-[5%]
-      `)
 
 
 </template>

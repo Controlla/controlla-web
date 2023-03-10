@@ -32,9 +32,8 @@ header(class=`
       src='@/assets/img/logo.webp' 
       alt='logo controlla' 
       class=`
-        w-[12rem]
         ml-6
-        h-10
+        md:h-10
         my-auto
       `
     ) 

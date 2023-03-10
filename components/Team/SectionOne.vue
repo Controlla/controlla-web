@@ -3,45 +3,15 @@ section(class=`
     sm:px-[5%]
     md:text-left
     w-screen
-    min-h-screen
     bg-purple-50
     relative
     pt-40
     overflow-hidden
+    bg-[url('@/assets/img/top_team_bg.webp')]
+    bg-cover
+    bg-no-repeat
+    bg-center
 `)
-    div(class=`
-        w-[25rem]
-        h-[25rem]
-        left-[12%]
-        top-[15%]
-        blur-[11rem]
-        rounded-full
-        bg-violet-300
-        absolute
-        z-0
-    `)
-    div(class=`
-        w-[25rem]
-        h-[25rem]
-        left-[40%]
-        top-[25%]
-        blur-[11rem]
-        rounded-full
-        bg-sky-100
-        absolute
-        z-0
-    `)
-    div(class=`
-        w-[25rem]
-        h-[25rem]
-        left-[70%]
-        top-[15%]
-        blur-[11rem]
-        rounded-full
-        bg-violet-300
-        absolute
-        z-0
-    `)
     div(class=`
         justify-center
         relative
@@ -57,7 +27,7 @@ section(class=`
             text-center
             md:text-start
             z-10
-        `) {{ $t('meet_the_team') }}
+            `) {{ $t('meet_the_team') }}
             h1(class=`
             text-4xl
             lg:text-5xl
@@ -68,13 +38,13 @@ section(class=`
             relative
             text-center
             md:text-start
-        `) {{ $t('problem_solvers') }}
+            `) {{ $t('problem_solvers') }}
         div(class=`
             relative
             z-10
             flex
             justify-center
-    `)
+        `)
             img(
             src='@/assets/img/us_lines.webp'
             alt='home background'
@@ -85,16 +55,6 @@ section(class=`
                 z-30
                 pb-44
                 md:pb-22
-                md:pl-[10%]
+                md:pl-[10%#f9fafb]
             `)
-        div(class=`
-            w-[200%]
-            h-[200%]
-            top-[80%]
-            left-[-50%]
-            bg-white
-            absolute
-            overflow-x-hidden
-            rounded-t-[100%]
-        `)
 </template>

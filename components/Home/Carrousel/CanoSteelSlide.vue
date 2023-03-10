@@ -27,6 +27,14 @@ section(class=`
       my-6
       mx-4
     `) {{ $t('custom_app') }}
+    img(
+      src='@/assets/img/cano_steel.webp' 
+      alt='' 
+      class=`
+        md:hidden
+        w-[90%]
+        p-[5%]
+      `)
     div(class=`
       text-left
       mx-12
@@ -78,8 +86,8 @@ section(class=`
         h4(class=`
           text-2xl
           font-bold
-        `) 2
-        h4 {{ $t('countries') }}
+        `) {{ $t('construction')}}
+        h4 {{ $t('industry') }}
       div(class=`
         md:w-48 
         shadow-lg
@@ -112,12 +120,4 @@ section(class=`
     flex
     justify-center
   `)
-    img(
-      src='@/assets/img/cano_steel.webp' 
-      alt='' 
-      class=`
-        md:hidden
-        w-[90%]
-        p-[5%]
-      `)
 </template>

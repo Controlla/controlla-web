@@ -7,34 +7,34 @@ section(class=`
   my-20
   relative
 `)
-  //- img(
-  //-   src="@/assets/img/line4_mobile.webp" 
-  //-   alt='arrow' 
-  //-   class=`
-  //-     absolute 
-  //-     right-[75%] 
-  //-     top-[10rem] 
-  //-     z-30
-  //-     md:hidden
-  //- `)
-  //- img(
-  //-   src="@/assets/img/line4.webp" 
-  //-   alt='arrow' 
-  //-   class=`
-  //-     hidden
-  //-     absolute 
-  //-     w-[8rem]
-  //-     right-[40%]
-  //-     top-[10rem]
-  //-     z-30
-  //-     md:inline
-  //-     lg:w-[10rem]
-  //-     xl:w-[8rem]
-  //-     xl:right-[43%]
-  //-     xl:top-[12rem]
-  //-     2xl:right-[46%]
-  //-     2xl:top-[17rem]
-  //- `)  
+  img(
+    src="@/assets/img/line4_mobile.webp" 
+    alt='arrow' 
+    class=`
+      absolute 
+      right-[75%] 
+      top-[12rem] 
+      z-30
+      md:hidden
+  `)
+  img(
+    src="@/assets/img/line4.webp" 
+    alt='arrow' 
+    class=`
+      hidden
+      absolute 
+      w-[8rem]
+      right-[40%]
+      top-[10rem]
+      z-30
+      md:inline
+      lg:w-[10rem]
+      xl:w-[8rem]
+      xl:right-[43%]
+      xl:top-[14rem]
+      2xl:right-[46%]
+      2xl:top-[17rem]
+  `)  
   div(class=`
       md:mt-[12vh]
       xl:mt-[18vh]

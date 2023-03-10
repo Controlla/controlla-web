@@ -1,14 +1,13 @@
 <template lang="pug">
 section(class=`
     w-screen
-    bg-white
+    bg-[#F9FAFB]
     z-40
 `)
     h3(class=`
         text-4xl
         font-bold
         text-center
-        hidden
         md:block
     `) {{ $t('our_team') }}
     div(class=`
@@ -23,7 +22,7 @@ section(class=`
             class=`
                 w-[90%]
                 sm:w-[60%]
-            `)
+        `)
     img(
         src='@/assets/img/team.webp'
         alt='home background'

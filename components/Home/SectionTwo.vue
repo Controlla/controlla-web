@@ -1,13 +1,12 @@
 <template lang="pug">
 section(class=`
-  pt-[12%] 
+  pt-[10%] 
   px-[20%] 
   lg:px-[25%] 
-  bg-white
+  bg-[#FAFAFA]
   w-screen
   overflow-hidden
-  mb-20
-  md:mt-10
+  pb-20
 `)
   h2(class=`
     lg:text-4xl 
