@@ -70,7 +70,7 @@ section(class=`
           text-2xl
           font-bold
         `) {{ $t('kotlin')}}/{{$t('swift')}}
-        h4 {{ $t('techonologies') }}
+        h4 {{ $t('technologies') }}
       div(class=`
         md:w-48 
         shadow-lg

@@ -23,7 +23,7 @@ section(class=`
     h-[28vw] 
     hidden
     z-10
-    md:inline 
+    md:inline
   `)
   div(class=`
     px-[5%] 
@@ -73,6 +73,8 @@ section(class=`
     class=`
     absolute
     left-10
+    sm:left-24
+    sm:w-[13rem]
     bottom-[-4.5rem] 
     md:hidden
     z-30
@@ -88,8 +90,12 @@ section(class=`
     bottom-[-3rem]
     z-30 
     md:inline
-    lg:w-[35rem]
+    md:right-[22%]
+    lg:w-[30rem]
+    lg:right-[23%]
     lg:bottom-[-10rem]
-    xl:bottom-[-13rem]
+    xl:w-[40rem]
+    xl:right-[26%]
+    xl:bottom-[-15rem]
   `)    
 </template>

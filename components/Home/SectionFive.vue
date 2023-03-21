@@ -85,11 +85,18 @@ section(class=`
     right-[50%] 
     bottom-[-14rem]
     sm:inline
-    sm:w-[30rem]
-    sm:right-[20%]
-    lg:w-[40rem]
-    lg:right-[25%]
-    lg:bottom-[-20rem]
+    sm:w-[60%]
+    sm:bottom-[-17%]
+    sm:pb-2
+    sm:right-[28%]
+    md:right-[14%]
+    md:bottom-[-19%]
+    lg:w-[30rem]
+    lg:right-[23%]
+    lg:bottom-[-12rem]
+    xl:w-[35rem]
+    xl:right-[32%]
+    xl:bottom-[-15rem]
     z-30
   `)  
 </template>
