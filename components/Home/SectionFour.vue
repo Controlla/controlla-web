@@ -16,6 +16,8 @@ section(class=`
   bg-[url('@/assets/img/frienshore_home_background.webp')]
   bg-cover
   bg-no-repeat
+  xl:px-[5%]
+  max-w-screen-xl
 `)
   img(
     src='@/assets/img/first_step.webp' 
@@ -100,12 +102,12 @@ section(class=`
     z-30 
     md:inline 
     md:w-[35rem] 
-    md:bottom-[-8rem]
+    md:bottom-[-12rem]
     md:right-[14%]
     lg:right-[23%]
-    lg:bottom-[-10rem]
+    lg:bottom-[-12rem]
     xl:w-[44rem] 
-    xl:bottom-[-15rem]
+    xl:bottom-[-16rem]
     xl:right-[32%]
   `)
 </template>

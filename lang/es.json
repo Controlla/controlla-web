@@ -149,5 +149,13 @@
   "tres_ositas_subtitle": "Software personalizado era lo que Tres Ositas, un necogio agricultor familiar en Cuauhtémoc, Chihuahua,necesitaba para organizar desde sus productos hasta sus envíos.",
 
   "float_title": "Float",
-  "float_subtitle": "Float es la única aplicación de crédito para parejas, manteniéndolas financieramente sanas. Diseñamos y desarrollamos un muro de subscripciones y pagos para el proyecto que nuestro cliente necesitaba."
+  "float_subtitle": "Float es la única aplicación de crédito para parejas, manteniéndolas financieramente sanas. Diseñamos y desarrollamos un muro de subscripciones y pagos para el proyecto que nuestro cliente necesitaba.",
+  "construction": "Construcción",
+  "industry": "Industria",
+  "customer": "Cliente",
+  "kotlin": "Kotlin",
+  "swift": "Swift",
+  "agriculture": "Agricultura",
+  "app": "App",
+  "web": "Web"
 }

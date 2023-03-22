@@ -11,6 +11,8 @@ section(class=`
   text-base
   lg:text-xl
   2xl:text-2xl
+  xl:px-[5%]
+  max-w-screen-xl
 `)
   div(class=`
     px-[5%] 
@@ -90,7 +92,7 @@ section(class=`
     sm:pb-2
     sm:right-[28%]
     md:right-[14%]
-    md:bottom-[-19%]
+    md:bottom-[-10rem]
     lg:w-[30rem]
     lg:right-[23%]
     lg:bottom-[-12rem]
@@ -98,5 +100,5 @@ section(class=`
     xl:right-[32%]
     xl:bottom-[-15rem]
     z-30
-  `)  
+  `)
 </template>

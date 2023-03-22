@@ -14,6 +14,8 @@ section(class=`
   bg-[url('@/assets/img/frienshore_home_background.webp')]
   bg-cover
   bg-no-repeat
+  xl:px-[5%]
+  max-w-screen-xl
 `)
   img(
     src='@/assets/img/third_step.webp' 
@@ -78,24 +80,25 @@ section(class=`
     bottom-[-4.5rem] 
     md:hidden
     z-30
-  `)  
+  `)
   img(
     src="@/assets/img/line2.webp" 
     alt='arrow' 
     class=`
     hidden 
-    w-[25rem] 
+    w-[30rem] 
     absolute 
     right-[40%]
     bottom-[-3rem]
     z-30 
     md:inline
-    md:right-[22%]
+    md:left-[25%]
+    md:bottom-[-9rem]
     lg:w-[30rem]
     lg:right-[23%]
     lg:bottom-[-10rem]
     xl:w-[40rem]
     xl:right-[26%]
     xl:bottom-[-15rem]
-  `)    
+  `)
 </template>

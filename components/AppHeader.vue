@@ -20,6 +20,7 @@ header(class=`
   justify-between
   fixed
   z-40
+  max-w-screen-xl
 `)
   NuxtLink(
     to="/"
@@ -38,7 +39,7 @@ header(class=`
         md:h-10
         my-auto
       `
-    ) 
+    )
   HeaderDesktopLinks
   HeaderHamburgerButton(@menuToogled="toogleMenu")
   HeaderMobileLinks(@closeMenu="toogleMenu" :is-visible="areMobileLinksVisible")

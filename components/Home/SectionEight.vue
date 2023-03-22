@@ -6,7 +6,9 @@ section(class=`
   pt-24
   overflow-hidden
   md:px-[20vw]
+  xl:px-[15vw]
   text-lg
+  max-w-screen-xl
 `)
   h3(class=`
     text-3xl

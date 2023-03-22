@@ -8,12 +8,14 @@ section(class=`
   bg-cover
   bg-no-repeat
   bg-center
+  max-w-screen-xl
 `)
   div(class=`
     w-screen
     relative
     z-10
     px-20
+    max-w-screen-xl
   `)
     h1(class=`
       block
@@ -69,6 +71,7 @@ section(class=`
     w-screen
     flex
     justify-center
+    max-w-screen-xl
   `)
     img(src='@/assets/img/home_background.webp' alt='home background' class=`
       w-[90%]

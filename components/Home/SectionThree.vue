@@ -5,6 +5,7 @@ section(class=`
   relative
   pb-[3rem]
   sm:pb-1
+  max-w-screen-xl
 `)
   div(class=`
     h-[50%]
@@ -20,6 +21,7 @@ section(class=`
     bg-[url('@/assets/img/frienshore_home_background.webp')]
     bg-cover
     bg-no-repeat
+    max-w-screen-xl
   `)
     div(class=`
       sm:mr-[10%]
