@@ -1,94 +1,60 @@
 <template lang="pug">
 section(class=`
+    sm:px-[5%]
+    md:text-left
     w-screen
-    justify-center
-    bg-white
+    bg-purple-50
     relative
-    py-24
-    px-6
+    pt-40
     overflow-hidden
-    md:flex 
-    md:px-0 
-    md:pt-40
+    bg-[url('@/assets/img/top_team_bg.webp')]
+    bg-cover
+    bg-no-repeat
+    bg-center
 `)
     div(class=`
-        w-[25rem] 
-        h-[25rem] 
-        left-[12%] 
-        top-[15%] 
-        blur-[11rem] 
-        rounded-full
-        bg-violet-300
-        absolute
-        z-0
-    `)
-    div(class=`
-        w-[25rem] 
-        h-[5rem] 
-        left-[40%]
-        top-[25%]
-        blur-[11rem] 
-        rounded-full.bg-blue-300.absolute.z-0
-    `)
-    div(class=`
-        w-[25rem] 
-        h-[25rem]
-        left-[70%]
-        top-[15%]
-        blur-[11rem] 
-        rounded-full
-        bg-violet-300
-        absolute
-        z-0
-    `)
-    div(class=`
-        md:mt-[15%] 
-        lg:mt-[8%]
-    `)
-        h3(class=`
-            md:text-4xl
-            lg:text-5xl 
-            text-5xl
-            my-6
-            overflow-y-hidden
-            relative
-        `) {{ $t('meet_the_team') }}
-        h1(class=`
-            md:text-4xl
-            lg:text-5xl 
-            text-sky-500
-            my-6
-            text-5xl
-            font-bold
-            overflow-y-hidden
-            relative
-        `) {{ $t('problem_solvers') }}
-    div(class=`
+        justify-center
         relative
-        pt-20
+        m-auto
+        md:flex w-[90%]
     `)
-        nuxt-img(
-            format='webp' 
-            loading='lazy' 
-            src='/img/us_lines.svg' 
-            alt='home background' 
+        div
+            h3(class=`
+            text-4xl
+            lg:text-5xl
+            md:mt-[30%]
+            relative
+            text-center
+            md:text-start
+            z-10
+            `) {{ $t('meet_the_team') }}
+            h1(class=`
+            text-4xl
+            lg:text-5xl
+            text-sky-500
+            mt-2
+            mb-6
+            font-bold
+            relative
+            text-center
+            md:text-start
+            `) {{ $t('problem_solvers') }}
+        div(class=`
+            relative
+            z-10
+            flex
+            justify-center
+        `)
+            img(
+            src='@/assets/img/us_lines.webp'
+            alt='home background'
             class=`
-
-                w-[90%] 
-                md:w-[45vw] 
+                w-[90%]
+                md:w-[50vw]
                 relative
-                z-10
+                z-30
+                pb-44
+                md:pb-22
+                md:pl-[10%#f9fafb]
             `)
-    div(class=`
-        sm:visible 
-        w-[200%] 
-        h-[200%]
-        top-[80%]
-        left-[-50%]
-        bg-white
-        absolute
-        overflow-x-hidden
-        rounded-t-[100%]
-    `)
-
 </template>

@@ -7,9 +7,9 @@ div(class=`
     items-end
     md:hidden
 `)
-    NuxtImg(
+    img(
         @click='$emit("menuToogled")' 
-        src='/img/headbutton.png' 
+        src='@/assets/img/headbutton.webp' 
         alt='hamburger' 
         class=`
         w-[2rem] 

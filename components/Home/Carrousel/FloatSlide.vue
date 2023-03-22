@@ -5,12 +5,9 @@ section(class=`
   md:flex
   md:text-lg 
   bg-white
-  overflow-y-hidden
 `)
-  NuxtImg(
-    format='webp' 
-    loading='lazy' 
-    src='/img/float.png' 
+  img(
+    src='@/assets/img/float.webp' 
     alt='' 
     class=`
       hidden
@@ -23,7 +20,6 @@ section(class=`
     h1(class=`
       text-3xl
       font-semibold
-      overflow-y-hidden
       mx-4
       text-left
     `) {{ $t('float_title') }}
@@ -32,6 +28,14 @@ section(class=`
       my-6
       mx-4
     `) {{ $t('float_subtitle') }}
+    img(
+      src='@/assets/img/float.webp'
+      alt=''
+      class=`
+        md:hidden
+        w-[90%]
+        p-[5%]
+      `)
     div(class=`
       md:flex 
       my-6
@@ -46,14 +50,12 @@ section(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
-        `) 1,500+
-        h4 {{ $t('downloads') }}
+        `) US
+        h4 {{ $t('customer') }}
       div(class=`
         md:w-48 
         shadow-lg
@@ -63,14 +65,12 @@ section(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
-        `) 2
-        h4 {{ $t('countries') }}
+        `) {{ $t('kotlin')}}/{{$t('swift')}}
+        h4 {{ $t('techonologies') }}
       div(class=`
         md:w-48 
         shadow-lg
@@ -80,12 +80,10 @@ section(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 2 {{ $t('months') }}
         h3(class=`
           font-bold
@@ -105,16 +103,6 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      format='webp'
-      loading='lazy'
-      src='/img/leanfit.png'
-      alt=''
-      class=`
-        md:hidden
-        w-[90%]
-        p-[5%]
-      `)
 
 
 </template>

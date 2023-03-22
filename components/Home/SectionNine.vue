@@ -9,16 +9,20 @@ import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 div(class=`
   w-[90%]
   mx-auto
-  my-10
   md:my-20
 `)
   h2(class=`
     text-3xl
     text-center
-    overflow-y-hidden
     font-semibold
-    mb-20
+    flex
+    justify-center
+    items-center
+    gap-2
   `) {{ $t('success') }} 
+    img(src="@/assets/img/rocket-emoji.webp" class=`
+      h-8
+    `)
   carousel(:items-to-show='1')
     slide(key='1')
       HomeCarrouselSercomSlide
@@ -34,3 +38,12 @@ div(class=`
       navigation
         pagination
 </template>
+
+<style>
+@media screen and (max-width: 640px) {
+  .carousel__slide {
+    margin-top: 5rem;
+    align-items: flex-start; 
+  }
+}
+</style>

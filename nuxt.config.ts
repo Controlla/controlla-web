@@ -35,7 +35,7 @@ export default defineNuxtConfig({
           hid: "og:image",
           property: "og:image",
           name: "og:image",
-          content: "https://www.controlla.com.mx/logocontrolla.svg",
+          content: "https://www.controlla.com.mx/logocontrolla.webp",
         },
       ],
     },
@@ -59,6 +59,12 @@ export default defineNuxtConfig({
     ],
     langDir: "lang/",
     defaultLocale: "en",
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
   },
   runtimeConfig: {
     public: {

@@ -7,10 +7,10 @@ div(class=`
   bg-white
   overflow-hidden
 `)
-  nuxt-img.hidden(
+  img.hidden(
     format='webp' 
     loading='lazy' 
-    src='/img/tres_ositas.png'
+    src='@/assets/img/tres_ositas.webp'
     alt=''
     class=`
       hidden
@@ -22,7 +22,6 @@ div(class=`
     h1(class=`
       text-3xl
       font-semibold
-      overflow-y-hidden
       mx-4
       text-left
     `) {{ $t('tres_ositas_title') }}
@@ -31,7 +30,14 @@ div(class=`
       mx-4
       text-left
     `) {{ $t('tres_ositas_subtitle') }} 
-      br
+    img(
+      src='@/assets/img/tres_ositas.webp' 
+      alt='' 
+      class=`
+        md:hidden 
+        w-[90%] 
+        p-[5%]
+      `)
     div(class=`
       md:flex 
       my-6
@@ -46,12 +52,10 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 1,500+
         h4 {{ $t('downloads') }}
       div(class=`
@@ -63,14 +67,12 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
-        `)  2
-        h4 {{ $t('countries') }}
+        `)  {{$t('agriculture')}}
+        h4 {{ $t('industry') }}
       div(class=`
         md:w-48 
         shadow-lg
@@ -80,12 +82,10 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `)  6 {{ $t('months') }}
         h3(class=`
           font-bold
@@ -105,14 +105,4 @@ div(class=`
     flex
     justify-center
     `)
-    NuxtImg(
-      format='webp' 
-      loading='lazy' 
-      src='/img/tres_ositas.png' 
-      alt='' 
-      class=`
-        md:hidden 
-        w-[90%] 
-        p-[5%]
-      `)
 </template>

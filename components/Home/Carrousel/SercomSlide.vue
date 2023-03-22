@@ -3,10 +3,10 @@ div(class=`
   md:flex 
   md:text-lg
 `)
-  nuxt-img.hidden(
+  img.hidden(
     format='webp' 
     loading='lazy' 
-    src='/img/second_step.png'
+    src='@/assets/img/second_step.webp'
     alt=''
     class=`
       hidden
@@ -18,7 +18,6 @@ div(class=`
     h1(class=`
       text-3xl
       font-semibold
-      overflow-y-hidden
       mx-4
       text-left
     `) {{ $t('sercom') }}
@@ -27,7 +26,15 @@ div(class=`
       mx-4
       text-left
     `) {{ $t('custom_software') }} 
-      br
+    img(
+      src='@/assets/img/second_step.webp' 
+      alt='' 
+      class=`
+        md:hidden 
+        w-[90%] 
+        p-[5%]
+      `)
+
     div(class=`
       md:flex 
       my-6
@@ -42,12 +49,10 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 20+
         h4 {{ $t('final_users') }}
       div(class=`
@@ -59,12 +64,10 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 12 {{ $t('months') }}
         h3(class=`
           font-bold
@@ -79,12 +82,10 @@ div(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden 
         `) Web
         h4 {{ $t('technologies') }}
     button(class=`
@@ -97,19 +98,4 @@ div(class=`
       font-semibold
       text-lg
     `) {{ $t('webpage') }} &nearr;
-  div(class=`
-    flex
-    justify-center
-  `)
-    NuxtImg(
-      format='webp' 
-      loading='lazy' 
-      src='/img/second_step.png' 
-      alt='' 
-      class=`
-        md:hidden 
-        w-[90%] 
-        p-[5%]
-      `)
-
 </template>

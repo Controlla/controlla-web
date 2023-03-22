@@ -7,18 +7,19 @@ section(class=`
     flex
     justify-center
   `)
-  Carrousel
+  TeamCarrousel
   h2(class=`
     text-3xl
     font-bold
     text-center
-    my-6 
+    my-6
   `) {{ $t('about_us') }}
   h1(class=`
-    w-[90%] 
+    w-[90%]
+    md:w-[70%]
     text-center
     m-auto
-  `)  {{ $t('we_are_a') }} 
-    br
+    text-lg
+  `)  {{ $t('we_are_a') }}
     |  {{ $t('helping_companies') }}
 </template>

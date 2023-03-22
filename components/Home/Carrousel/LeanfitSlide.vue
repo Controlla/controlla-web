@@ -5,12 +5,9 @@ section(class=`
   md:flex
   md:text-lg 
   bg-white
-  overflow-y-hidden
 `)
-  NuxtImg(
-    format='webp' 
-    loading='lazy' 
-    src='/img/leanfit.png' 
+  img(
+    src='@/assets/img/leanfit.webp' 
     alt='' 
     class=`
       hidden
@@ -23,7 +20,6 @@ section(class=`
     h1(class=`
       text-3xl
       font-semibold
-      overflow-y-hidden
       mx-4
       text-left
     `) {{ $t('leanfit') }} 
@@ -32,6 +28,14 @@ section(class=`
       my-6
       mx-4
     `) {{ $t('personalized_diet') }}
+    img(
+      src='@/assets/img/leanfit.webp'
+      alt=''
+      class=`
+        md:hidden
+        w-[90%]
+        p-[5%]
+      `)
     div(class=`
       md:flex 
       my-6
@@ -46,12 +50,10 @@ section(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 15,200+
         h4 {{ $t('downloads') }}
       div(class=`
@@ -63,12 +65,10 @@ section(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
         `) 35+
         h4 {{ $t('countries') }}
       div(class=`
@@ -80,14 +80,16 @@ section(class=`
         py-12
         h-36
         rounded-2xl
-        overflow-y-hidden
       `)
         h4(class=`
           text-2xl
           font-bold
-          overflow-y-hidden
-        `) $50,578
-        h4 {{ $t('in_subscriptions') }}
+        `) {{$t('app')}}/{{$t('web')}}
+        h4 {{ $t('technologies') }}
+        h4(
+          class=`
+          font-light`
+        ) {{ $t('flutter') }}
     button(class=`
       mx-4
       bg-black
@@ -102,16 +104,6 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      format='webp'
-      loading='lazy'
-      src='/img/leanfit.png'
-      alt=''
-      class=`
-        md:hidden
-        w-[90%]
-        p-[5%]
-      `)
 
 
 </template>

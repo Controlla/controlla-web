@@ -15,24 +15,21 @@ section(class=`
       justify-left
       rotate-6
     `)
-      NuxtImg(format='webp' 
-        loading='lazy' 
-        src='/img/php.svg' 
-        alt='' 
+      img(
+        src='@/assets/img/php.webp'
+        alt=''
         class=`
-          w-[5rem] 
+          w-[5rem]
           md:w-[8rem]
         `)
     div(class=`
-      rotate-[-17deg] 
+      rotate-[-17deg]
       flex
       justify-center
     `)
-      NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/java.svg' 
-        alt='' 
+      img(
+        src='@/assets/img/java.webp'
+        alt=''
         class=`
           w-[5rem]
           md:w-[8rem]
@@ -42,20 +39,18 @@ section(class=`
       justify-left
       rotate-6
     `)
-      NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/phyton.svg' 
-        alt='' 
+      img(
+        src='@/assets/img/phyton.webp'
+        alt=''
         class=`
-          w-[5rem] 
+          w-[5rem]
           md:w-[8rem]
       `)
   div(class=`
     w-[30%]
   `)
     h3(class=`
-        md:text-4xl 
+        md:text-4xl
         text-center
         my-6
         text-3xl
@@ -63,13 +58,14 @@ section(class=`
     `) {{ $t('still_not_convinced') }}
     h3(class=`
       text-center
-    `) {{ $t('maybe_our') }} 
+      text-xl
+    `) {{ $t('maybe_our') }}
       span(class=`
-        text-sky-500 
+        text-sky-500
       `) {{ $t('tech_stack') }}
       |  {{ $t('will_help') }}
   div(class=`
-    w-[30%] 
+    w-[30%]
     pl-[10%]
   `)
     div(class=`
@@ -77,27 +73,23 @@ section(class=`
       justify-left
       rotate-6
     `)
-      NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/laravel.svg' 
-        alt='' 
+      img(
+        src='@/assets/img/laravel.webp'
+        alt=''
         class=`
-          w-[5rem] 
+          w-[5rem]
           md:w-[8rem]
         `)
     div(class=`
-      rotate-[-17deg] 
+      rotate-[-17deg]
       flex
       justify-center
     `)
-      NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/vue.svg' 
-        alt='' 
+      img(
+        src='@/assets/img/vue.webp'
+        alt=''
         class=`
-          w-[5rem] 
+          w-[5rem]
           md:w-[8rem]
         `)
     div(class=`
@@ -105,13 +97,11 @@ section(class=`
       justify-left
       rotate-6
     `)
-      NuxtImg(
-        format='webp' 
-        loading='lazy' 
-        src='/img/flutter.svg' 
-        alt='' 
+      img(
+        src='@/assets/img/flutter.webp'
+        alt=''
         class=`
-          w-[5rem] 
+          w-[5rem]
           md:w-[8rem]
         `)
 </template>

@@ -7,18 +7,18 @@ section(class=`
   my-20
   relative
 `)
-  NuxtImg(
-    src="/img/line4_mobile.svg" 
+  img(
+    src="@/assets/img/line4_mobile.webp" 
     alt='arrow' 
     class=`
       absolute 
       right-[75%] 
-      top-[10rem] 
+      top-[12rem] 
       z-30
       md:hidden
   `)
-  NuxtImg(
-    src="/img/line4.svg" 
+  img(
+    src="@/assets/img/line4.webp" 
     alt='arrow' 
     class=`
       hidden
@@ -31,18 +31,21 @@ section(class=`
       lg:w-[10rem]
       xl:w-[8rem]
       xl:right-[43%]
-      xl:top-[12rem]
+      xl:top-[14rem]
       2xl:right-[46%]
       2xl:top-[17rem]
   `)  
   div(class=`
-    md:mt-[25vh]
+      md:mt-[12vh]
+      xl:mt-[18vh]
+      2xl:mt-[22vh]
+      md:pr-2
+      lg:pr-16
   `)
     h3(class=`
       md:text-start 
       text-3xl
       font-semibold
-      overflow-y-hidden
       my-6
       text-center
     `) {{ $t('you_can_find') }} 
@@ -67,9 +70,8 @@ section(class=`
     flex
     justify-center
   `)
-    NuxtImg(
-      format="web"
-      src='/img/building.png' 
+    img(
+      src='@/assets/img/building.webp' 
       alt='building' 
       class=`
       w-[75%] 

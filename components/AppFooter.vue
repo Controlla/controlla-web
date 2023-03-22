@@ -1,49 +1,20 @@
 <template lang="pug">
 section(class=`
-  w-[100vw]
+  pb-10
   bg-white
-  min-h-screen
   absolute
   left-0
   overflow-x-hidden
-  overflow-y-hidden
   md:w-[200%] 
   md:left-[-50%]
   md:overflow-x-hidden
   md:rounded-t-[100%]
   md:min-h-[20vw]
   md:right-[-10%]
+  bg-[url('@/assets/img/frienshore_home_background.webp')]
+  bg-cover
+  bg-no-repeat
 `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[26%]
-    top-[15%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-300
-    absolute
-  `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[45%]
-    top-[-10%]
-    blur-[11rem]
-    rounded-full
-    bg-blue-300
-    absolute
-  `)
-  div(class=`
-    w-[25rem]
-    h-[25rem]
-    left-[65%]
-    top-[15%]
-    blur-[11rem] 
-    rounded-full
-    bg-violet-300
-    absolute
-  `)
   div(class=`
     sm:mt-[4%]
     md:h-[60%]
@@ -63,11 +34,11 @@ section(class=`
       flex
       justify-center
     `)
-      NuxtImg(
-        src='/img/logo.svg' 
+      img(
+        src='@/assets/img/logo.webp' 
         alt='logo controlla' 
         class=`
-        w-[80%]
+        md:h-10
         md:w-[100%]
         max-w-[20rem]
       `)
@@ -121,22 +92,22 @@ section(class=`
       mb-6
     `)
       NuxtLink(to='https://www.facebook.com/controlla.cuu')
-        NuxtImg(
-          src='/img/facebook.svg' 
+        img(
+          src='@/assets/img/facebook.webp' 
           alt='logo facebook' 
           class=`
           mx-6
         `)
       NuxtLink(to='https://www.instagram.com/controlla_technologies/')
-        NuxtImg(
-          src='/img/instagram.svg' 
+        img(
+          src='@/assets/img/instagram.webp' 
           alt='logo instagram' 
           class=`
           mx-6
         `)
       NuxtLink(to='https://www.linkedin.com/company/controlla/')
-        NuxtImg(
-          src='/img/linkedin.svg' 
+        img(
+          src='@/assets/img/linkedin.webp' 
           alt='logo linkedin' 
           class=`
           mx-6

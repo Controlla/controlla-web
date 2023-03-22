@@ -1,77 +1,22 @@
 <template lang="pug">
 section(class=`
-  pt-[12%] 
+  pt-[25%] 
+  md:pt-[20%] 
   bg-white
   w-screen
   relative
   justify-center
-  overflow-hidden
   md:flex 
   pb-20
+  text-base
+  lg:text-xl
+  2xl:text-2xl
+  bg-[url('@/assets/img/frienshore_home_background.webp')]
+  bg-cover
+  bg-no-repeat
 `)
-  NuxtImg(
-    src="/img/line3_mobile.svg" 
-    alt='arrow' 
-    class=`
-      sm:hidden
-      absolute 
-      right-[49.5%] 
-      top-[-6rem] 
-      z-30
-  `)
-  NuxtImg(
-    src="/img/line3.svg" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[18rem] 
-    absolute
-    right-[50%] 
-    top-[-6rem] 
-    z-30 
-    sm:inline 
-    sm:w-[30rem] 
-    sm:right-[20%]
-    sm:top-[-15rem]
-    lg:w-[40rem]
-    lg:right-[25%]
-    lg:top-[-18rem]    
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[6%] 
-    top-[15%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[40%] 
-    top-[50%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[75%] 
-    top-[8%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  NuxtImg(
-    src='/img/third_step.png' 
+  img(
+    src='@/assets/img/third_step.webp' 
     alt='third step' 
     class=`
     w-[42vw] 
@@ -91,35 +36,29 @@ section(class=`
       my-6
       text-sky-500
       text-xs
-      md:text-xl 
+      md:text-sm 
     `) {{ $t('third') }}
     h2(class=`
       my-6
       text-2xl
       font-semibold
-      overflow-y-hidden
-      md:text-4xl 
+      lg:text-3xl 
     `) {{ $t('development') }}
     h2(class=`
       my-6
-      text-base
-      md:text-2xl 
     `) {{ $t('your_tailormade') }}
       strong {{ $t('deep_end') }}
       |  {{ $t('and_different_communication') }}
-    span(class=`
-      md:text-2xl
-      text-base
-    `) &bull; {{ $t('web_and_mobile') }} 
+    span &bull; {{ $t('web_and_mobile') }} 
       br
       |  {{ $t('flutter') }}
       br
       |  {{ $t('jira') }} 
       br
       |  {{ $t('vue') }}
-  NuxtImg(
+  img(
     format="webp"
-    src='/img/third_step.png' 
+    src='@/assets/img/third_step.webp' 
     alt='third step' 
     class=`
     w-[90%] 
@@ -128,17 +67,18 @@ section(class=`
     relative
     md:hidden 
   `)
-  NuxtImg(
-    src="/img/line3_mobile.svg" 
+  img(
+    src="@/assets/img/line3_mobile.webp" 
     alt='arrow' 
     class=`
     absolute
-    right-[49.5%]
+    left-10
     bottom-[-4.5rem] 
     md:hidden
+    z-30
   `)  
-  NuxtImg(
-    src="/img/line2.svg" 
+  img(
+    src="@/assets/img/line2.webp" 
     alt='arrow' 
     class=`
     hidden 

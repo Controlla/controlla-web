@@ -2,76 +2,23 @@
 section(class=`
   flex
   flex-col
-  flex-col-reverse
   md:flex-row
   md:justify-center 
-  pt-[12%] 
+  pt-[12rem] 
+  md:pt-[10rem]
   bg-white
   w-screen
   relative
-  overflow-hidden
   pb-20
+  text-base
+  lg:text-xl
+  2xl:text-2xl
+  bg-[url('@/assets/img/frienshore_home_background.webp')]
+  bg-cover
+  bg-no-repeat
 `)
-  NuxtImg(
-    src="/img/line1_mobile.svg" 
-    alt='arrow' 
-    class=`
-      sm:hidden 
-      absolute 
-      right-[49.5%] 
-      top-[-14rem] 
-      z-30
-  `)
-  NuxtImg(
-    src="/img/line1.svg" 
-    alt='arrow' 
-    class=`
-    hidden 
-    w-[18rem] 
-    absolute 
-    right-[49.5%] 
-    top-[-6rem] 
-    z-30 
-    sm:inline 
-    xl:w-[30rem] 
-    xl:top-[-10rem]
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[12%] 
-    top-[15%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[40%] 
-    top-[50%] 
-    blur-[11rem] 
-    rounded-full
-    bg-blue-100
-    absolute
-    z-0 
-  `)
-  div(class=`
-    w-[25rem] 
-    h-[25rem] 
-    left-[70%] 
-    top-[15%] 
-    blur-[11rem] 
-    rounded-full
-    bg-violet-200
-    absolute
-    z-0
-  `)
-  NuxtImg(
-    src='/img/first_step.png' 
-    format="webp"
+  img(
+    src='@/assets/img/first_step.webp' 
     alt='first step' 
     class=`
       hidden
@@ -94,35 +41,30 @@ section(class=`
       my-6
       text-sky-500
       text-xs
-      md:text-xl 
+      md:text-sm 
     `) {{ $t('first') }}
     h2(class=`
       my-6
       text-2xl
       font-semibold
       overflow-hidden
-      md:text-4xl 
+      md:text-3xl 
     `) {{ $t('ideation_and_evaluation') }}
     h2(class=`
       my-6
-      text-base
-      md:text-2xl 
     `) {{ $t('first_we') }} 
       |
       strong {{ $t('research_ideate') }} 
       |         {{ $t('your_product_features') }}
     span(class=`
-      text-base
-      md:text-2xl 
       marker:text-sky-400
     `) {{ $t('discovery') }} 
       br
       |         {{ $t('wireframe') }} 
       br
       |         {{ $t('scoping') }}
-  NuxtImg(
-    src='/img/first_step.png' 
-    format="webp"
+  img(
+    src='@/assets/img/first_step.webp' 
     alt='first step' 
     class=`
       w-[90%]
@@ -132,8 +74,18 @@ section(class=`
       md:h-[30vw]
       md:hidden
   `)
-  NuxtImg(
-    src="/img/line2.svg" 
+  img(
+    src="@/assets/img/line2_mobile.webp" 
+    alt='arrow' 
+    class=`
+    absolute
+    z-30
+    bottom-[-8rem]
+    left-[10%]
+    sm:hidden
+  `)
+  img(
+    src="@/assets/img/line2.webp" 
     alt='arrow' 
     class=`
     hidden 
@@ -150,6 +102,6 @@ section(class=`
     lg:bottom-[-10rem]
     xl:w-[40rem] 
     xl:bottom-[-15rem]
-    xl:right-[38%]
+    xl:right-[30%]
   `)    
 </template>
