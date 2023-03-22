@@ -9,7 +9,7 @@ import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 div(class=`
   w-[90%]
   mx-auto
-  md:my-20
+  lg:my-20
 `)
   h2(class=`
     text-3xl
@@ -34,7 +34,7 @@ div(class=`
       HomeCarrouselTresOsitasSlide
     slide(key='5')
       HomeCarrouselFloatSlide
-    template(#addons='')
+    template(#addons)
       navigation
         pagination
 </template>

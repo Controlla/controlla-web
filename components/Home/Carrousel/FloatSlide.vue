@@ -2,16 +2,18 @@
 section(class=`
   px-[5%] 
   md:px-[10%]
-  md:flex
-  md:text-lg 
-  bg-white
+  lg:px-16
+  lg:flex
+  md:text-lg
+  h-[90%]
+  lg:pt-[3%]
 `)
   img(
     src='@/assets/img/float.webp' 
     alt='' 
     class=`
       hidden
-      md:inline
+      lg:inline
       w-[20vw]
       h-[25vw]
     `
@@ -32,17 +34,19 @@ section(class=`
       src='@/assets/img/float.webp'
       alt=''
       class=`
-        md:hidden
+        lg:hidden
         w-[90%]
         p-[5%]
+        md:w-[70%]
+        mx-auto
       `)
     div(class=`
-      md:flex 
+      lg:flex 
       my-6
       min-h-40
     `)
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -50,6 +54,8 @@ section(class=`
         py-12
         h-36
         rounded-2xl
+        mb-8
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -57,7 +63,7 @@ section(class=`
         `) US
         h4 {{ $t('customer') }}
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -65,6 +71,8 @@ section(class=`
         py-12
         h-36
         rounded-2xl
+        mb-8
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -72,7 +80,7 @@ section(class=`
         `) {{ $t('kotlin')}}/{{$t('swift')}}
         h4 {{ $t('technologies') }}
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
