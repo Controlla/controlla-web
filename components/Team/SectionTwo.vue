@@ -3,6 +3,7 @@ section(class=`
     w-screen
     bg-[#F9FAFB]
     z-40
+    max-w-screen-xl
 `)
     h3(class=`
         text-4xl
@@ -14,7 +15,6 @@ section(class=`
         flex
         justify-center
         my-6
-        md:hidden
     `)
         img(
             src='@/assets/img/mobile_team.webp'
@@ -22,17 +22,16 @@ section(class=`
             class=`
                 w-[90%]
                 sm:w-[60%]
+                md:hidden
         `)
-    img(
-        src='@/assets/img/team.webp'
-        alt='home background'
-        class=`
-            hidden
-            w-[90%]
-            mx-[5%]
-            mt-[10vh]
-            md:w-[60vw]
-            md:mx-[20vw]
-            md:inline
+        img(
+            src='@/assets/img/team.webp'
+            alt='home background'
+            class=`
+                hidden
+                mt-[10vh]
+                md:w-[60vw]
+                md:mx-[20vw]
+                md:inline
         `)
 </template>

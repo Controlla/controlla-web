@@ -11,6 +11,7 @@ section(class=`
     bg-cover
     bg-no-repeat
     bg-center
+    max-w-screen-xl
 `)
     div(class=`
         justify-center
