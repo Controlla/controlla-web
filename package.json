@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "^8.0.0-beta.10",
-    "@typeform/embed": "^2.9.1",
+    "@typeform/embed": "^2.9.2",
     "vue3-carousel": "^0.2.12"
   }
 }

@@ -1368,10 +1368,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
-"@typeform/embed@^2.9.1":
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.9.1.tgz#48faf550e04f085477393c312f5c5b3e5da135c2"
-  integrity sha512-crKwdfPjODai9BI9wdW3jROpqrehh+9f9WQ1SCZYVpvJYDMSILNGE6xDkXNq90mldnEY99FWzxMZVmvsbQjqOw==
+"@typeform/embed@^2.9.2":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.9.2.tgz#2f5a937bf736e4c66a77bb7fb9dd4bb102d47afa"
+  integrity sha512-aCOUXPAwHo6/3AJNl+6aXqkvB+E5V+DqWae4KUYXd27HrqMomUdsp7jK+yGF7RiFP+PfNmWpi9OiKQUC2SBa8g==
 
 "@types/autoprefixer@9.7.2":
   version "9.7.2"
