@@ -979,7 +979,7 @@
   optionalDependencies:
     ipx "1.0.0-2"
 
-"@nuxt/kit@3.2.3", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.1.1", "@nuxt/kit@^3.1.2", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.2.3":
+"@nuxt/kit@3.2.3":
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.2.3.tgz#97d8b4a4bedda4452ea18629c73c6301a964d492"
   integrity sha512-wcsVlQLwGkh1cRhAFWHc3uYHdIxFTRNdRUzNyfqoX9DL0Fuga3K75q/PBY0xg1viA9R6F5BMPhc7KDLSWbXtWg==
@@ -1001,6 +1001,30 @@
     semver "^7.3.8"
     unctx "^2.1.2"
     unimport "^2.2.4"
+    untyped "^1.2.2"
+
+"@nuxt/kit@3.3.1", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.1.1", "@nuxt/kit@^3.1.2", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.2.3":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.3.1.tgz#93e02a41d9adc7369d704deb88ae143c29554a4e"
+  integrity sha512-zb7/2FUIB1g7nl6K6qozUzfG5uu4yrs9TQjZvpASnPBZ/x1EuJX5k3AA71hMMIVBEX9Adxvh9AuhDEHE5W26Zg==
+  dependencies:
+    "@nuxt/schema" "3.3.1"
+    c12 "^1.2.0"
+    consola "^2.15.3"
+    defu "^6.1.2"
+    globby "^13.1.3"
+    hash-sum "^2.0.0"
+    ignore "^5.2.4"
+    jiti "^1.17.2"
+    knitwork "^1.0.0"
+    lodash.template "^4.5.0"
+    mlly "^1.2.0"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    scule "^1.0.0"
+    semver "^7.3.8"
+    unctx "^2.1.2"
+    unimport "^3.0.2"
     untyped "^1.2.2"
 
 "@nuxt/postcss8@^1.1.3":
@@ -1036,6 +1060,25 @@
     unimport "^2.2.4"
     untyped "^1.2.2"
 
+"@nuxt/schema@3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.3.1.tgz#305d0db9c535f64fad3aa1a7c985410e733f9ff0"
+  integrity sha512-E8HWzU43rXzqwDTmWduTLHY4xIwRSAUt1LbpuE9IjZ4uJZq5Mbaj4nfhANNsTQGw2c+O+rL81yzAP3i61LEJDw==
+  dependencies:
+    c12 "^1.2.0"
+    create-require "^1.1.1"
+    defu "^6.1.2"
+    hookable "^5.5.0"
+    jiti "^1.17.2"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    postcss-import-resolver "^2.0.0"
+    scule "^1.0.0"
+    std-env "^3.3.2"
+    ufo "^1.1.1"
+    unimport "^3.0.2"
+    untyped "^1.2.2"
+
 "@nuxt/telemetry@^2.1.10":
   version "2.1.10"
   resolved "https://registry.yarnpkg.com/@nuxt/telemetry/-/telemetry-2.1.10.tgz#22c24a42764d59816c85384cc41ee515c4e2798d"
@@ -1062,18 +1105,18 @@
     rc9 "^2.0.1"
     std-env "^3.3.2"
 
-"@nuxt/test-utils@^3.2.3":
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/test-utils/-/test-utils-3.2.3.tgz#9aee563b22c12620136c01b0bda0b7526d33649b"
-  integrity sha512-msry2+sDLdPEGUzXwJdkbjg6yh6q46xfXYu/FXl0dAAtUWbciQ/CkWKH840XIwDfyjm00E+m69Ou14kT3mD84w==
+"@nuxt/test-utils@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/test-utils/-/test-utils-3.3.1.tgz#364d07074b44f328c58032e7eac8e476e9c31b28"
+  integrity sha512-kkX5OTQ43Gc8CltSPlvem55rKfg1tOSq9FWLTu+Z1z00wc1oQzDAdVoHz0uSKT9anmbaWMX2u6c0oJb1DukyCg==
   dependencies:
-    "@nuxt/kit" "3.2.3"
-    "@nuxt/schema" "3.2.3"
+    "@nuxt/kit" "3.3.1"
+    "@nuxt/schema" "3.3.1"
     consola "^2.15.3"
     defu "^6.1.2"
-    execa "^7.0.0"
+    execa "^7.1.0"
     get-port-please "^3.0.1"
-    jiti "^1.17.1"
+    jiti "^1.17.2"
     ofetch "^1.0.1"
     pathe "^1.1.0"
 
@@ -2653,6 +2696,20 @@ c12@^1.1.2:
     pkg-types "^1.0.2"
     rc9 "^2.0.1"
 
+c12@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/c12/-/c12-1.2.0.tgz#2c946dd5ea37fd4f21c4b2671bf21f69a7028707"
+  integrity sha512-CMznkE0LpNEuD8ILp5QvsQVP+YvcpJnrI/zFeFnosU2PyDtx1wT7tXfZ8S3Tl3l9MTTXbKeuhDYKwgvnAPOx3w==
+  dependencies:
+    defu "^6.1.2"
+    dotenv "^16.0.3"
+    giget "^1.1.2"
+    jiti "^1.17.2"
+    mlly "^1.2.0"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    rc9 "^2.0.1"
+
 cac@^6.7.14:
   version "6.7.14"
   resolved "https://registry.yarnpkg.com/cac/-/cac-6.7.14.tgz#804e1e6f506ee363cb0e3ccbb09cad5dd9870959"
@@ -4122,10 +4179,10 @@ execa@^5.0.0, execa@^5.1.1:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-execa@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-7.0.0.tgz#2a44e20e73797f6c2df23889927972386157d7e4"
-  integrity sha512-tQbH0pH/8LHTnwTrsKWideqi6rFB/QNUawEwrn+WHyz7PX1Tuz2u7wfTvbaNBdP5JD5LVWxNo8/A8CHNZ3bV6g==
+execa@^7.0.0, execa@^7.1.0:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-7.1.1.tgz#3eb3c83d239488e7b409d48e8813b76bb55c9c43"
+  integrity sha512-wH0eMf/UXckdUYnO21+HDztteVv05rq2GXksxT4fCGeHkBhw1DROXh40wcjMcRqDOWE7iPJ4n3M7e2+YFP+76Q==
   dependencies:
     cross-spawn "^7.0.3"
     get-stream "^6.0.1"
@@ -4434,7 +4491,7 @@ get-tsconfig@^4.2.0:
   resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.4.0.tgz#64eee64596668a81b8fce18403f94f245ee0d4e5"
   integrity sha512-0Gdjo/9+FzsYhXCEFueo2aY1z1tpXrxWZzP7k8ul9qt1U5o8rYJwTJYmaeHdrVosYIVYkOy2iwCJ9FdpocJhPQ==
 
-giget@^1.1.0:
+giget@^1.1.0, giget@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/giget/-/giget-1.1.2.tgz#f99a49cb0ff85479c8c3612cdc7ca27f2066e818"
   integrity sha512-HsLoS07HiQ5oqvObOI+Qb2tyZH4Gj5nYGfF9qQcZNrPw+uEFhdXtgJr01aO2pWadGHucajYDLxxbtQkm97ON2A==
@@ -4707,6 +4764,11 @@ hookable@^5.4.2:
   version "5.4.2"
   resolved "https://registry.yarnpkg.com/hookable/-/hookable-5.4.2.tgz#6a1d3c4b3cb5b4262f99b3070ce0ee92c9c78049"
   integrity sha512-6rOvaUiNKy9lET1X0ECnyZ5O5kSV0PJbtA5yZUgdEF7fGJEVwSLSislltyt7nFwVVALYHQJtfGeAR2Y0A0uJkg==
+
+hookable@^5.5.0:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/hookable/-/hookable-5.5.1.tgz#3a842c66be72a9cb14043d8e6afa5bc094c831c5"
+  integrity sha512-ac50aYjbtRMMZEtTG0qnVaBDA+1lqL9fHzDnxMQlVuO6LZWcBB7NXjIu9H9iImClewNdrit4RiEzi9QpRTgKrg==
 
 hosted-git-info@^2.1.4:
   version "2.8.9"
@@ -5269,10 +5331,10 @@ jest-worker@^29.4.1:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jiti@^1.17.1:
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.17.1.tgz#264daa43ee89a03e8be28c3d712ccc4eb9f1e8ed"
-  integrity sha512-NZIITw8uZQFuzQimqjUxIrIcEdxYDFIe/0xYfIlVXTkiBjjyBEvgasj5bb0/cHtPRD/NziPbT312sFrkI5ALpw==
+jiti@^1.17.1, jiti@^1.17.2:
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.18.2.tgz#80c3ef3d486ebf2450d9335122b32d121f2a83cd"
+  integrity sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==
 
 js-cookie@^3.0.1:
   version "3.0.1"
@@ -6000,6 +6062,16 @@ mlly@^1.0.0, mlly@^1.1.0, mlly@^1.1.1:
     pathe "^1.1.0"
     pkg-types "^1.0.1"
     ufo "^1.1.0"
+
+mlly@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/mlly/-/mlly-1.2.0.tgz#f0f6c2fc8d2d12ea6907cd869066689b5031b613"
+  integrity sha512-+c7A3CV0KGdKcylsI6khWyts/CYrGTrRVo4R/I7u/cUsy0Conxa6LUhiEzVKIw14lc2L5aiO4+SeVe4TeGRKww==
+  dependencies:
+    acorn "^8.8.2"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    ufo "^1.1.1"
 
 mri@^1.2.0:
   version "1.2.0"
@@ -8496,6 +8568,23 @@ unimport@^2.2.4:
     strip-literal "^1.0.0"
     unplugin "^1.0.1"
 
+unimport@^3.0.2:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/unimport/-/unimport-3.0.3.tgz#f5750a934086310d1595384899ff09404cc3dfd1"
+  integrity sha512-RzQqQiqepF5P13SwBGCe4pLlRnAQlbFuDAaQlSkXiNJDpN2iymtGMSfa75AcVSejgV05Q2aQYt6UhCiy5GuZ2A==
+  dependencies:
+    "@rollup/pluginutils" "^5.0.2"
+    escape-string-regexp "^5.0.0"
+    fast-glob "^3.2.12"
+    local-pkg "^0.4.3"
+    magic-string "^0.30.0"
+    mlly "^1.2.0"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    scule "^1.0.0"
+    strip-literal "^1.0.1"
+    unplugin "^1.3.1"
+
 universalify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
@@ -8505,6 +8594,16 @@ unplugin@^1.0.0, unplugin@^1.0.1, unplugin@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-1.1.0.tgz#96a14aa52d7637a56a88dec6baf4a73902f2db87"
   integrity sha512-I8obQ8Rs/hnkxokRV6g8JKOQFgYNnTd9DL58vcSt5IJ9AkK8wbrtsnzD5hi4BJlvcY536JzfEXj9L6h7j559/A==
+  dependencies:
+    acorn "^8.8.2"
+    chokidar "^3.5.3"
+    webpack-sources "^3.2.3"
+    webpack-virtual-modules "^0.5.0"
+
+unplugin@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-1.3.1.tgz#7af993ba8695d17d61b0845718380caf6af5109f"
+  integrity sha512-h4uUTIvFBQRxUKS2Wjys6ivoeofGhxzTe2sRWlooyjHXVttcVfV/JiavNd3d4+jty0SVV0dxGw9AkY9MwiaCEw==
   dependencies:
     acorn "^8.8.2"
     chokidar "^3.5.3"
