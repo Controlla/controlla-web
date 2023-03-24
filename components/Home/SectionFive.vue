@@ -64,8 +64,9 @@ section(class=`
       w-[90%] 
       z-10
       relative
-      md:w-[41vw] 
-      md:h-[30vw] 
+      md:w-[41vw]
+      md:h-[30vw]
+      xl:p-[2%]
   `)
   img(
     src="@/assets/img/line3_mobile.webp" 

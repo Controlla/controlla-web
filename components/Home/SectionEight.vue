@@ -6,7 +6,7 @@ section(class=`
   pt-24
   overflow-hidden
   md:px-[20vw]
-  xl:px-[15vw]
+  2xl:px-[15vw]
   text-lg
   max-w-screen-xl
 `)

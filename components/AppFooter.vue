@@ -55,7 +55,7 @@ section(class=`
       ContactButton
     div(class=`
       mx-[5%]
-      my-6
+      mt-6
     `)
       h3(class=`
         text-xl
@@ -67,8 +67,10 @@ section(class=`
         |  {{ $t('success') }} 
         br
         |  {{ $t('portfolio') }}
-    .my-6(class=`
+    div(class=`
       mx-[5%]
+      mb-6
+      md:mt-6
     `)
       h3(class=`
         md:text-left 
@@ -84,7 +86,8 @@ section(class=`
     h-[25%] 
     w-screen
     relative
-    md:ml-[28%]
+    md:ml-[25%]
+    md:pt-10
   `)
     div(class=`
       flex

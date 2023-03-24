@@ -77,6 +77,6 @@ section(class=`
       w-[90%]
       md:w-[70%]
       lg:w-[65%]
-      xl:w-[40%]
+      xl:w-[60%]
     `)
 </template>
