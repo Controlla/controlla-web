@@ -5,7 +5,7 @@ section(class=`
   lg:px-10
   lg:flex
   md:text-lg
-  sm:pt-[13%]
+  min-[641px]:pt-[13%]
   md:pt-[10%]
   lg:pt-16
 `)

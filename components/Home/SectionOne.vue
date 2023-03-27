@@ -60,7 +60,6 @@ section(class=`
       strong {{ $t('high_quality') }}
       |  {{ $t('digital_solutions') }}
       br
-      |      {{ $t('methodic') }}
       strong {{ $t('strategy') }}
       |  {{ $t('through_trusted') }}
       strong {{ $t('alliances') }}

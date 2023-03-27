@@ -24,7 +24,7 @@ section(class=`
   `)
     div
       h3(class=`
-        lg:leading-loose
+        lg:leading-normal
         relative
         text-5xl
         lg:text-6xl

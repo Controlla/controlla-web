@@ -23,7 +23,7 @@ section(class=`
             h3(class=`
             text-4xl
             lg:text-5xl
-            md:mt-[30%]
+            xl:mt-[10%]
             relative
             text-center
             md:text-start
