@@ -1,9 +1,14 @@
 <template lang="pug">
 div(class=`
-  md:flex 
+  px-[5%]
+  md:px-[10%]
+  lg:px-0
+  lg:flex 
   md:text-lg
+  h-[90%]
+  lg:pt-[3%]
 `)
-  img.hidden(
+  img(
     format='webp' 
     loading='lazy' 
     src='@/assets/img/second_step.webp'
@@ -12,7 +17,9 @@ div(class=`
       hidden
       w-[30vw]
       h-[20vw]
-      md:inline 
+      xl:w-[28vw]
+      xl:h-[17vw]
+      lg:inline 
     `)
   div
     h1(class=`
@@ -30,18 +37,20 @@ div(class=`
       src='@/assets/img/second_step.webp' 
       alt='' 
       class=`
-        md:hidden 
+        lg:hidden 
         w-[90%] 
         p-[5%]
+        mx-auto
+        md:w-[70%]
       `)
 
     div(class=`
-      md:flex 
+      lg:flex 
       my-6
       min-h-40
     `)
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -49,6 +58,8 @@ div(class=`
         py-12
         h-36
         rounded-2xl
+        mb-8
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -56,7 +67,7 @@ div(class=`
         `) 20+
         h4 {{ $t('final_users') }}
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -64,6 +75,8 @@ div(class=`
         py-12
         h-36
         rounded-2xl
+        mb-8
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -74,7 +87,7 @@ div(class=`
         `) 1920 hrs
         h4 {{ $t('duration') }}
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4

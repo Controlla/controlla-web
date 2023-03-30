@@ -1,11 +1,13 @@
 <template lang="pug">
-section(class=`
+section#services(class=`
   px-[5vw]
   md:px-[20vw]
+  2xl:px-[14vw]
   bg-white
   w-screen
-  py-24
+  pb-24
   text-lg
+  max-w-screen-xl
 `)
   h3(class=`
     text-3xl

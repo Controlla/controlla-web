@@ -2,16 +2,19 @@
 section(class=`
   px-[5%]
   md:px-[10%]
-  md:flex
-  md:text-lg 
-  bg-white
+  lg:px-10
+  lg:flex
+  md:text-lg
+  min-[641px]:pt-[13%]
+  md:pt-[10%]
+  lg:pt-16
 `)
   img(
     src='@/assets/img/cano_steel.webp'
     alt=''
     class=`
       hidden
-      md:inline
+      lg:inline
       w-[20vw]
       h-[25vw]
     `)
@@ -31,9 +34,11 @@ section(class=`
       src='@/assets/img/cano_steel.webp' 
       alt='' 
       class=`
-        md:hidden
+        lg:hidden
         w-[90%]
         p-[5%]
+        md:w-[70%]
+        mx-auto
       `)
     div(class=`
       text-left
@@ -44,7 +49,7 @@ section(class=`
       `) {{ $t('insights') }}
       ul(class=`
         list-disc
-        md:grid
+        lg:grid
         grid-cols-2
       `)
         li {{ $t('project_overview') }}
@@ -54,12 +59,12 @@ section(class=`
         li {{ $t('dashboards') }}
         li {{ $t('submittals') }}
     div(class=`
-      md:flex 
+      lg:flex 
       my-6
       min-h-40
     `)
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -67,6 +72,8 @@ section(class=`
         py-12
         h-36
         rounded-2xl
+        mb-8
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -74,7 +81,7 @@ section(class=`
         `) 1500+
         h4 {{ $t('downloads') }}
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -82,6 +89,8 @@ section(class=`
         py-12
         h-36
         rounded-2xl
+        mb-8
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -89,7 +98,7 @@ section(class=`
         `) {{ $t('construction')}}
         h4 {{ $t('industry') }}
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4

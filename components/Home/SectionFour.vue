@@ -16,6 +16,8 @@ section(class=`
   bg-[url('@/assets/img/frienshore_home_background.webp')]
   bg-cover
   bg-no-repeat
+  xl:px-[5%]
+  max-w-screen-xl
 `)
   img(
     src='@/assets/img/first_step.webp' 
@@ -38,10 +40,11 @@ section(class=`
     relative
   `)
     span(class=`
-      my-6
       text-sky-500
       text-xs
       md:text-sm 
+      min-[480px]:px-4
+      sm:px-0
     `) {{ $t('first') }}
     h2(class=`
       my-6
@@ -73,6 +76,7 @@ section(class=`
       md:w-[41vw]
       md:h-[30vw]
       md:hidden
+      sm:pt-10
   `)
   img(
     src="@/assets/img/line2_mobile.webp" 
@@ -83,6 +87,8 @@ section(class=`
     bottom-[-8rem]
     left-[10%]
     sm:hidden
+    min-[480px]:left-20
+    min-[560px]:left-28
   `)
   img(
     src="@/assets/img/line2.webp" 
@@ -96,12 +102,12 @@ section(class=`
     z-30 
     md:inline 
     md:w-[35rem] 
-    md:bottom-[-8rem]
-    md:right-[15%]
-    lg:right-[25%]
-    lg:bottom-[-10rem]
-    xl:w-[40rem] 
-    xl:bottom-[-15rem]
-    xl:right-[30%]
-  `)    
+    md:bottom-[-12rem]
+    md:right-[14%]
+    lg:right-[23%]
+    lg:bottom-[-12rem]
+    xl:w-[44rem] 
+    xl:bottom-[-16rem]
+    xl:right-[32%]
+  `)
 </template>

@@ -55,27 +55,30 @@ section(class=`
       ContactButton
     div(class=`
       mx-[5%]
-      my-6
+      mt-6
     `)
       h3(class=`
         text-xl
         leading-8
         text-center
         md:text-left 
-      `) {{ $t('services') }} 
+      `) <nuxt-link :to="{ path:'/Friendshore', hash:'#services'}">{{ $t('services') }}</nuxt-link>
         br
-        |  {{ $t('success') }} 
+        <nuxt-link :to="{ path:'/', hash:'#success'}">{{ $t('success') }}</nuxt-link>
         br
-        |  {{ $t('portfolio') }}
-    .my-6(class=`
+        <nuxt-link :to="{ path:'/Team', hash:'#partners'}">{{ $t('trusted_partners') }}</nuxt-link>
+        |  
+    div(class=`
       mx-[5%]
+      mb-6
+      md:mt-6
     `)
       h3(class=`
         md:text-left 
         text-xl
         leading-8
         text-center
-      `) {{ $t('Us') }} 
+      `) <nuxt-link :to="{ path:'/Team'}">{{ $t('Us') }}</nuxt-link>
         br
         |  {{ $t('terms') }} 
         br
@@ -84,7 +87,8 @@ section(class=`
     h-[25%] 
     w-screen
     relative
-    md:ml-[28%]
+    md:ml-[25%]
+    md:pt-10
   `)
     div(class=`
       flex

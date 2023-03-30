@@ -6,9 +6,11 @@ section(class=`
   flex
   justify-center
   mb-20
+  max-w-screen-xl
 `)
   div(class=`
     w-[30%]
+    pl-[5%]
   `)
     div(class=`
       flex
@@ -55,6 +57,7 @@ section(class=`
         my-6
         text-3xl
         font-semibold
+        md:pt-[25%]
     `) {{ $t('still_not_convinced') }}
     h3(class=`
       text-center

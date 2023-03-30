@@ -11,6 +11,8 @@ section(class=`
   text-base
   lg:text-xl
   2xl:text-2xl
+  xl:px-[5%]
+  max-w-screen-xl
 `)
   div(class=`
     px-[5%] 
@@ -62,8 +64,9 @@ section(class=`
       w-[90%] 
       z-10
       relative
-      md:w-[41vw] 
-      md:h-[30vw] 
+      md:w-[41vw]
+      md:h-[30vw]
+      xl:p-[2%]
   `)
   img(
     src="@/assets/img/line3_mobile.webp" 
@@ -85,11 +88,18 @@ section(class=`
     right-[50%] 
     bottom-[-14rem]
     sm:inline
-    sm:w-[30rem]
-    sm:right-[20%]
-    lg:w-[40rem]
-    lg:right-[25%]
-    lg:bottom-[-20rem]
+    sm:w-[60%]
+    sm:bottom-[-17%]
+    sm:pb-2
+    sm:right-[28%]
+    md:right-[14%]
+    md:bottom-[-10rem]
+    lg:w-[30rem]
+    lg:right-[23%]
+    lg:bottom-[-12rem]
+    xl:w-[35rem]
+    xl:right-[32%]
+    xl:bottom-[-15rem]
     z-30
-  `)  
+  `)
 </template>

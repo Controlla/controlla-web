@@ -6,6 +6,7 @@ section(class=`
   justify-center
   my-20
   relative
+  max-w-screen-xl
 `)
   img(
     src="@/assets/img/line4_mobile.webp" 

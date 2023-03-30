@@ -5,6 +5,7 @@ section(class=`
   relative
   pb-[3rem]
   sm:pb-1
+  max-w-screen-xl
 `)
   div(class=`
     h-[50%]
@@ -20,6 +21,7 @@ section(class=`
     bg-[url('@/assets/img/frienshore_home_background.webp')]
     bg-cover
     bg-no-repeat
+    max-w-screen-xl
   `)
     div(class=`
       sm:mr-[10%]
@@ -109,10 +111,12 @@ section(class=`
       alt='arrow' 
       class=`
       absolute
-      left-5
+      left-[10%]
       bottom-[-10rem]
       sm:hidden
       z-30
+      min-[480px]:left-20
+      min-[560px]:left-28
     `)
     img(
       src="@/assets/img/line1.webp" 
@@ -124,7 +128,7 @@ section(class=`
       absolute
       sm:bottom-[-7rem]
       lg:bottom-[-2rem]
-      right-[49.5%] 
+      right-[49.5%]
       sm:inline 
       xl:w-[30rem]
       xl:bottom-[-8rem]`)

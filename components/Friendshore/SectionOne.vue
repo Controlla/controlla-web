@@ -12,6 +12,8 @@ section(class=`
   bg-cover
   bg-no-repeat
   bg-center
+  max-w-screen-xl
+  sm:pb-[15%]
 `)
   div(class=`
     justify-center
@@ -22,7 +24,7 @@ section(class=`
   `)
     div
       h3(class=`
-        lg:leading-loose
+        lg:leading-normal
         relative
         text-5xl
         lg:text-6xl
@@ -69,6 +71,7 @@ section(class=`
     mt-[10%]
     relative
     z-30
+    pt-[15%]
   `)
     h1(class=`
       text-center

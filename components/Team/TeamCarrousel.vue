@@ -14,8 +14,7 @@ onMounted(() => {
 
 <template lang="pug">
 div(class=`
-  w-[90%]
-  mx-auto
+  w-[100%]
   mb-20
 `)
   carousel(:items-to-show='itemsToShow' :wrap-around='true')
@@ -24,7 +23,7 @@ div(class=`
         class="carrousel__item" 
         :src='image.src'
       )
-    template(#addons='')
+    template(#addons)
       navigation
         pagination
 </template>

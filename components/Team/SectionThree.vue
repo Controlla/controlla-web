@@ -2,6 +2,7 @@
 section(class=`
   w-screen
   md:py-24
+  max-w-screen-xl
 `)
   div(class=`
     flex

@@ -1,6 +1,7 @@
 <template lang="pug">
-section(class=`
+section#partners(class=`
   w-screen
+  max-w-screen-xl
 `)
   div(class=`
     min-h-[50%]
@@ -11,6 +12,7 @@ section(class=`
     md:pt-12
     w-screen
     mb-10
+    max-w-screen-xl
   `)
     h1(class=`
       text-center

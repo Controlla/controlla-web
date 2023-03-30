@@ -1,12 +1,14 @@
 <template lang="pug">
-section(class=`
+section#success(class=`
   bg-white
   w-screen
   px-6
   pt-24
   overflow-hidden
   md:px-[20vw]
+  2xl:px-[15vw]
   text-lg
+  max-w-screen-xl
 `)
   h3(class=`
     text-3xl

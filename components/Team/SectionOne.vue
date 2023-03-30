@@ -11,6 +11,7 @@ section(class=`
     bg-cover
     bg-no-repeat
     bg-center
+    max-w-screen-xl
 `)
     div(class=`
         justify-center
@@ -22,7 +23,7 @@ section(class=`
             h3(class=`
             text-4xl
             lg:text-5xl
-            md:mt-[30%]
+            xl:mt-[10%]
             relative
             text-center
             md:text-start

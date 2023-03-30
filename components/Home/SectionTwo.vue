@@ -7,6 +7,7 @@ section(class=`
   w-screen
   overflow-hidden
   pb-20
+  max-w-screen-xl
 `)
   h2(class=`
     lg:text-4xl 

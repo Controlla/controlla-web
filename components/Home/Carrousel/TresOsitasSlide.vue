@@ -2,20 +2,24 @@
 div(class=`
   px-[5%] 
   md:px-[10%]
-  md:flex
+  lg:px-10
+  lg:flex
   md:text-lg 
-  bg-white
   overflow-hidden
+  h-[90%]
+  lg:pt-[3%]
 `)
-  img.hidden(
+  img(
     format='webp' 
     loading='lazy' 
     src='@/assets/img/tres_ositas.webp'
     alt=''
     class=`
       hidden
-      md:inline
+      lg:inline
       w-[30vw]
+      xl:w-[25vw]
+      xl:h-[15vw]
       h-[20vw]
     `)
   div
@@ -34,17 +38,18 @@ div(class=`
       src='@/assets/img/tres_ositas.webp' 
       alt='' 
       class=`
-        md:hidden 
+        lg:hidden 
         w-[90%] 
         p-[5%]
+        mx-auto
       `)
     div(class=`
-      md:flex 
+      lg:flex 
       my-6
       min-h-40
     `)
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -52,6 +57,8 @@ div(class=`
         py-12
         h-36
         rounded-2xl
+        mb-8
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -59,7 +66,7 @@ div(class=`
         `) 1,500+
         h4 {{ $t('downloads') }}
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4
@@ -67,6 +74,8 @@ div(class=`
         py-12
         h-36
         rounded-2xl
+        mb-8
+        lg:mb-0
       `)
         h4(class=`
           text-2xl
@@ -74,7 +83,7 @@ div(class=`
         `)  {{$t('agriculture')}}
         h4 {{ $t('industry') }}
       div(class=`
-        md:w-48 
+        lg:w-48 
         shadow-lg
         shadow-gray-300
         mx-4

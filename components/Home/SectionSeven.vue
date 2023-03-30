@@ -13,13 +13,15 @@ section(class=`
   md:pt-[12%]
   lg:text-xl
   2xl:text-2xl
+  max-w-screen-xl
+  xl:px-[6%]
 `)
   div(class=`
     px-[5%] 
     relative
     z-10
     md:px-0
-    md:w-[25vw] 
+    md:w-[40vw]
   `)
     span(class=`
       md:text-sm 
@@ -59,7 +61,8 @@ section(class=`
       )
   div(class=`
     flex
-    justify-center
+    justify-cente
+    pl-16
   `)
     img(
       src='@/assets/img/fourth_step.webp' 
