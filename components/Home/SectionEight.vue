@@ -1,5 +1,5 @@
 <template lang="pug">
-section(class=`
+section#success(class=`
   bg-white
   w-screen
   px-6

@@ -1,5 +1,5 @@
 <template lang="pug">
-section(class=`
+section#partners(class=`
   w-screen
   max-w-screen-xl
 `)

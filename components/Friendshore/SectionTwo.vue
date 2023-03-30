@@ -1,5 +1,5 @@
 <template lang="pug">
-section(class=`
+section#services(class=`
   px-[5vw]
   md:px-[20vw]
   2xl:px-[14vw]

@@ -62,11 +62,12 @@ section(class=`
         leading-8
         text-center
         md:text-left 
-      `) {{ $t('services') }} 
+      `) <nuxt-link :to="{ path:'/Friendshore', hash:'#services'}">{{ $t('services') }}</nuxt-link>
         br
-        |  {{ $t('success') }} 
+        <nuxt-link :to="{ path:'/', hash:'#success'}">{{ $t('success') }}</nuxt-link>
         br
-        |  {{ $t('portfolio') }}
+        <nuxt-link :to="{ path:'/Team', hash:'#partners'}">{{ $t('trusted_partners') }}</nuxt-link>
+        |  
     div(class=`
       mx-[5%]
       mb-6
@@ -77,7 +78,7 @@ section(class=`
         text-xl
         leading-8
         text-center
-      `) {{ $t('Us') }} 
+      `) <nuxt-link :to="{ path:'/Team'}">{{ $t('Us') }}</nuxt-link>
         br
         |  {{ $t('terms') }} 
         br
