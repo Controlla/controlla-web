@@ -1,10 +1,3 @@
-<template lang="pug">
-AppHeader
-slot
-AppFooter
+<template>
+  <slot />
 </template>
-<style>
-html {
-  overflow-x: hidden;
-}
-</style>
