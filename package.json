@@ -45,7 +45,7 @@
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-standard": "^29.0.0",
     "vite-plugin-pug": "^0.3.2",
-    "vitest": "^0.30.1"
+    "vitest": "^0.31.0"
   },
   "dependencies": {
     "@nuxtjs/i18n": "^8.0.0-beta.11",
