@@ -1550,10 +1550,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
-"@typeform/embed@^2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.10.0.tgz#635e432b1a67b108e0c5ad396b8a4ca2404a7cc0"
-  integrity sha512-87VxaXUJBVsQJz6mA6vjzPF4A57dabmAQRUHcrnRHhWa+urMpvTwrwNQpkuT0f7Bm09Wi2umHsB97n3/T/b4Tw==
+"@typeform/embed@^2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.11.0.tgz#97ab13d8c010a87bd2586b95b4d44c27859ba671"
+  integrity sha512-MEckCfqsqj4z00w5b3D4nK1ix4Elm15L4xsgAkFX7NuCLETa9TZD/vqARlBb63yqR5tPD4LW1mw/ftBBoeIQgA==
 
 "@types/babel__core@7.20.0":
   version "7.20.0"
