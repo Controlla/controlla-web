@@ -22,7 +22,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
-    "@nuxt/image-edge": "^1.0.0-28059208.2abef1b",
+    "@nuxt/image-edge": "^1.0.0-28094923.e859bba",
     "@nuxt/test-utils": "^3.5.0",
     "@nuxt/types": "^2.16.3",
     "@nuxtjs/color-mode": "^3.2.0",
