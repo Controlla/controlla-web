@@ -1282,12 +1282,12 @@
     pathe "^1.1.1"
     ufo "^1.1.2"
 
-"@nuxt/types@^2.16.3":
-  version "2.16.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-2.16.3.tgz#0b5b51109dc8e8513ec30a2c057d6ce94e9127eb"
-  integrity sha512-55c5zU4JaAvyOqFxKGRNhPhBXfxptTLH0ypBXiALUojN15ZAhSjo3AqhtunZUqufBSuCEJtKD+fsBM/Fwvz+0A==
+"@nuxt/types@^2.17.0":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-2.17.0.tgz#6bdbebcd7d2e1f9309136b626dee9fb0aaf27d75"
+  integrity sha512-McgjOTBpnbicjo830MYiCtI1zzkkq0W23GlxcWfLAsi5vjqjfcBn9w9emVhOCDfNNbhMPsvfp3B5MyPZEaqo9A==
   dependencies:
-    "@types/babel__core" "7.20.0"
+    "@types/babel__core" "7.20.1"
     "@types/compression" "1.7.2"
     "@types/connect" "3.4.35"
     "@types/etag" "1.8.1"
@@ -1582,10 +1582,10 @@
   resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.11.0.tgz#97ab13d8c010a87bd2586b95b4d44c27859ba671"
   integrity sha512-MEckCfqsqj4z00w5b3D4nK1ix4Elm15L4xsgAkFX7NuCLETa9TZD/vqARlBb63yqR5tPD4LW1mw/ftBBoeIQgA==
 
-"@types/babel__core@7.20.0":
-  version "7.20.0"
-  resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.20.0.tgz#61bc5a4cae505ce98e1e36c5445e4bee060d8891"
-  integrity sha512-+n8dL/9GWblDO0iU6eZAwEIJVr5DWigtle+Q6HLOrh/pdbXOhOtqzq8VPPE2zvNJzSKY4vH/z3iT3tn0A3ypiQ==
+"@types/babel__core@7.20.1":
+  version "7.20.1"
+  resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.20.1.tgz#916ecea274b0c776fec721e333e55762d3a9614b"
+  integrity sha512-aACu/U/omhdk15O4Nfb+fHgH/z3QsfQzpnvRZhYhThms83ZnAOZz7zZAWO7mn2yyNQaA4xTO8GLK3uqFU4bYYw==
   dependencies:
     "@babel/parser" "^7.20.7"
     "@babel/types" "^7.20.7"
