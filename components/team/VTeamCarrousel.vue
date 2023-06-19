@@ -3,8 +3,8 @@
     <swiper
       class="team-carrousel__swiper"
       :modules="[Autoplay]"
-      :autoplay="{ delay: 2500, disableOnInteraction: true }"
-      :centered-slides="true"
+      :autoplay="{ delay: 2500, disableOnInteraction: false }"
+      :centered-slides="false"
       :space-between="70"
       :slides-per-view="1"
       :breakpoints="{
