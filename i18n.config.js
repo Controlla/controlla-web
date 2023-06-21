@@ -1,4 +1,4 @@
-import { en, es } from './locales'
+import { en, es } from './i18n/locales'
 
 export default defineI18nConfig(() => ({
   legacy: false,
