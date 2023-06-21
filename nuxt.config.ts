@@ -112,7 +112,7 @@ export default defineNuxtConfig({
   },
   i18n: {
     strategy: 'no_prefix',
-    vueI18n: './i18n/i18n.config.js',
+    vueI18n: './i18n/i18n.js',
   },
   gtag: {
     id: 'G-VWSBXFK174',
