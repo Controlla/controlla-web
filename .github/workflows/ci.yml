@@ -26,8 +26,7 @@ jobs:
       - name: Setup node env 🏗
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node }}
-          check-latest: true
+          node-version: 18.16.0
 
       - name: Get yarn cache directory path 🛠
         id: yarn-cache-dir-path
