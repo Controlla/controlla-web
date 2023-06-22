@@ -30,9 +30,9 @@
         </p>
       </header>
       <footer class="strategy__content__footer">
-        <v-route-link to="/contact-us" variant="button">
+        <v-button rounded="full" variant="dark" padding-size="3xl" @on-click="onOpen">
           {{ $t('navigation.contact_us') }}
-        </v-route-link>
+        </v-button>
       </footer>
       <v-arrows-section />
     </article>
@@ -47,12 +47,14 @@ export default defineComponent({
   setup() {
     const { sm } = useResponsive()
     const { animations } = useMotionAnimation()
+    const { onOpen } = useTypeformPopup();
 
     return {
       arrowLeftImageUrl,
       arrowLeftMobileImageUrl,
       sm,
-      animations
+      animations,
+      onOpen
     }
   }
 })

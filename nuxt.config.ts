@@ -121,6 +121,6 @@ export default defineNuxtConfig({
     reactivityTransform: true
   },
   build: {
-    transpile: ['swiper']
+    transpile: ['swiper', '@typeform']
   }
 })

@@ -24,15 +24,12 @@ export const useScroll = (options: StickyOptions) => {
   }
 
   const getDirection = (scroll: number, currentScroll: number) => {
-    console.log(scroll, currentScroll);
-  
 
     scroll >= currentScroll
       ? document.documentElement.setAttribute('data-scroll-direction', 'down')
       : document.documentElement.setAttribute('data-scroll-direction', 'up')
 
     if (scroll <= 0) {
-      console.log('menor');
       
       document.documentElement.setAttribute('data-scroll-direction', 'hold')
     }

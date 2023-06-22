@@ -111,6 +111,9 @@ export default defineComponent({
     &-2xl {
       @apply py-2 px-8;
     }
+    &-3xl {
+      @apply py-4 px-8;
+    }
     &-equals {
       @apply p-2;
     }
@@ -124,6 +127,9 @@ export default defineComponent({
     }
     &-secondary {
       @apply bg-secondary text-white;
+    }
+    &-dark {
+      @apply bg-dark text-white;
     }
     &-transparent {
       @apply bg-transparent;
