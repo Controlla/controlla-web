@@ -34,9 +34,9 @@
         v-motion="sm ? animations.noop : animations.slideTop"
         class="main-header__content__button"
       >
-        <v-route-link to="/contact-us" variant="button">
+        <v-button rounded="full" variant="dark" padding-size="3xl" @on-click="onOpen">
           {{ $t('navigation.contact_us') }}
-        </v-route-link>
+        </v-button>
       </div>
       <footer class="main-header__content__image">
         <v-image
@@ -64,10 +64,12 @@ export default defineComponent({
   setup() {
     const { sm } = useResponsive()
     const { animations } = useMotionAnimation()
+    const { onOpen } = useTypeformPopup();
 
     return {
       animations,
-      sm
+      sm,
+      onOpen
     }
   }
 })

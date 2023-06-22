@@ -13,10 +13,10 @@
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/eslint-module": "^4.0.2",
+    "@nuxtjs/i18n": "8.0.0-beta.12",
     "@nuxtjs/tailwindcss": "^6.4.1",
     "@vite-pwa/nuxt": "^0.1.0",
     "@vueuse/core": "^10.1.0",
-    "@nuxtjs/i18n": "8.0.0-beta.12",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.7.0",
@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.7",
+    "@typeform/embed": "^2.12.1",
     "@vueuse/motion": "^2.0.0",
     "pinia": "^2.0.33",
     "tailwindcss-animation-delay": "^1.0.7"

@@ -18,13 +18,13 @@ export const useNavigationMenu = () => {
     },
     {
       name: t('navigation.team'),
-      id: 1,
+      id: 3,
       url: '/team',
       type: 'link'
     },
     {
       name: t('navigation.contact_us'),
-      id: 1,
+      id: 4,
       url: '/contact-us',
       type: 'button'
     }

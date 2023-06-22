@@ -13,9 +13,9 @@
             {{ $t('footer.title.2') }}
           </span>
         </h3>
-        <v-route-link to="/contact-us" variant="button">
+        <v-button rounded="full" variant="dark" padding-size="3xl" @on-click="onOpen">
           {{ $t('navigation.contact_us') }}
-        </v-route-link>
+        </v-button>
       </div>
       <ul class="main-footer__content__navigation" role="list">
         <li
@@ -72,6 +72,7 @@ export default defineComponent({
   name: 'VFooter',
   setup() {
     const { t } = useI18n()
+    const { onOpen } = useTypeformPopup();
 
     const navigation = [
       {
@@ -105,7 +106,8 @@ export default defineComponent({
       navigation,
       facebookUrlImage,
       instargamUrlImage,
-      linkedinUrlImage
+      linkedinUrlImage,
+      onOpen
     }
   }
 })
