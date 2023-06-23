@@ -13,7 +13,7 @@
           <v-button
             padding-size="unset"
             variant="transparent"
-            @onClick="store.toggleMenu(false)"
+            @on-click="store.toggleMenu(false)"
           >
             <v-image :src="closeIcon" />
           </v-button>
@@ -35,11 +35,15 @@
             @click="store.toggleMenu(false)"
           >
             <v-route-link
+              v-if="link.type === 'link'"
               :to="link.url"
               :variant="link.type === 'link' ? 'underline' : 'button'"
             >
               {{ link.name }}
             </v-route-link>
+            <v-button v-else rounded="full" variant="dark" padding-size="3xl" @on-click="onOpen">
+              {{ link.name }}
+            </v-button>
           </li>
         </ul>
       </div>
@@ -58,13 +62,15 @@ export default defineComponent({
     const { globalNavigation } = useNavigationMenu()
     const store = useRootStore()
     const { sm } = useResponsive()
+    const { onOpen } = useTypeformPopup();
 
     return {
       sm,
       store,
       closeIcon,
       logo,
-      globalNavigation
+      globalNavigation,
+      onOpen
     }
   }
 })
