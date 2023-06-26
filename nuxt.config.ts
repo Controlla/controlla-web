@@ -115,7 +115,7 @@ export default defineNuxtConfig({
     vueI18n: './i18n.config.js',
   },
   gtag: {
-    id: 'G-VWSBXFK174',
+    id: 'G-XSY5D92CKD',
   },
   experimental: {
     reactivityTransform: true
