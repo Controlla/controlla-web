@@ -1913,10 +1913,10 @@
   resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@typeform/embed@^2.13.0":
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.13.0.tgz#d35bc2d1d801f674ce574c0330c37f1a6c3a2f98"
-  integrity sha512-gnOyMoFRcdMKTrUBjpTOqQyn0/2hy5zGRtd+nhleGFNwMUgCwrY80kBFeT+2Edw9tlBCt1zQHj3zEUIfJCPXFA==
+"@typeform/embed@^2.13.2":
+  version "2.13.2"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.13.2.tgz#0fa6d75e9baac93b266808ecd7405e892e5d90c9"
+  integrity sha512-ZuIBsQMOII358IKI3OJtOR+iEAosBzl2XTT24vErHeLK7bNpUMkbuhpQdNoUF0Dkgk5Y2J89HUxPDQdfmR27XQ==
 
 "@types/eslint@^8.37.0", "@types/eslint@^8.4.5":
   version "8.40.2"
