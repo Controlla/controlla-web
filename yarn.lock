@@ -1535,7 +1535,7 @@
   resolved "https://registry.npmjs.org/@nuxt/devalue/-/devalue-2.0.2.tgz"
   integrity sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==
 
-"@nuxt/kit@3.6.5", "@nuxt/kit@^3.4.1", "@nuxt/kit@^3.4.2", "@nuxt/kit@^3.5.0", "@nuxt/kit@^3.5.1", "@nuxt/kit@^3.5.3", "@nuxt/kit@^3.6.1":
+"@nuxt/kit@3.6.5", "@nuxt/kit@^3.4.1", "@nuxt/kit@^3.5.0", "@nuxt/kit@^3.5.1", "@nuxt/kit@^3.5.3", "@nuxt/kit@^3.6.1", "@nuxt/kit@^3.6.5":
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.6.5.tgz#208777acdc2a09109fbe4209aad736874eb9a3f5"
   integrity sha512-uBI5I2Zx6sk+vRHU+nBmifwxg/nyXCGZ1g5hUKrUfgv1ZfiKB8JkN5T9iRoduDOaqbwM6XSnEl1ja73iloDcrw==
@@ -5875,14 +5875,14 @@ nuxi@3.6.5:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-gtag@^0.5.7:
-  version "0.5.7"
-  resolved "https://registry.npmjs.org/nuxt-gtag/-/nuxt-gtag-0.5.7.tgz"
-  integrity sha512-Q6NRndEJ0phEfKdS4uLy3hpVBkgWGnG5KJ2dhVyCmbLXcfakkmf19f2WJ5uM2yUOg8rAkYgDjRb9XyAfE+okuA==
+nuxt-gtag@^0.5.9:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-0.5.9.tgz#f1d094647815c72f024b58aa2a0ee9dc709548be"
+  integrity sha512-rT6HaGzECmIAbc4fyyl0KzQWd8YwMoNBbXcSTYCwZ5WEZiPGViBicz8NP5j8Olgj6JLqD1EZiGEfAVyFNGNhuA==
   dependencies:
-    "@nuxt/kit" "^3.4.2"
+    "@nuxt/kit" "^3.6.5"
     defu "^6.1.2"
-    pathe "^1.1.0"
+    pathe "^1.1.1"
 
 nuxt@^3.6.5:
   version "3.6.5"
