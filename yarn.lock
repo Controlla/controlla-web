@@ -6157,10 +6157,10 @@ nuxi@3.6.5:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-gtag@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-1.1.0.tgz#74f56de6f878c267109e195faffbb85bacb45b87"
-  integrity sha512-ErpG7WGOkTJEuVz7/akIsS15TilPyn8aAhJXmetTWrzG/nhsCKE8KyOT4z2Z+tvxrS0rNrQKfz2CKiSpsLBvAw==
+nuxt-gtag@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-1.1.1.tgz#2af82e4ca7907658814d44ad6ed8a49c9e5484de"
+  integrity sha512-AkTK++e4vFHyoc04GcRx7dQvx9xchVLav/YAP3aM6oL/ZkZtW50M0/2re4zmPWjeu36ckbpcOHJrj+zptQIMyw==
   dependencies:
     "@nuxt/kit" "^3.7.1"
     defu "^6.1.2"
