@@ -24,7 +24,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "locomotive-scroll": "^4.1.4",
     "nuxt": "^3.6.5",
-    "nuxt-gtag": "^1.1.0",
+    "nuxt-gtag": "^1.1.1",
     "postcss": "^8.4.30",
     "postcss-loader": "^7.0.2",
     "sass": "^1.66.1",
