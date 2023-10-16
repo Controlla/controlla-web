@@ -34,7 +34,7 @@
     "vue-awesome-swiper": "^5.0.1"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.7",
+    "@pinia/nuxt": "^0.5.0",
     "@typeform/embed": "^4.0.0",
     "@vueuse/motion": "^2.0.0",
     "pinia": "^2.1.6",
