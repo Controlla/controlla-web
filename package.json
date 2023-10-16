@@ -37,7 +37,7 @@
     "@pinia/nuxt": "^0.4.7",
     "@typeform/embed": "^4.0.0",
     "@vueuse/motion": "^2.0.0",
-    "pinia": "^2.1.6",
+    "pinia": "^2.1.7",
     "tailwindcss-animation-delay": "^1.0.7"
   }
 }
