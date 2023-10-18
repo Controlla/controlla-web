@@ -27,7 +27,7 @@
     "nuxt-gtag": "^1.1.1",
     "postcss": "^8.4.31",
     "postcss-loader": "^7.0.2",
-    "sass": "^1.69.3",
+    "sass": "^1.69.4",
     "sass-loader": "^13.2.0",
     "swiper": "^8.4.7",
     "typescript": "^5.2.2",
