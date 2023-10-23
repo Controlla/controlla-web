@@ -2359,10 +2359,10 @@
   resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@typeform/embed@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-4.0.0.tgz#520ac6806d0c75b201afc13e5c29ea131be03d31"
-  integrity sha512-GVHELhV+su4dBqLV8QUG9N9nlUFmcY3uoboWcdLWZpCZkxASrirv5FHFjSGmbkvdhuWx9HMkUQ19zWZvRwxB9w==
+"@typeform/embed@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-4.1.0.tgz#29d822530c84f435a29bee59c69544defd951d62"
+  integrity sha512-6ngjoVgnk32SviuX0OldbB3Sj9sQf4Hb9H6cb9i+UciHYm+koRzDnxAkw8ubvmWxWjkEJVTiJrAwDaDCMnMoLQ==
 
 "@types/eslint@^8.37.0", "@types/eslint@^8.4.5":
   version "8.40.2"
