@@ -38,6 +38,6 @@
     "@typeform/embed": "^4.3.2",
     "@vueuse/motion": "^2.0.0",
     "pinia": "^2.1.7",
-    "tailwindcss-animation-delay": "^1.0.7"
+    "tailwindcss-animation-delay": "^1.1.0"
   }
 }
