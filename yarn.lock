@@ -2661,10 +2661,10 @@
     node-gyp-build "^4.2.2"
     resolve-from "^5.0.0"
 
-"@vite-pwa/nuxt@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@vite-pwa/nuxt/-/nuxt-0.1.1.tgz#6cd3ee3893fc4b676841a5a209a7ac9cef9a8a3c"
-  integrity sha512-wrIeo8ATGc3Nny+MiK/KSklRer22TKrAlRnkqszdM2r+0mHQ3FDQQGZdt/MFu1V/F4TEcacrx2NiU/MYVRV86A==
+"@vite-pwa/nuxt@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@vite-pwa/nuxt/-/nuxt-0.1.2.tgz#c2ff1355a23ad9813c64dc8bf6a9fa0c6a7f0ee5"
+  integrity sha512-y+DxNJbV5VyCTrCrjCgpFKubkWeoqMr0LkCsUdgR/6B4KXJLXTqCcrEm4I5WyGL0Cbhb8Swv+Q7sH+1TxZ1EBA==
   dependencies:
     "@nuxt/kit" "^3.5.3"
     vite-plugin-pwa ">=0.16.5 <1"
