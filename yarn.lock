@@ -2628,10 +2628,10 @@
     "@tufjs/canonical-json" "2.0.0"
     minimatch "^9.0.3"
 
-"@typeform/embed@^4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-4.3.2.tgz#b202e6b381c6d1629510c33ccb45ff38d7153f70"
-  integrity sha512-uUlCcUU0MVmyHcoIfJpn2LXh/53tPCoHU6OGBHm0dkH7oKhbHDnHknnCdHZsO9M6MvzGZnMRItx/qz5l5z5hRw==
+"@typeform/embed@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-4.4.0.tgz#de332f742f06485175353e0d17a01514aae697a2"
+  integrity sha512-veNv4Kwq5sqHtVul50JvsFGNEwDtNb+1biHZ1gGfeO8t1D1gRkYBvJgLcIxuntfn3GIKTgo/msK+1KiisQZBLQ==
 
 "@types/eslint@^8.37.0", "@types/eslint@^8.4.5":
   version "8.40.2"
