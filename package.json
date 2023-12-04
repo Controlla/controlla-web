@@ -19,7 +19,7 @@
     "@vueuse/core": "^10.6.1",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.54.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "locomotive-scroll": "^4.1.4",
