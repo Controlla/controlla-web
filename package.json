@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
-    "@typeform/embed": "^4.4.0",
+    "@typeform/embed": "^4.4.1",
     "@vueuse/motion": "^2.0.0",
     "pinia": "^2.1.7",
     "tailwindcss-animation-delay": "^1.2.0"
