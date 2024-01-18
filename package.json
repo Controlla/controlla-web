@@ -17,7 +17,7 @@
     "@nuxtjs/tailwindcss": "^6.9.5",
     "@vite-pwa/nuxt": "^0.2.3",
     "@vueuse/core": "^10.7.2",
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-nuxt": "^4.0.0",
