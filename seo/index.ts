@@ -48,7 +48,7 @@ export const overwriteSEO = (seo?: SEOData) => ({
       hid: 'og:url',
       key: 'og:url',
       property: 'og:url',
-      content: `https://www.controlla.com.mx${seo?.url || '/'}`
+      content: `https://controlla.com.mx${seo?.url || '/'}`
     },
     {
       hid: 'og:type',
@@ -66,7 +66,7 @@ export const overwriteSEO = (seo?: SEOData) => ({
       hid: 'og:image',
       key: 'og:image',
       property: 'og:image',
-      content: 'https://www.controlla.com.mx/seo.webp'
+      content: 'https://controlla.com.mx/seo.webp'
     },
     {
       hid: 'og:image:alt',
@@ -138,7 +138,7 @@ export const overwriteSEO = (seo?: SEOData) => ({
   link: [
     {
       rel: 'canonical',
-      href: `https://www.controlla.com.mx${seo?.url || '/'}`
+      href: `https://controlla.com.mx${seo?.url || '/'}`
     }
   ]
 })
