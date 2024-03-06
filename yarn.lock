@@ -2512,10 +2512,10 @@
     "@tufjs/canonical-json" "2.0.0"
     minimatch "^9.0.3"
 
-"@typeform/embed@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-4.5.0.tgz#c54685931a2031c1c92790f70d7de7349a5c0a06"
-  integrity sha512-k6lLxxOxu+QcWqXkMgsxo2HA2KRyF3gpXEZzN+16LjeyHih8YzY6K7g3w+RPtHBKaV4ld8+7lS9yipaM4etriw==
+"@typeform/embed@^4.8.1":
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-4.8.1.tgz#eabf1b06a34d3d12623fee6619ce5c7c97ebd447"
+  integrity sha512-dI39cbgh8oNCOP90y/58JA7e9c4P0OSDO0yzgVy6tmi4tI8UmBwPH42mkFIr/yo+l71LcrPVt/3f/7VbuBdI2Q==
 
 "@types/eslint@^8.37.0", "@types/eslint@^8.4.5":
   version "8.40.2"
