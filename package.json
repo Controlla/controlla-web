@@ -28,7 +28,7 @@
     "postcss": "^8.4.35",
     "postcss-loader": "^7.3.4",
     "sass": "^1.71.1",
-    "sass-loader": "^13.3.3",
+    "sass-loader": "^14.2.0",
     "swiper": "^8.4.7",
     "typescript": "^5.4.4",
     "vue-awesome-swiper": "^5.0.1"
