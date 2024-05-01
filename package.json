@@ -15,7 +15,7 @@
     "@nuxtjs/eslint-module": "^4.0.2",
     "@nuxtjs/i18n": "8.0.0-rc.6",
     "@nuxtjs/tailwindcss": "^6.9.5",
-    "@vite-pwa/nuxt": "^0.2.3",
+    "@vite-pwa/nuxt": "^0.7.0",
     "@vueuse/core": "^10.9.0",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
