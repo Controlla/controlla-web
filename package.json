@@ -13,7 +13,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/eslint-module": "^4.0.2",
-    "@nuxtjs/i18n": "8.0.0-rc.6",
+    "@nuxtjs/i18n": "8.5.0",
     "@nuxtjs/tailwindcss": "^6.9.5",
     "@vite-pwa/nuxt": "^0.8.0",
     "@vueuse/core": "^10.11.0",
